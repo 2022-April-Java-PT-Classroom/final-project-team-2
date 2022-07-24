@@ -1,11 +1,12 @@
 import { NavLink } from 'react-router-dom';
 import React from 'react';
+import style from './style.module.scss';
 
 const Header = () => {
     return (
 
     <div className={style.stick}>
-        <div className={StyleSheet.header}>
+        <div className={style.header}>
             <h1>Think Differently</h1>
             <ul className={style.navList}>
             <NavLink to={'/'}>Home</NavLink>
