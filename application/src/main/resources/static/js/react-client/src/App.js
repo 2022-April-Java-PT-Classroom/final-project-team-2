@@ -1,4 +1,5 @@
 import React from 'react';
+import style from './style.module.scss';
 import { BrowserRouter } from 'react-router-dom';
 import Header from './components/header';
 import Footer from './components/footer';
