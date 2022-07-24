@@ -2,10 +2,20 @@
     position: sticky;
 }
 
-// .header{
 
-// }
+.header{
+    
 
-// .navList{
+ }
+.header h1{
+    text-align: center;
+    
+}
 
-// }
+.navList{
+    display: flex;
+    margin:auto;
+    justify-content: space-around;
+    text-align: right;
+    
+}

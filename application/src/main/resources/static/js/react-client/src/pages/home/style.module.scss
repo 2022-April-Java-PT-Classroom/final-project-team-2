@@ -1,5 +1,26 @@
 *{
-    color-scheme: primary rgb(5, 5, 212);
+    color-scheme: primary rgb(79, 79, 193);
     color-scheme: secondary white;
     color-scheme: third  pink;
 }
+
+.homegrid{
+    background-color: rgb(75, 75, 202);
+    border: 2px;
+    margin: 0;
+    text-align: center;
+    justify-content: right;
+
+}
+.homegrid h1{
+    text-align: center;
+}
+.homegrid a{
+
+    padding: left 5px;
+    display:flex
+    
+}
+// .homegrid button {
+  
+// }

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Adhd ()=>{
+const Adhd =()=>{
     return("");
 }
 export default Adhd;
