@@ -7,35 +7,75 @@
 .homeSection{
     background-color: rgb(75, 75, 202);
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     border: 1px;
     margin: 0;
     justify-content: right;
 
 }
 .homeSection h1{
-    padding-top:65px;
+    margin: auto;
     text-align: center;
     justify-content: center;
     padding: 20px;
+    
 }
 .homeSection p{
     text-align: center;
 }
-.homeAdhd a{
-    text-align: left;
-    justify-content: center;
-    padding-left: 60px;
+.homeLogo img {
+  display: flex;
+  padding-right: 12px;
+  padding-top: 40px;
+  height: 300px;
+  width: 300px;
+  margin: auto;
 
+
+}
+
+
+.homeAdbtn a{
+    display: flex;
+    margin-left: 8em;
     
 }
- .homeAutism {
-
-    padding-right: 60px;
-    margin: auto;
+ .homeAbtn {
+    
+   margin-right: 10em;
+   margin-bottom: 60em;
     text-align: right;
     justify-content: center;
    
+   
 
   }
+  .homeADHD{
+    background-color: rgb(202, 75, 185);
+    width: 100%;
+    height: 80vh;
+    border: 1px;
+    margin: 0;
+   
 
+    
+
+  }
+  .homeAutism{
+    background-color: rgb(75, 202, 83);
+    width: 100%;
+    height: 80vh;
+    border: 1px;
+    margin: 0;
+
+    
+    
+  }
+  .homeParent{
+    background-color: rgb(212, 200, 34);
+    width: 100%;
+    height: 80vh;
+    border: 1px;
+    margin: 0;
+    justify-content: right;
+  }
