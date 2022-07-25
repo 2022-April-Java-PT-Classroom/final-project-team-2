@@ -1,6 +1,23 @@
 import React from "react";
+import style from "./style.module.scss";
 
 const Adhd =()=>{
-    return("");
+    return(
+        <div>
+            <div className={style.AdhdHome}>
+                <section>
+                    <div>
+                        <h1>Adhd tool box</h1>
+                    </div>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    );
 }
 export default Adhd;

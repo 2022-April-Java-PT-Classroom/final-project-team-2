@@ -4,23 +4,78 @@
     color-scheme: third  pink;
 }
 
-.homegrid{
+.homeSection{
     background-color: rgb(75, 75, 202);
+    width: 100%;
+    height: 80vh;
     border: 1px;
     margin: 0;
-    text-align: center;
     justify-content: right;
 
 }
-.homegrid h1{
+.homeSection h1{
+    margin: auto;
     text-align: center;
-}
-.homegrid a{
-
-    padding: left 5px;
-    display:flex
+    justify-content: center;
+    padding: 20px;
     
 }
-// .homegrid button {
-  
-// }
+.homeSection p{
+    text-align: center;
+}
+.homeLogo img {
+  display: flex;
+  padding-right: 12px;
+  padding-top: 40px;
+  height: 300px;
+  width: 300px;
+  margin: auto;
+
+
+}
+
+
+.homeAdbtn a{
+    display: flex;
+    margin-left: 8em;
+    
+}
+ .homeAbtn {
+    
+   margin-right: 10em;
+   margin-bottom: 60em;
+    text-align: right;
+    justify-content: center;
+   
+   
+
+  }
+  .homeADHD{
+    background-color: rgb(202, 75, 185);
+    width: 100%;
+    height: 80vh;
+    border: 1px;
+    margin: 0;
+   
+
+    
+
+  }
+  .homeAutism{
+    background-color: rgb(75, 202, 83);
+    width: 100%;
+    height: 80vh;
+    border: 1px;
+    margin: 0;
+
+    
+    
+  }
+  .homeParent{
+    background-color: rgb(212, 200, 34);
+    width: 100%;
+    height: 80vh;
+    border: 1px;
+    margin: 0;
+    justify-content: right;
+  }

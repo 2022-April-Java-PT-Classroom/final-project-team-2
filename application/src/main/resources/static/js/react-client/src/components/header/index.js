@@ -5,17 +5,16 @@ import style from './style.module.scss';
 const Header = () => {
     return (
 
-    <div className={style.stick}>
-        <div className={style.header}>
-            <h1>Think Differently</h1>
-            <ul className={style.navList}>
+    <div className={style.header}>
+     <div className={style.nav}>
+        <ul className={style.navList}>
             <NavLink to={'/'}>Home</NavLink>
             <NavLink to={'/adhd'}>ADHD</NavLink>
             <NavLink to={'/autism'}>Autism</NavLink>
             <NavLink to={'/parent'}>Parent</NavLink>
             <NavLink to={'/about'}>About</NavLink>
-            </ul>
-        </div>
+        </ul>
+     </div>
     </div>
     )
 }
