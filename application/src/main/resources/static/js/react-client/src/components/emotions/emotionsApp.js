@@ -24,7 +24,7 @@ function EmotionsApp() {
           setEmotionsOpen(true);
         }}
       >
-        Consern Face
+        Concern Face
       </button>
       <button
         className={style.openEmotionsBtn}
