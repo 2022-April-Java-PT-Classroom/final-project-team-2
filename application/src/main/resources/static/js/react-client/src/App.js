@@ -1,9 +1,10 @@
+import AppRouter from './components/app-router';
+import { BrowserRouter } from 'react-router-dom';
+import EmotionsApp from './components/emotions/emotionsApp';
+import Footer from './components/footer';
+import Header from './components/header';
 import React from 'react';
 import style from './style.module.scss';
-import { BrowserRouter } from 'react-router-dom';
-import Header from './components/header';
-import Footer from './components/footer';
-import AppRouter from './components/app-router';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <div>
 	   {/* Hello React Test World */}
         <AppRouter />
+        <EmotionsApp/>
       </div>
     <Footer/>
     </BrowserRouter>
