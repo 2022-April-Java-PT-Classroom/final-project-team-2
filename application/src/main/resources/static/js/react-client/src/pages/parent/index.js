@@ -8,9 +8,9 @@ const Parent =()=>{
                     <h1>Parents Home</h1>
                 </div>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Child's Emotion Tracker</li>
+                    <li>ADHD Resources</li>
+                    <li>Autism Resources</li>
                     <li></li>
                 </ul>
             </section>
