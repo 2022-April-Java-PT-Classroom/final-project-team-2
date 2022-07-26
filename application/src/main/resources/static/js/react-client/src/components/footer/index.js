@@ -3,8 +3,11 @@ import style from "./style.module.scss"
 
 const Footer = () =>{
     return (
-        <div className={style.footer}>
-            <p>This is the footer</p>
+        <div className={style.footContainer}>
+            <ul className={style.footerList}>
+            <li><a href="https://github.com/2022-April-Java-PT-Classroom/final-project-team-2">Github</a></li>
+            
+            </ul>
         </div>
     )
 }

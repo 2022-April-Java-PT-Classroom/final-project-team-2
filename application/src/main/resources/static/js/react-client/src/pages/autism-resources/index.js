@@ -1,20 +1,19 @@
 import React from "react";
-const Autism =()=>{
+const AutismResources =()=>{
     return(  <div>
         <div>
             <section>
                 <div>
-                    <h1>Autism tool box</h1>
+                    <h1>Autism Resources</h1>
                 </div>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Books</li>
+                    <li>Websites</li>
+                    <li>Videos</li>
                 </ul>
             </section>
         </div>
     </div>);
 
 }
-export default Autism;
+export default AutismResources;
