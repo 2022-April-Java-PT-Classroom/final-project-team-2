@@ -1,0 +1,108 @@
+.EmotionsApp {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+  .EmotionsApp .emojis{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .EmotionsApp .openEmotionsBtn {
+    
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: none;
+    font-size: 50px;
+    border-radius: 6px;
+    background-color: #f9d423;
+    color: white;
+    cursor: pointer;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+// "pop-up window"
+  .emoBackground {
+    width: 100vw;
+    height: 100vh;
+    // background-color: rgba(200, 200, 200);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .emoContainer {
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: #dfe6fb;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  
+  .emoContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .emoContainer .emoBody {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+    
+
+  }
+
+  .emoContainer .emoBody span{
+    color: #5a28d6;
+    font-weight: 800px;
+  }
+  
+  .emoContainer .emoFooter {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .emoContainer .emoFooter button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color:rgba(98,29,209,255);
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  #cancelBtn {
+    background-color: crimson;
+  }
