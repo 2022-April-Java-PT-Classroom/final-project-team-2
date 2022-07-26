@@ -7,7 +7,7 @@ import javax.persistence.Id;
 
 //In this java class I will be constructing a backend API to store all inspirational qoutes for our users to look back to for positive reinforcement.
 @Entity
-public class Qoutes {
+public class Quotes {
 
     @Id
     @GeneratedValue
@@ -15,11 +15,11 @@ public class Qoutes {
     public String name;
     public String summary;
 
-    public Qoutes(){
+    public Quotes(){
 
     }
 
-    public Qoutes(Long id, String name, String summary){
+    public Quotes(Long id, String name, String summary){
         this.id = id;
         this.name = name;
         this.summary = summary;

@@ -1,9 +1,12 @@
 import { Route, Switch } from 'react-router-dom';
-import Home from '../../pages/home';
+
 import ADHD from '../../pages/adhd';
-import Autism from '../../pages/autism';
-import Parent from '../../pages/parent';
 import About from '../../pages/about';
+import Autism from '../../pages/autism';
+import Home from '../../pages/home';
+import Parent from '../../pages/parent';
+import Quotes from '../../pages/quotes';
+import React from "react";
 
 const AppRouter = () => {
     return (
@@ -14,6 +17,7 @@ const AppRouter = () => {
             <Route exact path={'/autism'} component={Autism} />
             <Route exact path={'/parent'} component={Parent} />
             <Route exact path={'/about'} component={About} />
+            <Route exact path={'/pages/quotes'} component={Quotes} /> 
             {/* <Route path={'/planets'} component={Planet} />
             <Route path={'/add-planet'} component={AddPlanet} />
             <Route path={"/edit-planet/:id"} component={AddPlanet} /> */}
