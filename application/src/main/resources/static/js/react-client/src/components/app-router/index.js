@@ -5,6 +5,7 @@ import Autism from '../../pages/autism';
 import Parent from '../../pages/parent';
 import About from '../../pages/about';
 import AdhdVideos from '../../pages/adhd-videos';
+import Adhd from '../../pages/adhd';
 
 const AppRouter = () => {
     return (
@@ -16,6 +17,7 @@ const AppRouter = () => {
             <Route exact path={'/parent'} component={Parent} />
             <Route exact path={'/about'} component={About} />
             <Route path={'/adhd-videos'} component={AdhdVideos}/>
+            <Route path={'/adhd-videos'} component={Adhd}/>
             {/* <Route path={'/planets'} component={Planet} />
             <Route path={'/add-planet'} component={AddPlanet} />
             <Route path={"/edit-planet/:id"} component={AddPlanet} /> */}

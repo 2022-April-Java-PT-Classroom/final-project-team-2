@@ -1,5 +1,7 @@
 import React from "react";
 import style from "./style.module.scss";
+import AdhdVideos from "../adhd-videos";
+import {Link} from "react-router-dom";
 
 const Adhd =()=>{
     return(
@@ -12,7 +14,7 @@ const Adhd =()=>{
                     <ul>
                         <li></li>
                         <li></li>
-                        <li></li>
+                        <li><Link to={'/adhd-videos'}>adhd video tools</Link></li>
                         <li></li>
                     </ul>
                 </section>
