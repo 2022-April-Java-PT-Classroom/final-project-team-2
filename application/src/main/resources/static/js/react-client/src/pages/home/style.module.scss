@@ -1,81 +1,81 @@
 *{
-    color-scheme: primary rgb(79, 79, 193);
-    color-scheme: secondary white;
-    color-scheme: third  pink;
+  color-scheme: primary rgb(79, 79, 193);
+  color-scheme: secondary white;
+  color-scheme: third  pink;
 }
 
 .homeSection{
-    background-color: rgb(75, 75, 202);
-    width: 100%;
-    height: 80vh;
-    border: 1px;
-    margin: 0;
-    
+  background-color: rgb(75, 75, 202);
+  width: 100%;
+  height: 80vh;
+  border: 1px;
+  margin: 0;
+  
 
 }
 .homeSection h1{
-    margin: auto;
-    text-align: center;
-    justify-content: center;
-    padding: 20px;
-    
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  
 }
 .homeSection p{
-    text-align: center;
+  text-align: center;
 }
 .homeLogo img {
-  display: flex;
-  padding-right: 12px;
-  padding-top: 40px;
-  height: 300px;
-  width: 300px;
-  margin: auto;
+display: flex;
+padding-right: 12px;
+padding-top: 40px;
+height: 300px;
+width: 300px;
+margin: auto;
 
 
 }
 
 
 .homeAdbtn a{
-    display: flex;
-    margin-left: 8em;
-    
+  display: flex;
+  margin-left: 8em;
+  
 }
- .homeAbtn {
-    
-   margin-right: 10em;
-   margin-bottom: 60em;
-    text-align: right;
-    justify-content: center;
-   
-   
+.homeAbtn {
+  
+ margin-right: 10em;
+ margin-bottom: 60em;
+  text-align: right;
+  justify-content: center;
+ 
+ 
 
-  }
-  .homeADHD{
-    background-color:rgb(80, 169, 220) ;
-    width: 100%;
-    height: 80vh;
-    border: 1px;
-    margin: 0;
-   
+}
+.homeADHD{
+  background-color:rgb(80, 169, 220) ;
+  width: 100%;
+  height: 80vh;
+  border: 1px;
+  margin: 0;
+ 
 
-    
+  
 
-  }
-  .homeAutism{
-    background-color: rgb(75, 202, 83);
-    width: 100%;
-    height: 80vh;
-    border: 1px;
-    margin: 0;
+}
+.homeAutism{
+  background-color: rgb(75, 202, 83);
+  width: 100%;
+  height: 80vh;
+  border: 1px;
+  margin: 0;
 
-    
-    
-  }
-  .homeParent{
-    background-color:rgb(202, 75, 185) ;
-    width: 100%;
-    height: 80vh;
-    border: 1px;
-    margin: 0;
-    justify-content: right;
-  }
+  
+  
+}
+.homeParent{
+  background-color:rgb(202, 75, 185) ;
+  width: 100%;
+  height: 80vh;
+  border: 1px;
+  margin: 0;
+  justify-content: right;
+}
