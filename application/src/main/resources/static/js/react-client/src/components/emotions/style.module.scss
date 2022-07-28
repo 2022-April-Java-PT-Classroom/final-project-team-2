@@ -1,10 +1,12 @@
 .EmotionsApp {
     width: 100vw;
-    height: 100vh;
+    height: 45vh;
+    color: white;
     display: flex;
     align-items: center;
     flex-direction: column;
     font-family: sans-serif;
+    background-image: linear-gradient(to right,rgba(98,29,209,255) , rgba(97,105,255,255))
   }
   .EmotionsApp .emojis{
     display: flex;
@@ -13,19 +15,19 @@
   
   .EmotionsApp .openEmotionsBtn {
     
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     margin: 10px;
     border: none;
-    font-size: 50px;
-    border-radius: 6px;
-    background-color: #f9d423;
+    font-size: 60px;
+    border-radius: 6%;
+    background-color: rgba(232,234,250,255);
     color: white;
     cursor: pointer;
   }
 
   .EmotionsApp .openEmotionsBtn:hover{
-    background-color: rgb(219,147,139);
+    background-color: rgba(97,105,255,255);
   }
 
   body {
@@ -46,9 +48,9 @@
   
   .emoContainer {
     width: 500px;
-    height: 500px;
+    height: 350px;
     border-radius: 12px;
-    background-color: #dfe6fb;
+    background-color: rgba(97,105,255,255);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     flex-direction: column;
@@ -69,7 +71,7 @@
   .titleCloseBtn button {
     background-color: transparent;
     border: none;
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
   }
   
@@ -78,15 +80,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.7rem;
+    font-size: 2rem;
     text-align: center;
     
 
   }
 
   .emoContainer .emoBody span{
-    color: #5a28d6;
-    font-weight: 800px;
+    color: rgba(249,212,35,255);
+    font-weight: 900px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
   }
   
   .emoContainer .emoFooter {
@@ -107,7 +110,16 @@
     font-size: 20px;
     cursor: pointer;
   }
+
+  .emoContainer .emoFooter button:hover{
+    background: white;
+    color: rgba(249,212,35,255);
+  }
   
   #cancelBtn {
-    background-color: crimson;
+    background-color: rgb(219,147,139);
+  }
+
+  #cancelBtn:hover{
+    background-color: red;
   }
