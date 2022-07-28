@@ -12,6 +12,7 @@ const AdhdVideos =()=>{
 
 
     // fetch("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=25&playlistId=PLhIJgpRusByNX2XARV4jJ29N1J_T3aZ8l&key=AIzaSyB6rAyis1rjqO7ch1ZS-Z3kCU5SJKnRmVc")
+
     //   .then(response => response.json())
     //   .then(jsonData => video = jsonData.items)
     //   .catch(err => console.log(err));
