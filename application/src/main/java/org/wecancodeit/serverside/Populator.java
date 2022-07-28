@@ -62,5 +62,5 @@ public class Populator implements CommandLineRunner {
                 "Test Video2 Author", "Test Video2 url");
         parentResourceRepo.save(testVideo1);
         parentResourceRepo.save(testVideo2);
-    //}
+    }
 }
