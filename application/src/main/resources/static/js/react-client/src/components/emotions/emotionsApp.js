@@ -16,7 +16,7 @@ function EmotionsApp() {
           setEmotionsOpen(true);
         }}
       >
-        Happy Face
+        🙂
       </button>
       <button
         className={style.openEmotionsBtn}
@@ -24,7 +24,7 @@ function EmotionsApp() {
           setEmotionsOpen(true);
         }}
       >
-        Concern Face
+        🤨
       </button>
       <button
         className={style.openEmotionsBtn}
@@ -32,7 +32,15 @@ function EmotionsApp() {
           setEmotionsOpen(true);
         }}
       >
-        Sad Face
+        😥
+      </button>
+      <button
+        className={style.openEmotionsBtn}
+        onClick={() => {
+          setEmotionsOpen(true);
+        }}
+      >
+        🤣
       </button>
       </div>
 

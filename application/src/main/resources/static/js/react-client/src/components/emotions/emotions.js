@@ -29,7 +29,12 @@ function Emotions ({ setOpenEmotions }) {
           >
             No
           </button>
-          <button>Yes</button>
+          <button
+          onClick={() => {
+            setOpenEmotions(false);
+          }}
+          id={style.emoFooter}
+          >Yes</button>
         </div>
       </div>
     </div>
