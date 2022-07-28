@@ -10,15 +10,16 @@ const AdhdVideos =()=>{
     const [video,setVideo] = useState(null);
     const [loading,setLoading]= useState(true);
 
+
     // fetch("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=25&playlistId=PLhIJgpRusByNX2XARV4jJ29N1J_T3aZ8l&key=AIzaSyB6rAyis1rjqO7ch1ZS-Z3kCU5SJKnRmVc")
     //   .then(response => response.json())
-    //   .then(jsonData => video = jsonData.VideoId)
+    //   .then(jsonData => video = jsonData.items)
     //   .catch(err => console.log(err));
 
 
     useEffect(()=>{
         const fetchData = async () =>{
-            const result = await Axios("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=25&playlistId=PLhIJgpRusByNX2XARV4jJ29N1J_T3aZ8l&key=AIzaSyB6rAyis1rjqO7ch1ZS-Z3kCU5SJKnRmVc");
+            const result = await Axios("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=25&playlistId=PLhIJgpRusByNX2XARV4jJ29N1J_T3aZ8l&key=AIzaSyB6rAyis1rjqO7ch1ZS-Z3kCU5SJKnRmVc")
             setVideo(result.data);
 
             console.log(result.data.items);
@@ -39,8 +40,7 @@ const AdhdVideos =()=>{
             
                 <section>
                   <div className={style.AdhdVideosContainer}>
-                    {/* <h1 id="video" src={video.items.url}></h1> */}
-                     <iframe id="video"  src={video.items.videoId}></iframe>
+                    <iframe id="video"  >video: src={video.videoId}</iframe>
                      <h1 id="title">title: {video.title}</h1>
                     </div>
                 </section>
