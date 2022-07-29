@@ -1,7 +1,7 @@
-package org.wecancodeit.serverside.repositories;
+package org.wecancodeit.serverside.Repositories;
 
 import org.springframework.data.repository.CrudRepository;
-import org.wecancodeit.serverside.models.User;
+import org.wecancodeit.serverside.Models.User;
 
 import java.util.Optional;
 

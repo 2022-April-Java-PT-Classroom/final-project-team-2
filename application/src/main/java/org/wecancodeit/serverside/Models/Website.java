@@ -1,4 +1,4 @@
-package org.wecancodeit.serverside.models;
+package org.wecancodeit.serverside.Models;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -6,33 +6,30 @@ import javax.persistence.Id;
 import javax.persistence.Lob;
 
 @Entity
-public class ParentResource {
+public class Website {
 
     @Id
     @GeneratedValue
     private Long id;
-    private String type;
+    private String subject;
     @Lob
     private String title;
     @Lob
-    private String author;
-    @Lob
     private String url;
 
-    public ParentResource() {
+
+    public Website() {
 
     }
 
     public  Long getId(){return id;}
-    public String getType(){return type;}
+    public String getType(){return subject;}
     public String getTitle(){return title;}
-    public String getAuthor(){return author;}
     public String getUrl(){return url;}
 
-    public ParentResource(String type, String title, String author, String url) {
-        this.type = type;
+    public Website(String subject, String title, String url) {
+        this.subject = subject;
         this.title = title;
-        this.author = author;
         this.url = url;
     }
 
