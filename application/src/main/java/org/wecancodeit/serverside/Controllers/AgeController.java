@@ -1,11 +1,11 @@
-package org.wecancodeit.serverside.controllers;
+package org.wecancodeit.serverside.Controllers;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.springframework.web.bind.annotation.*;
-import org.wecancodeit.serverside.models.Age;
-import org.wecancodeit.serverside.models.User;
-import org.wecancodeit.serverside.repositories.AgeRepository;
-import org.wecancodeit.serverside.repositories.UserRepository;
+import org.wecancodeit.serverside.Models.Age;
+import org.wecancodeit.serverside.Models.User;
+import org.wecancodeit.serverside.Repositories.AgeRepository;
+import org.wecancodeit.serverside.Repositories.UserRepository;
 
 import javax.annotation.Resource;
 import java.util.Collection;
