@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import style from "./style.module.scss";
 import Axios  from "axios";
+import Adhd from "../adhd";
+import {Link} from "react-router-dom";
 import { IframeHTMLAttributes } from "react";
 // import {googleapi} from "googleapi";
 
@@ -21,9 +23,9 @@ const AdhdVideos =()=>{
 
     useEffect(()=>{
         const fetchData = async () =>{
-            const result = await Axios("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=25&playlistId=PLhIJgpRusByNX2XARV4jJ29N1J_T3aZ8l&key=AIzaSyB6rAyis1rjqO7ch1ZS-Z3kCU5SJKnRmVc")
-            const response =await fetch(URL);
-            setVideo(result.data);
+            const result = await Axios ("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=25&playlistId=PLhIJgpRusByNX2XARV4jJ29N1J_T3aZ8l&key=AIzaSyB6rAyis1rjqO7ch1ZS-Z3kCU5SJKnRmVc")
+            // const response =await fetch(URL);
+            setVideo(result.data.items);
             console.log(result.data.items);
             // console.log(result.data.items.collecton);
         }
@@ -41,12 +43,14 @@ const AdhdVideos =()=>{
      return(
         loading ? <h3>Loading . . .</h3> :
         <div className={style.AdhdVideo}>
-            
+            <Link to={'/adhd'}>adhd tool box</Link>
                 <section className={style.adhdsection}>
                   <div className={style.AdhdVideosContainer}>
-                    {/* <h1>title:{video.items[6].title}</h1> */}
-                    {/* <iframe id="video"  >video: src={video.items[6].videoId}</iframe> */}
-                    <h1 id="adhdtips">How to ADHD</h1>
+                  
+                    {/* <h1>title:{video.items.title}</h1>  */}
+                    {/* <iframe id="video"src={video.url}  >video: </iframe> 
+                    <h1 id="adhdtips">How to ADHD</h1> */}
+                    
                     <iframe id="vid1"width="560" height="315" src="https://www.youtube.com/embed/ALJ3CFRRZpo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <iframe id="vid2"width="560" height="315" src="https://www.youtube.com/embed/cQH28TVJBVQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/s_P6sNFjLzI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
