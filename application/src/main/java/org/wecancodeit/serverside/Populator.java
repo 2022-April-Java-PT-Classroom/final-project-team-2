@@ -15,19 +15,12 @@ import javax.annotation.Resource;
 @Component
 public class Populator implements CommandLineRunner {
 
-<<<<<<< HEAD
-    @Resource
-    public QuotesRepository quotesRepo;
-=======
+
   @Resource
   public QuotesRepository quotesRepo;
   
   @Resource
   private ParentResourceRepository parentResourceRepo;
->>>>>>> main
-
-    @Resource
-    private ParentResourceRepository parentResourceRepo;
 
     @Override
     public void run(String... args) throws Exception {
@@ -42,17 +35,12 @@ public class Populator implements CommandLineRunner {
         quotesRepo.save(sample4);
         Quotes sample5 = new Quotes(5L, "Howie Mandel", "I didn't let ADHD prevent me from achieving my goals, and neither should you.");
         quotesRepo.save(sample5);
-
-<<<<<<< HEAD
-
-//    @Override
-//    public void run(String... args) throws Exception {
-=======
-    //private ParentResourceRepository parentResourceRepo;
-
+        Quotes sample6 = new Quotes(6L, "Walt Disney", "You're braver than you believe, stronger than you seem, and smarter than you think.");
+        quotesRepo.save(sample6);
+        Quotes sample7 = new Quotes(7L, "Susan Boyle", "There are enough people in the world who are going to write you off. You don't need to do that to yourself.");
+        quotesRepo.save(sample7);
     //@Override
     //public void run(String... args) throws Exception {
->>>>>>> main
 
         // book resources
         ParentResource testBook1 = new ParentResource("book", "Test Book1 Title",
@@ -77,9 +65,6 @@ public class Populator implements CommandLineRunner {
                 "Test Video2 Author", "Test Video2 url");
         parentResourceRepo.save(testVideo1);
         parentResourceRepo.save(testVideo2);
-<<<<<<< HEAD
 
-=======
->>>>>>> main
     }
 }

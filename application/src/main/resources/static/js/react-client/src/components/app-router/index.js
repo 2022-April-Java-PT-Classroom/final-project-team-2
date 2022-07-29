@@ -2,16 +2,16 @@ import { Route, Switch } from 'react-router-dom';
 
 import ADHD from '../../pages/adhd';
 import About from '../../pages/about';
+import Adhd from '../../pages/adhd';
 import AdhdVideos from '../../pages/adhd-videos';
 import Autism from '../../pages/autism';
 import Home from '../../pages/home';
 import Parent from '../../pages/parent';
-
 import Quotes from '../../pages/quotes';
 import React from "react";
 
-import AdhdVideos from '../../pages/adhd-videos';
-import Adhd from '../../pages/adhd';
+// import AdhdVideos from '../../pages/adhd-videos';
+
 
 
 const AppRouter = () => {
