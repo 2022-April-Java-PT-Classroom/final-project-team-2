@@ -10,6 +10,7 @@ import org.wecancodeit.serverside.Repositories.VideoRepository;
 import javax.annotation.Resource;
 import java.util.Collection;
 
+@RequestMapping
 @RestController
 @CrossOrigin
 public class VideoController {
