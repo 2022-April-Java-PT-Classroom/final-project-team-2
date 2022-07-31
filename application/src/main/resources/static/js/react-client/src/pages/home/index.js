@@ -30,10 +30,10 @@ const Home = () => {
                 </section>
                 
                 <section className={style.homeADHD}>
-                <Link to={'/adhd'}>adhd tool box</Link>
+                <Link to={'/adhd'}>ADHD Tool Box</Link>
                 <ul>
-                    <li><p> welcome To the world of ADHD</p></li>
-                    <li id="ADpagelogo"><img src={adbrain} alt={"adbrain"}></img></li>
+                    <p className={style.HOmeADHDULP}> welcome To the world of ADHD</p>
+                  <img className={style.ADPageIMG}src={adbrain} alt={"adbrain"}></img>
                     
                 </ul>
                 </section>
@@ -41,10 +41,9 @@ const Home = () => {
                 <section className={style.homeAutism}>
                 <Link to={'/autism'}>Autism toolbox</Link>
                 <ul>
-                    <li><p>Welcome to world of Autism</p></li>
-                    <li id="AUTLOGO"><img img src={Aubrain} alt={"Aubrain"}></img></li>
-                    <li></li>
-                    <li></li>
+                    <p className={style.AUThomepara}>Welcome to world of Autism</p>
+                    <img className={style.AUtimgHomP} img src={Aubrain} alt={"Aubrain"}></img>
+                
                 </ul>
                 </section>
 
