@@ -20,11 +20,11 @@ public class Populator implements CommandLineRunner {
   @Resource
   public QuotesRepository quotesRepo;
   @Resource
-  private BookRepository bookRepo;
+  public BookRepository bookRepo;
   @Resource
-  private WebsiteRepository websiteRepo;
+  public WebsiteRepository websiteRepo;
   @Resource
-  private VideoRepository videoRepo;
+  public VideoRepository videoRepo;
 
     @Override
     public void run(String... args) throws Exception {

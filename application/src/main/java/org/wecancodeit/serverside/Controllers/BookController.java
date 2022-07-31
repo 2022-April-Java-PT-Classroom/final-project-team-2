@@ -10,6 +10,7 @@ import org.wecancodeit.serverside.Repositories.BookRepository;
 import javax.annotation.Resource;
 import java.util.Collection;
 
+@RequestMapping
 @RestController
 @CrossOrigin
 public class BookController {
