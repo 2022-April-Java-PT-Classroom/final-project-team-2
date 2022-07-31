@@ -7,6 +7,9 @@ import Parent from "../../pages/parent";
 import logo from "../../assest/logo.png";
 import cloud1 from "../../assest/cloud1.png";
 import cloud2 from "../../assest/cloud2.png";
+import Aubrain from "../../assest/Aubrain.png";
+import adbrain from "../../assest/adbrain.png";
+
 const Home = () => {
     return(
         <div>
@@ -30,7 +33,7 @@ const Home = () => {
                 <Link to={'/adhd'}>adhd tool box</Link>
                 <ul>
                     <li><p> welcome To the world of ADHD</p></li>
-                    <li></li>
+                    <li><img src={adbrain} alt={"adbrain"}></img></li>
                     
                 </ul>
                 </section>
@@ -38,8 +41,8 @@ const Home = () => {
                 <section className={style.homeAutism}>
                 <Link to={'/autism'}>Autism toolbox</Link>
                 <ul>
-                    <li></li>
-                    <li></li>
+                    <li><p>Welcome to world of Autism</p></li>
+                    <li><img img src={Aubrain} alt={"Aubrain"}></img></li>
                     <li></li>
                     <li></li>
                 </ul>
@@ -48,10 +51,9 @@ const Home = () => {
                 <section className={style.homeParent}>
                 <Link to={'/parent'}>Parent toolbox</Link>
                 <ul>
+                    <li><p> Parents Welcome</p></li>
                     <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                   
                 </ul>
                 </section>
                 

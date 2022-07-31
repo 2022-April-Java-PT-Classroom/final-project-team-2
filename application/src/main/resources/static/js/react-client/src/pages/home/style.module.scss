@@ -5,7 +5,7 @@
 }
 
 .homeSection{
-  background: linear-gradient(rgb(0, 0, 255),rgb(86, 86, 246));
+  background-color: rgb(75, 75, 202);
   width: 100%;
   height: 80vh;
   border: 1px;
@@ -18,7 +18,6 @@
   text-align: center;
   justify-content: center;
   padding: 20px;
-  font-size: 35px;
   
 }
 .homeSection p{
@@ -28,83 +27,55 @@
 display: flex;
 padding-right: 12px;
 padding-top: 40px;
-height: 400px;
-width: 400px;
+height: 300px;
+width: 300px;
 margin: auto;
 
 
 }
 
 
-.homeADDbtn {
-  position: relative;
-  bottom: 20em;
-  display:flex;
-  margin-left: 10px;
-  margin-bottom: 20em;
-  width: 200px;
-  height: 200px;
- justify-content: center;
-
-}
-
-.homeAutBtn a{
+.homeAdbtn a{
+  display: flex;
+  margin-left: 8em;
   
-position: relative;
-  bottom: 53.5em;
-  display:flex;
-  margin-right: 10px;
-  margin-bottom: 80em;
-  width: 200px;
-  height: 200px;
- justify-content: center;
- float: right;
- display: flex;
-
- 
 }
+.homeAbtn {
+  
+ margin-right: 10em;
+ margin-bottom: 60em;
+  text-align: right;
+  justify-content: center;
+ 
+ 
 
+}
 .homeADHD{
-  background:linear-gradient(rgb(7, 221, 221),rgb(48, 140, 210));
+  background-color:rgb(80, 169, 220) ;
   width: 100%;
   height: 80vh;
   border: 1px;
   margin: 0;
+ 
 
-}
-.homeADHD a{
-  display: flex;
-  justify-content: center;
-  margin-right: 5em;
-  padding-top: 5em;
-  font-size: 35px;
+  
+
 }
 .homeAutism{
-  background: linear-gradient( greenyellow,rgb(22, 185, 22));
+  background-color: rgb(75, 202, 83);
   width: 100%;
   height: 80vh;
   border: 1px;
   margin: 0;
-}
-.homeAutism a {
-  display: flex;
-  justify-content: center;
-  // margin-right: 5em;
-  padding-top: 5em;
-  font-size: 35px;
+
+  
+  
 }
 .homeParent{
-  background: linear-gradient(pink,rgb(225, 38, 160));
+  background-color:rgb(202, 75, 185) ;
   width: 100%;
   height: 80vh;
   border: 1px;
   margin: 0;
   justify-content: right;
-}
-.homeParent a {
-  display: flex;
-  justify-content: center;
-  // margin-right: 10em;
-  padding-top: 5em;
-  font-size: 35px;
 }
