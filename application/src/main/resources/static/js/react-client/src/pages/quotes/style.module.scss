@@ -1,7 +1,24 @@
-// .quotes_shadowbox {
-//     width: 300px;
-//     height: 100px;
-//     padding: 15px;
-//     background-color: coral;
-//     box-shadow: 10px 10px;
-// }
+.quotesText h3{
+    font-size: 60px;
+    display: flex;
+    padding-right: 2.5em;
+    justify-content: center;
+
+}
+
+.quotesText div{
+    margin: 2rem 60em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 450px;
+    height: 200px;
+    padding: 15px;
+    background-color: rgb(148, 156, 230);
+    box-shadow: 10px 10px;
+}
+.quotesText div h1{
+    display: flex;
+    align-content: flex-end;
+}

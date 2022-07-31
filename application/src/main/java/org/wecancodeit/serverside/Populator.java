@@ -29,11 +29,7 @@ public class Populator implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-<<<<<<< HEAD
 
-=======
-        // quotes
->>>>>>> main
         Quotes sample1 = new Quotes(1L, "Adam Levine", "Remeber that you are not alone. There are others going through the same things.");
         quotesRepo.save(sample1);
         Quotes sample2 = new Quotes(2L, "David Neeleman", "If someone told me I could be normal or continue to have ADD, I would take the ADD.");
@@ -44,14 +40,11 @@ public class Populator implements CommandLineRunner {
         quotesRepo.save(sample4);
         Quotes sample5 = new Quotes(5L, "Howie Mandel", "I didn't let ADHD prevent me from achieving my goals, and neither should you.");
         quotesRepo.save(sample5);
-<<<<<<< HEAD
         Quotes sample6 = new Quotes(6L, "Walt Disney", "You're braver than you believe, stronger than you seem, and smarter than you think.");
         quotesRepo.save(sample6);
         Quotes sample7 = new Quotes(7L, "Susan Boyle", "There are enough people in the world who are going to write you off. You don't need to do that to yourself.");
         quotesRepo.save(sample7);
-    //@Override
-    //public void run(String... args) throws Exception {
-=======
+//        Quotes sample8 = new Quotes(8L, "")
 
 
         // book
@@ -59,7 +52,6 @@ public class Populator implements CommandLineRunner {
         bookRepo.save(Book1);
         Book Book2 = new Book("autism", "Autism Book Title", "Autism Book Author");
         bookRepo.save(Book2);
->>>>>>> main
 
         // website
         Website Website1 = new Website("adhd", "ADHD Website Title", "ADHD Website url");
@@ -117,17 +109,6 @@ public class Populator implements CommandLineRunner {
         Video Video24 = new Video("adhdorganize", "The Four Organizing Styles - Breakdown and FAQs",  "https://www.youtube.com/embed/hYtiQhCJ574?start=4");
         videoRepo.save(Video24);
 
-<<<<<<< HEAD
-        // video resources
-        ParentResource testVideo1 = new ParentResource("video", "Test Video1 Title",
-                "Test Video1 Author", "Test Video1 url");
-        ParentResource testVideo2 = new ParentResource("video", "Test Video2 Title",
-                "Test Video2 Author", "Test Video2 url");
-        parentResourceRepo.save(testVideo1);
-        parentResourceRepo.save(testVideo2);
-
-=======
->>>>>>> main
     }
 
 }
