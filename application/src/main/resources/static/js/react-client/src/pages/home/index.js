@@ -33,7 +33,7 @@ const Home = () => {
                 <Link to={'/adhd'}>adhd tool box</Link>
                 <ul>
                     <li><p> welcome To the world of ADHD</p></li>
-                    <li><img src={adbrain} alt={"adbrain"}></img></li>
+                    <li id="ADpagelogo"><img src={adbrain} alt={"adbrain"}></img></li>
                     
                 </ul>
                 </section>
@@ -42,7 +42,7 @@ const Home = () => {
                 <Link to={'/autism'}>Autism toolbox</Link>
                 <ul>
                     <li><p>Welcome to world of Autism</p></li>
-                    <li><img img src={Aubrain} alt={"Aubrain"}></img></li>
+                    <li id="AUTLOGO"><img img src={Aubrain} alt={"Aubrain"}></img></li>
                     <li></li>
                     <li></li>
                 </ul>
