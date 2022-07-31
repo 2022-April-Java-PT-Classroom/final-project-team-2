@@ -10,6 +10,8 @@ import org.wecancodeit.serverside.Repositories.WebsiteRepository;
 import javax.annotation.Resource;
 import java.util.Collection;
 
+
+@RequestMapping
 @RestController
 @CrossOrigin
 public class WebsiteController {

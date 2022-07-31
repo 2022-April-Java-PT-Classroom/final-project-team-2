@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4840a239-b8ad-46b1-868d-6204037ad27f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/VideoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/WebsiteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Website.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Repositories/VideoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Repositories/WebsiteRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/WebsiteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/WebsiteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Populator.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Populator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/controllers/ParentResourceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/models/ParentResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/repositories/ParentResourceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Repositories/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Repositories/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Repositories/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Repositories/VideoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Repositories/VideoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Repositories/WebsiteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Repositories/WebsiteRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
