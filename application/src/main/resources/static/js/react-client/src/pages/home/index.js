@@ -29,7 +29,7 @@ const Home = () => {
                 <section className={style.homeADHD}>
                 <Link to={'/adhd'}>adhd tool box</Link>
                 <ul>
-                    <li></li>
+                    <li><p> welcome To the world of ADHD</p></li>
                     <li></li>
                     
                 </ul>
