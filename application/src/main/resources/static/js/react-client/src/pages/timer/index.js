@@ -10,9 +10,9 @@ const Timer = () => {
 
   const deadline = " userInput";
 
-//   function ()=>{
-//     userInput = 
-//   }
+  // function getUserimput=()=>{
+  //   userInput = 
+  // }
 
   const getTime = () => {
     const time = Date.parse(deadline) - Date.now();

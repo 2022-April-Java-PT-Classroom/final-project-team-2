@@ -17,24 +17,42 @@ const Home = () => {
                 <div className={style.homeLogo}>
                 <img src={logo} alt={"logo"}></img>
                 </div>
-                <div className={style.homeADHDbtn}>
-                <Link to={'/adhd'}><img src={cloud1} alt={"cloud1"}></img></Link>
+
+                <div className={style.homeADDbtn}>
+                <Link to={"/adhd"}><img src={cloud1} alt={"cloud1"}></img></Link>
                 </div>
-                <div className={style.homeAbtn}>
+                <div className={style.homeAutBtn}>
                 <Link to={'/autism'}><img src={cloud2} alt={"cloud2"}></img></Link>
                 </div>
                 </section>
                 
                 <section className={style.homeADHD}>
                 <Link to={'/adhd'}>adhd tool box</Link>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    
+                </ul>
                 </section>
 
                 <section className={style.homeAutism}>
                 <Link to={'/autism'}>Autism toolbox</Link>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
                 </section>
 
                 <section className={style.homeParent}>
                 <Link to={'/parent'}>Parent toolbox</Link>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
                 </section>
                 
             </div>
