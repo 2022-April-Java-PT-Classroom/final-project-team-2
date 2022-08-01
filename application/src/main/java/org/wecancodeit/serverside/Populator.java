@@ -44,7 +44,11 @@ public class Populator implements CommandLineRunner {
         quotesRepo.save(sample6);
         Quotes sample7 = new Quotes(7L, "Susan Boyle", "There are enough people in the world who are going to write you off. You don't need to do that to yourself.");
         quotesRepo.save(sample7);
-//        Quotes sample8 = new Quotes(8L, "")
+        Quotes sample8 = new Quotes(8L, "Dr. Temple Grandin", "I am different, not less");
+        quotesRepo.save(sample8);
+        Quotes sample9 = new Quotes(9L, "Naoko Higashida", "Everybody has a heart that can be touched by something");
+        quotesRepo.save(sample9);
+        
 
 
         // book
