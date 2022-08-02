@@ -1,9 +1,11 @@
 import React from "react";
+import style from "./style.module.scss";
+
 
 const About =()=>{
     return(  <div>
         <div>
-            <section>
+            <section className={style.aboutHome}>
                 <div>
                     <h1>About the team</h1>
                 </div>

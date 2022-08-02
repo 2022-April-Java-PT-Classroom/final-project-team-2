@@ -1,9 +1,10 @@
 import React from "react";
+import style from "./style.module.scss";
 
 const Parent =()=>{
     return(  <div>
         <div>
-            <section>
+            <section className={style.ParentsHome}>
                 <div>
                     <h1>Parents Home</h1>
                 </div>

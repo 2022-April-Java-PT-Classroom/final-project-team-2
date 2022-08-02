@@ -1,8 +1,9 @@
 import React from "react";
+import styled from "./style.module.scss";
 const Autism =()=>{
     return(  <div>
         <div>
-            <section>
+            <section className={styled.AutismHome}>
                 <div>
                     <h1>Autism tool box</h1>
                 </div>
