@@ -1,5 +1,10 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
+import Axios from "axios";
+import style from './style.module.scss';
+
 const AutismResources =()=>{
+
+    
     return(  <div>
         <div>
             <section>
