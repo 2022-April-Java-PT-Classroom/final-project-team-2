@@ -16,7 +16,7 @@ const App = () => {
 	   {/* Hello React Test World */}
         <AppRouter />
         <EmotionsApp/>
-        {/* <NotesApp/> */}
+        <NotesApp/>
       </div>
     <Footer/>
     </BrowserRouter>

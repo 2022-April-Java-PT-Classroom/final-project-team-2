@@ -5,6 +5,7 @@ import style from './style.module.scss';
 
 // import ReactSwitch from "react-switch";
 
+// const randomNum = Math.floor((Math.random() * 10));
 
 const QuotesAPI = () => {
     const [quotes, setQuotes] = useState(null);
@@ -14,6 +15,7 @@ const QuotesAPI = () => {
         const fetchQuotesData = async () => {
             const result = await Axios('http://localhost:8080/pages/quotes');
             setQuotes(result.data);
+            console.log(result.data);
         }
         if (quotes) {
             setLoading(false);
@@ -29,7 +31,7 @@ const QuotesAPI = () => {
     return (
         uploading ? <h2>Uploading!</h2> :
 
-        <div>
+        <div className="quotes_shadowbox">
             <section className={style.quotesSection}>
                 <div className={style.quotesText}>
                     <h3>Quote of the Day...</h3>
