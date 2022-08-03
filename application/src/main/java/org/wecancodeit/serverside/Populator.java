@@ -17,6 +17,7 @@ import javax.annotation.Resource;
 @Component
 public class Populator implements CommandLineRunner {
 
+
   @Resource
   public QuotesRepository quotesRepo;
   @Resource
@@ -28,7 +29,7 @@ public class Populator implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        // quotes
+
         Quotes sample1 = new Quotes(1L, "Adam Levine", "Remeber that you are not alone. There are others going through the same things.");
         quotesRepo.save(sample1);
         Quotes sample2 = new Quotes(2L, "David Neeleman", "If someone told me I could be normal or continue to have ADD, I would take the ADD.");
@@ -39,6 +40,15 @@ public class Populator implements CommandLineRunner {
         quotesRepo.save(sample4);
         Quotes sample5 = new Quotes(5L, "Howie Mandel", "I didn't let ADHD prevent me from achieving my goals, and neither should you.");
         quotesRepo.save(sample5);
+        Quotes sample6 = new Quotes(6L, "Walt Disney", "You're braver than you believe, stronger than you seem, and smarter than you think.");
+        quotesRepo.save(sample6);
+        Quotes sample7 = new Quotes(7L, "Susan Boyle", "There are enough people in the world who are going to write you off. You don't need to do that to yourself.");
+        quotesRepo.save(sample7);
+        Quotes sample8 = new Quotes(8L, "Dr. Temple Grandin", "I am different, not less");
+        quotesRepo.save(sample8);
+        Quotes sample9 = new Quotes(9L, "Naoko Higashida", "Everybody has a heart that can be touched by something");
+        quotesRepo.save(sample9);
+        
 
 
         // book

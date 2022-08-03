@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "./style.module.scss";
+
+
 const Autism =()=>{
     return(  <div>
         <div>
