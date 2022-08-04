@@ -1,25 +1,47 @@
 import React, {useEffect, useState} from "react";
-import Axios from "axios";
 import style from './style.module.scss';
+import axios from "axios";
 
 
 const AdhdResources =()=>{
 
+    const [loading, setloading] = useState(true),
+          [adhdBookData, setAdhdBookData] = useState([]);
+
+    useEffect(() => {
+        const fetchData = async () => {
+            const result = await axios.get('api/adhdbook');
+            setAdhdBookData(result.data);
+        }
+        fetchData()
+    }, []); 
+
+    const
+          [adhdWebsiteData, setAdhdWebsiteData] = useState([]);
+
+    useEffect(() => {
+        const fetchData = async () => {
+            const result = await axios.get('api/adhdwebsite');
+            setAdhdWebsiteData(result.data);
+        }
+        fetchData()
+    }, []);
+
   
 
-        return(  <div>
-         <div>
-             <section>
+        return(
+         <div className={style.adhdresources}>
+            <section className={style.bookSection}>
                  <div>
-                     <h1>ADHD Resources</h1>
+                     <h1>Books</h1>
                     </div>
-                 <ul>
-                        <li>Books</li>
-                        <li>Websites</li>
-                        <li>Videos</li>
-                  </ul>
+            </section>
+            <section className={style.websiteSection}>
+                 <div>
+                     <h1>Websites</h1>
+                    </div>
             </section>
         </div>
-    </div>);
+    );
 }
 export default AdhdResources;

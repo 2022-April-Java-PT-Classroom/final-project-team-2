@@ -1,5 +1,5 @@
-.adhd-resources{
-    background: linear-gradient(pink,rgb(225, 38, 160));
+.adhdresources{
+    background: linear-gradient(rgb(245, 189, 138),rgb(225, 130, 40));
     width: 100%;
     height: 100vh;
     border: 1px;
@@ -8,11 +8,11 @@
   
       h1  {
           background-color: rgb(79, 79, 193);
-          color: rgb(220,220,220);
+          color: white;
           text-align: center;
           font-size: 45px;
-          text-shadow: 1px 1px 1px rgb(225, 38, 160),
-          2px 2px 1px black;
+          text-shadow: 1px 1px 1px black,
+          2px 2px 1px blue;
           font-family: monospace;
           }
   
@@ -21,19 +21,19 @@
          text-align: center;
          font-size: 35px;
          margin-top:60px;
-         text-shadow: 1px 1px 1px white,
-         2px 2px 1px rgb(225, 38, 160);
+         text-shadow: 1px 1px 1px black,
+         2px 2px 1px blue;
          font-family: monospace;
          } 
       
       
-      .parentSection{
+      .bookSection{
                   width: 100%;
                   height: 50%;
                   border: 1px;
                   margin: 0;
                   }
-      .moodSection{
+      .websiteSection{
                   width: 100%;
                   height: 50%;
                   border: 1px;
