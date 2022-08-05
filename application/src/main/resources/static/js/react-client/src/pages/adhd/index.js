@@ -18,6 +18,7 @@ const Adhd =()=>{
                     <ul className={style.ADHDGrid}>
                        <img src={timer} alt={"timer"}></img>
                        <div class="desc"></div>
+                       <li><Link to={'/alarm-clock'}>Task Timer</Link></li>
                         <li> Ckeck list </li>
 
                         <div class="desc1"></div>
