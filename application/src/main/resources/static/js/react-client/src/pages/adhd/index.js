@@ -1,10 +1,12 @@
-import React from "react";
-import style from "./style.module.scss";
 import AdhdVideos from "../adhd-videos";
+import EmotionsApp from '../../components/emotions/emotionsApp';
 import {Link} from "react-router-dom";
-import creativity from "../../assest/creativity.png";
-import timer from "../../assest/timer.png";
+import NotesApp from '../../components/notes/notesApp';
+import React from "react";
 import checklist from "../../assest/checklist.png";
+import creativity from "../../assest/creativity.png";
+import style from "./style.module.scss";
+import timer from "../../assest/timer.png";
 import video from "../../assest/video.png";
 
 const Adhd =()=>{
@@ -34,7 +36,16 @@ const Adhd =()=>{
                         <img src={creativity} alt={"creativity"}></img>
                         <div class="desc3">Add a description of the image here</div>
                     </ul>
+                    
                 </section>
+                <div className={style.components}>
+                    <div className={style.emoComp}>
+                    <EmotionsApp/>
+                    </div>
+                    <div className={style.notesComp}>
+                    <NotesApp/>
+                    </div>
+                </div>
             </div>
         </div>
     );
