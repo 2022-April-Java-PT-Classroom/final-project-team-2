@@ -6,31 +6,29 @@ import javax.persistence.Id;
 import javax.persistence.Lob;
 
 @Entity
-public class Video {
+public class AdhdVideo {
 
     @Id
     @GeneratedValue
     private Long id;
-    private String subject;
     @Lob
     private String title;
     @Lob
     private String url;
 
 
-    public Video() {
+    public AdhdVideo() {
 
     }
 
     public  Long getId(){return id;}
-    public String getType(){return subject;}
     public String getTitle(){return title;}
     public String getUrl(){return url;}
 
-    public Video(String subject, String title, String url) {
-        this.subject = subject;
+    public AdhdVideo(String title, String url) {
         this.title = title;
         this.url = url;
     }
 
 }
+

@@ -1,0 +1,51 @@
+
+.timerpage {
+    background:linear-gradient(rgb(213, 19, 178),rgb(48, 140, 210)); 
+    width: 100vw;
+    height: 100vh;
+}   
+.timerBox{
+    position: relative;
+    top: 12em;
+    border-radius: 60%;
+    background:linear-gradient(rgb(7, 221, 221),rgb(48, 140, 210));
+    margin: auto;
+    width: 60vw;
+    height: 60vh;
+}
+
+.timerGrid{
+   flex:gridrow;
+   color: white; 
+}
+#timerTitle{
+    position: relative;
+    top: 82px;
+    display: flex;
+    padding: 1px;
+    margin: 1px;
+    text-align: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 55px;
+}
+#timercurrentTime{
+    font-size: 45px;
+    position: relative;
+    top: 72px;
+    text-align: center;
+
+}
+#timerMessage{
+    font-size: 35px;
+    position: relative;
+    top: 72px;
+    text-align: center;
+}
+#timersettime{
+   
+    font-size: 35px;
+    position: relative;
+    top: 82px;
+    text-align: center;
+}

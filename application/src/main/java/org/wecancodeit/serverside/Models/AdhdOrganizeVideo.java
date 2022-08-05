@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import javax.persistence.Lob;
 
 @Entity
-public class OrganizeVideo {
+public class AdhdOrganizeVideo {
 
     @Id
     @GeneratedValue
@@ -17,17 +17,24 @@ public class OrganizeVideo {
     private String url;
 
 
-    public OrganizeVideo() {
+    public AdhdOrganizeVideo() {
 
     }
 
-    public  Long getId(){return id;}
-    public String getTitle(){return title;}
-    public String getUrl(){return url;}
+    public Long getId() {
+        return id;
+    }
 
-    public OrganizeVideo(String title, String url) {
+    public String getTitle() {
+        return title;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public AdhdOrganizeVideo(String title, String url) {
         this.title = title;
         this.url = url;
     }
-
 }
