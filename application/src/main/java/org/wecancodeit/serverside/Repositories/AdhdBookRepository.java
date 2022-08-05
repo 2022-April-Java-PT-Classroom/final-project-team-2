@@ -1,9 +1,8 @@
 package org.wecancodeit.serverside.Repositories;
 
 import org.springframework.data.repository.CrudRepository;
-import org.wecancodeit.serverside.Models.Book;
+import org.wecancodeit.serverside.Models.AdhdBook;
 
-public interface BookRepository extends CrudRepository<Book, Long> {
-    Book findBySubject(String subject);
-    Book findByTitle(String title);
+public interface AdhdBookRepository extends CrudRepository<AdhdBook, Long> {
+    AdhdBook findByTitle(String title);
 }
