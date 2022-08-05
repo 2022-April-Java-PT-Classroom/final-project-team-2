@@ -9,26 +9,26 @@ import org.wecancodeit.serverside.Repositories.BookRepository;
 
 import javax.annotation.Resource;
 import java.util.Collection;
-
-@RequestMapping
-@RestController
-@CrossOrigin
-public class BookController {
-
-    @Resource
-    private BookRepository bookRepo;
-
-    @GetMapping("/api/book")
-    public Collection<Book>getBook(){
-        return (Collection<Book>) bookRepo.findAll();
-    }
-
-    @PostMapping("/api/books")
-
-    public Collection<Book>addResource(@RequestBody String body) throws JSONException {
-        JSONObject newBook = new JSONObject(body);
-        String addBookTitle = newBook.getString("title");
-
-        return (Collection<Book>) bookRepo.findAll();
-    }
-}
+//
+//@RequestMapping
+//@RestController
+//@CrossOrigin
+// public class BookController {
+//
+//    @Resource
+//    private BookRepository bookRepo;
+//
+//    @GetMapping("/api/book")
+//    public Collection<Book>getBook(){
+//        return (Collection<Book>) bookRepo.findAll();
+//    }
+//
+//    @PostMapping("/api/books")
+//
+//    public Collection<Book>addResource(@RequestBody String body) throws JSONException {
+//        JSONObject newBook = new JSONObject(body);
+//        String addBookTitle = newBook.getString("title");
+//
+//        return (Collection<Book>) bookRepo.findAll();
+//    }
+//}
