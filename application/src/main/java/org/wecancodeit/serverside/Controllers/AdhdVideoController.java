@@ -4,8 +4,8 @@ package org.wecancodeit.serverside.Controllers;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.springframework.web.bind.annotation.*;
-import org.wecancodeit.serverside.Models.Video;
-import org.wecancodeit.serverside.Repositories.VideoRepository;
+import org.wecancodeit.serverside.Models.AdhdVideo;
+import org.wecancodeit.serverside.Repositories.AdhdVideoRepository;
 
 import javax.annotation.Resource;
 import java.util.Collection;
@@ -13,22 +13,22 @@ import java.util.Collection;
 @RequestMapping
 @RestController
 @CrossOrigin
-public class VideoController {
+public class AdhdVideoController {
 
     @Resource
-    private VideoRepository videoRepo;
+    private AdhdVideoRepository adhdVideoRepo;
 
-    @GetMapping("/api/video")
-    public Collection<Video>getWebsite(){
-        return (Collection<Video>) videoRepo.findAll();
+    @GetMapping("/api/adhdvideo")
+    public Collection<AdhdVideo>getVideo(){
+        return (Collection<AdhdVideo>) adhdVideoRepo.findAll();
     }
 
-    @PostMapping("/api/videos")
+    @PostMapping("/api/adhdvideos")
 
-    public Collection<Video>addResource(@RequestBody String body) throws JSONException {
-        JSONObject newVideo = new JSONObject(body);
-        String addVideoTitle = newVideo.getString("title");
+    public Collection<AdhdVideo>addResource(@RequestBody String body) throws JSONException {
+        JSONObject newAdhdVideo = new JSONObject(body);
+        String addVideoTitle = newAdhdVideo.getString("title");
 
-        return (Collection<Video>) videoRepo.findAll();
+        return (Collection<AdhdVideo>) adhdVideoRepo.findAll();
     }
 }
