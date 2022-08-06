@@ -40,11 +40,11 @@ public class Populator implements CommandLineRunner {
 
         Quotes sample1 = new Quotes(1L, "Adam Levine", "https://media1.giphy.com/media/woBgfZvByy4lG/giphy.gif?cid=ecf05e472bki6a7egagw8vwh983hywj897xj8lbfp9y8jz37&rid=giphy.gif&ct=g", "Remember that you are not alone. There are others going through the same things.");
         quotesRepo.save(sample1);
-        Quotes sample2 = new Quotes(2L, "David Neeleman", "","If someone told me I could be normal or continue to have ADD, I would take the ADD.");
+        Quotes sample2 = new Quotes(2L, "David Neeleman", "https://www.insidehook.com/wp-content/uploads/2018/06/GettyImages-534957354-1.jpg?fit=1198%2C800","If someone told me I could be normal or continue to have ADD, I would take the ADD.");
         quotesRepo.save(sample2);
-        Quotes sample3 = new Quotes(3l, "Debbie Phelps", "","The diagnosis made me want to prove everyone wrong. I knew that, if I collaborated with Michael, he could achieve anything he set his mind to.");
+        Quotes sample3 = new Quotes(3l, "Debbie Phelps", "https://i.pinimg.com/originals/1d/30/bd/1d30bd97a2aa59fafa70fc1acec09beb.jpg","The diagnosis made me want to prove everyone wrong. I knew that, if I collaborated with Michael, he could achieve anything he set his mind to.");
         quotesRepo.save(sample3);
-        Quotes sample4 = new Quotes(4L, "Lisa Aro", "","Normal is overrated.");
+        Quotes sample4 = new Quotes(4L, "Lisa Aro", "https://i0.wp.com/www.additudemag.com/wp-content/uploads/2016/12/Lisa-Aro.jpg?w=300&crop=0%2C0px%2C100%2C300px&ssl=1","Normal is overrated.");
         quotesRepo.save(sample4);
         Quotes sample5 = new Quotes(5L, "Howie Mandel", "https://media0.giphy.com/media/3UkLpXdOQObihD4phW/giphy.gif?cid=ecf05e47ujabqhg2qa3fxj1uxvm67ncxgn0ofc664boup2a7&rid=giphy.gif&ct=g","I didn't let ADHD prevent me from achieving my goals, and neither should you.");
         quotesRepo.save(sample5);
