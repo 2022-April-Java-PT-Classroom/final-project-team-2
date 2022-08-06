@@ -38,23 +38,23 @@ public class Populator implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        Quotes sample1 = new Quotes(1L, "Adam Levine", "Remeber that you are not alone. There are others going through the same things.");
+        Quotes sample1 = new Quotes(1L, "Adam Levine", "https://media1.giphy.com/media/woBgfZvByy4lG/giphy.gif?cid=ecf05e472bki6a7egagw8vwh983hywj897xj8lbfp9y8jz37&rid=giphy.gif&ct=g", "Remember that you are not alone. There are others going through the same things.");
         quotesRepo.save(sample1);
-        Quotes sample2 = new Quotes(2L, "David Neeleman", "If someone told me I could be normal or continue to have ADD, I would take the ADD.");
+        Quotes sample2 = new Quotes(2L, "David Neeleman", "https://www.insidehook.com/wp-content/uploads/2018/06/GettyImages-534957354-1.jpg?fit=1198%2C800","If someone told me I could be normal or continue to have ADD, I would take the ADD.");
         quotesRepo.save(sample2);
-        Quotes sample3 = new Quotes(3l, "Debbie Phelps", "The diagnosis made me want to prove everyone wrong. I knew that, if I collaborated with Michael, he could achieve anything he set his mind to.");
+        Quotes sample3 = new Quotes(3l, "Debbie Phelps", "https://i.pinimg.com/originals/1d/30/bd/1d30bd97a2aa59fafa70fc1acec09beb.jpg","The diagnosis made me want to prove everyone wrong. I knew that, if I collaborated with Michael, he could achieve anything he set his mind to.");
         quotesRepo.save(sample3);
-        Quotes sample4 = new Quotes(4L, "Lisa Aro", "Normal is overrated.");
+        Quotes sample4 = new Quotes(4L, "Albert Einstein", "https://i.pinimg.com/originals/8e/7b/a5/8e7ba5dcd012d62e105cf82b6cc10ad5.gif","Logic will get you from A to Z; imagination will get you everywhere.");
         quotesRepo.save(sample4);
-        Quotes sample5 = new Quotes(5L, "Howie Mandel", "I didn't let ADHD prevent me from achieving my goals, and neither should you.");
+        Quotes sample5 = new Quotes(5L, "Howie Mandel", "https://media0.giphy.com/media/3UkLpXdOQObihD4phW/giphy.gif?cid=ecf05e47ujabqhg2qa3fxj1uxvm67ncxgn0ofc664boup2a7&rid=giphy.gif&ct=g","I didn't let ADHD prevent me from achieving my goals, and neither should you.");
         quotesRepo.save(sample5);
-        Quotes sample6 = new Quotes(6L, "Walt Disney", "You're braver than you believe, stronger than you seem, and smarter than you think.");
+        Quotes sample6 = new Quotes(6L, "Walt(er) Disney", "https://i.pinimg.com/564x/f6/07/57/f607575f66576ac4e4146b07b008625a.jpg","You're braver than you believe, stronger than you seem, and smarter than you think.");
         quotesRepo.save(sample6);
-        Quotes sample7 = new Quotes(7L, "Susan Boyle", "There are enough people in the world who are going to write you off. You don't need to do that to yourself.");
+        Quotes sample7 = new Quotes(7L, "Susan Magdalane Boyle", "https://68.media.tumblr.com/043ec11467e909ba15e5bf34a06b6b29/tumblr_nfyjajVRoI1s8aoo3o1_500.jpg", "There are enough people in the world who are going to write you off. You don't need to do that to yourself.");
         quotesRepo.save(sample7);
-        Quotes sample8 = new Quotes(8L, "Dr. Temple Grandin", "I am different, not less");
+        Quotes sample8 = new Quotes(8L, "Dr. Temple Grandin", "https://66.media.tumblr.com/tumblr_m1evr5JPk91qh3ebio4_400.gif", "I am different, not less");
         quotesRepo.save(sample8);
-        Quotes sample9 = new Quotes(9L, "Naoko Higashida", "Everybody has a heart that can be touched by something");
+        Quotes sample9 = new Quotes(9L, "Naoki Higashida", "https://animatedlanguagelearning.com/wp-content/uploads/2017/08/Naoki-Higashida-300x200.jpg", "Everybody has a heart that can be touched by something");
         quotesRepo.save(sample9);
         
 
