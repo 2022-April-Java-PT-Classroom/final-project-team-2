@@ -18,14 +18,23 @@
   
       h2 {
          color: rgb(79, 79, 193);
-         text-align: center;
-         font-size: 35px;
+         text-align: left;
+         font-size: 30px;
+         margin-top:60px;
+         text-shadow: 1px 1px 1px black,
+         2px 2px 1px white;
+         font-family: monospace;
+         } 
+      
+      h3 {
+         color: white;
+         text-align: right;
+         font-size: 25px;
          margin-top:60px;
          text-shadow: 1px 1px 1px black,
          2px 2px 1px blue;
          font-family: monospace;
-         } 
-      
+            } 
       
       .bookSection{
                   width: 100%;
@@ -33,6 +42,13 @@
                   border: 1px;
                   margin: 0;
                   }
+      .bookText{
+                    font-size: 60px;
+                    display: flex;
+                    padding-right: 2.5em;
+                    justify-content: center;
+                    }
+                  
       .websiteSection{
                   width: 100%;
                   height: 50%;
