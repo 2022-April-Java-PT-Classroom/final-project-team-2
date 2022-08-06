@@ -11,6 +11,7 @@ function AppCard(){
     
     return(
         <div className={style.appReport}>
+            <div><h1>This is how your'e kid is doing</h1></div>
             <Card emoji={'🙁'} childName={'Joe'} advice={'Time to spend some quality time'}/>
             <Card emoji={'🤐'} childName={'Joe'} advice={'Time to build confidence'}/>
             <Card emoji={'😁'} childName={'Sam'} advice={'This is so fun'}/>
