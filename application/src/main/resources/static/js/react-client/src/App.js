@@ -1,5 +1,6 @@
 import AppRouter from './components/app-router';
 import { BrowserRouter } from 'react-router-dom';
+import CardReport from './components/parentReport/card';
 import Footer from './components/footer';
 import Header from './components/header';
 import React from 'react';
@@ -23,6 +24,7 @@ const App = () => {
       <div>
 	   {/* Hello React Test World */}
         <AppRouter />
+        <CardReport/>
         
       </div>
     <Footer/>

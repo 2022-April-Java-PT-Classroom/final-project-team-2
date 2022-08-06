@@ -1,9 +1,10 @@
-import React from "react";
+import AppCard from "../../components/parentReport/appCard";
 import {Link} from "react-router-dom";
-import style from "./style.module.scss";
-import logo from "../../assest/logo.png";
+import React from "react";
 import cloud1 from "../../assest/cloud1.png";
 import cloud2 from "../../assest/cloud2.png";
+import logo from "../../assest/logo.png";
+import style from "./style.module.scss";
 
 const Parent =()=>{
     return(
@@ -26,6 +27,7 @@ const Parent =()=>{
         
         <section classname={style.moodSection}>
             <h1>Mood Tracker</h1>
+            <AppCard/>
         </section>
     </div>);
 }

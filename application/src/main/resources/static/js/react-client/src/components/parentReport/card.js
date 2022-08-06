@@ -1,0 +1,23 @@
+import React, {useState}from "react";
+
+import style from "./style.module.scss";
+
+function Card({emoji,childName,advice}) {
+    
+       
+  return (
+    <div className={style.cardContainer}>
+        <div className={style.imageContainer}>
+            <h3>{emoji}</h3>
+        </div>
+        <div className={style.lowerContainer}>
+            
+            <h2>Name: {childName}</h2>
+            <h4>Advice: {advice}</h4>
+        </div>
+        
+    </div>
+  )  
+}
+
+export default Card
