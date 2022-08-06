@@ -11,8 +11,10 @@ function AppCard(){
     
     return(
         <div className={style.appReport}>
-            <Card emoji={'🙁'} childName={'Joe'} advice={'Time to spend time with Jon'}/>
+            <Card emoji={'🙁'} childName={'Joe'} advice={'Time to spend some quality time'}/>
             <Card emoji={'🤐'} childName={'Joe'} advice={'Time to build confidence'}/>
+            <Card emoji={'😁'} childName={'Sam'} advice={'This is so fun'}/>
+            <Card emoji={'🤢'} childName={'Joe'} advice={'Time to visit the doctor'}/>
                         
         </div>
     )
