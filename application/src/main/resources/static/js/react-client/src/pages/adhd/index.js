@@ -3,11 +3,11 @@ import EmotionsApp from '../../components/emotions/emotionsApp';
 import {Link} from "react-router-dom";
 import NotesApp from '../../components/notes/notesApp';
 import React from "react";
-import checklist from "../../assest/checklist.png";
-import creativity from "../../assest/creativity.png";
+import checklist from "../../assets/checklist.png";
+import creativity from "../../assets/creativity.png";
 import style from "./style.module.scss";
-import timer from "../../assest/timer.png";
-import video from "../../assest/video.png";
+import timer from "../../assets/timer.png";
+import video from "../../assets/video.png";
 
 const Adhd =()=>{
     return(
