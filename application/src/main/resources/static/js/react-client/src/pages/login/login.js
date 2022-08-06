@@ -1,14 +1,13 @@
 import React from "react";
-import { ReactDOM } from "react";
+import axios  from "axios";
 import cloud1 from "../../assest/cloud1.png";
 import cloud2 from "../../assest/cloud2.png";
 import logo from "../../assest/logo.png";
 import style from './style.module.scss';
 
-const antd = window.antd;
-
 const Login =()=>{
     return(  <div className={style.body}>
+        <form method='POST'>
       <section className={style.homeSection}>
                 <h1>Think Differently</h1>
                 <div className={style.homeLogo}>
@@ -23,8 +22,8 @@ const Login =()=>{
                 </div>
                 </section>
       
-    <div className={style.form}>
-    <form method='POST' action="/login">
+    
+        Axios.post('http://localhost:8080/api/user/signup', userData).then((response); 
         <h2> Please Sign In</h2>
         <div className={style.inputbox}>
             <i className="fab fa-linkedin" aria-hidden="true"></i>
@@ -43,7 +42,7 @@ const Login =()=>{
     
     </form>
 </div>
-</div>);
+);
 
 }
 

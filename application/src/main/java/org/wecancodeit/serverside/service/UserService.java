@@ -8,7 +8,6 @@ import org.wecancodeit.serverside.Repositories.UserRepository;
 public class UserService {
 
     public UserRepository userRepo;
-    User Usermodel = new User();
 
     public UserService(UserRepository userRepo) {
         this.userRepo = userRepo;
