@@ -15,7 +15,7 @@ function Emotions ({ setOpenEmotions }) {
           </button>
         </div>
         <div className={style.title}>
-          <h1>Here Motivational Quote - Steph APIs</h1>
+          <h1>ShowEmotioPicket</h1>
         </div>
         <div className={style.emoBody}>
           <p>Do you want <span>SHARE</span> your feeling with your family or friends?</p>
