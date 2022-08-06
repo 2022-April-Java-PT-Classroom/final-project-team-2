@@ -24,8 +24,7 @@ const App = () => {
       <div>
 	   {/* Hello React Test World */}
         <AppRouter />
-        <CardReport/>
-        
+                
       </div>
     <Footer/>
     </BrowserRouter>

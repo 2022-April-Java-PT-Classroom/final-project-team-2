@@ -12,7 +12,7 @@ function Card({emoji,childName,advice}) {
         </div>
         <div className={style.lowerContainer}>
             
-            <h2>Name: {childName}</h2>
+            <h2>{childName}</h2>
             <h4>Advice: {advice}</h4>
         </div>
         
