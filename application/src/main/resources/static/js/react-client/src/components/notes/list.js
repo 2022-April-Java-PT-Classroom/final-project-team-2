@@ -2,13 +2,13 @@ import AddNote from './AddNote';
 import Note from './note';
 import style from '../notes/style.module.scss'
 
-const NotesList = ({
+const notesList = ({
 	notes,
 	handleAddNote,
 	handleDeleteNote,
 }) => {
 	return (
-		<div className={style.notesList}>
+		<div className={style.noteList}>
 			{notes.map((note) => (
 				<Note
 					id={note.id}
@@ -22,4 +22,4 @@ const NotesList = ({
 	);
 };
 
-export default NotesList;
+export default notesList;

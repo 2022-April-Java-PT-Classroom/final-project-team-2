@@ -1,7 +1,18 @@
 import React from "react";
 import style from "../emotions/style.module.scss";
 
-function Emotions ({ setOpenEmotions }) {
+function Emotions({ setOpenEmotions, emotionSelected }) {
+  // console.log(sessionStorage.getItem('emotion'));
+
+  const emotionShareHandler = (shareDecision) => {
+    setOpenEmotions(false);
+    if (shareDecision === 'yes') {
+      sessionStorage.setItem('emotion', emotionSelected);
+    }
+  }
+
+
+
   return (
     <div className={style.emoBackground}>
       <div className={style.emoContainer}>
@@ -15,25 +26,25 @@ function Emotions ({ setOpenEmotions }) {
           </button>
         </div>
         <div className={style.title}>
-          <h1>ShowEmotioPicket</h1>
+          <h1>🤖</h1>
         </div>
         <div className={style.emoBody}>
-          <p>Do you want <span>SHARE</span> your feeling with your family or friends?</p>
+          <p>Do you want <span>SHARE</span> it with your family or friends?</p>
         </div>
         <div className={style.emoFooter}>
           <button
             onClick={() => {
-              setOpenEmotions(false);
+              emotionShareHandler('no');
             }}
             id={style.cancelBtn}
           >
             No
           </button>
           <button
-          onClick={() => {
-            setOpenEmotions(false);
-          }}
-          id={style.emoFooter}
+            onClick={() => {
+              emotionShareHandler('yes');
+            }}
+            id={style.emoFooter}
           >Yes</button>
         </div>
       </div>
