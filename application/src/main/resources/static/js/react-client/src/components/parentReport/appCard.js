@@ -8,11 +8,12 @@ function AppCard(){
     const [emoji,setEmoji] = useState('emoji');
     const [childName, setJob] = useState('name');
     const [advice, setBody] = useState('advice');
+    const [dateSubmit, setDate] = useState('date')
     
     return(
         <div className={style.appReport}>
             <div><h1>This is how your'e kid is doing</h1></div>
-            <Card emoji={'🙁'} childName={'Joe'} advice={'Time to spend some quality time'}/>
+            <Card emoji={'🙁'} childName={'Joe'} advice={'Time to spend some quality time'} dateSubmit={8/6/2022}/>
             <Card emoji={'🤐'} childName={'Joe'} advice={'Time to build confidence'}/>
             <Card emoji={'😁'} childName={'Sam'} advice={'This is so fun'}/>
             <Card emoji={'🤢'} childName={'Joe'} advice={'Time to visit the doctor'}/>
