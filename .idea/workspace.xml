@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4840a239-b8ad-46b1-868d-6204037ad27f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/AdhdbookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/AdhdbookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/AdhdorganizevideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/AdhdorganizevideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/AdhdtedxvideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/AdhdtedxvideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Adhdbook.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Adhdbook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Adhdorganizevideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Adhdorganizevideo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Adhdtedxvideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Adhdtedxvideo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Adhdvideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Adhdvideo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Adhdwebsite.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Adhdwebsite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Autismbook.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Autismbook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Autismwebsite.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Autismwebsite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Populator.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Populator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Repositories/AdhdbookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Repositories/AdhdbookRepository.java" afterDir="false" />
-    </list>
+    <list default="true" id="4840a239-b8ad-46b1-868d-6204037ad27f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +46,18 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -75,7 +73,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/src/main/java" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
