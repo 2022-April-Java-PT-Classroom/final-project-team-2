@@ -1,3 +1,4 @@
+import CardApp from '../../components/comunicationCard/cardApp'
 import {Link} from "react-router-dom";
 import cloud1 from "../../assets/cloud1.png";
 import cloud2 from "../../assets/cloud2.png";
@@ -28,8 +29,8 @@ const Parent =()=>{
             <h1>Mood Tracker</h1>
             <div>
                 <h2>Communication board</h2>
-            <div className={style.passEmoji}>{sessionStorage.getItem('emotion')}</div>
             </div>
+            <CardApp />
         </section>
     </div>);
 }
