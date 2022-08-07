@@ -1,11 +1,13 @@
-import React from "react";
-import style from "./style.module.scss";
 import AdhdVideos from "../adhd-videos";
+import EmotionsApp from '../../components/emotions/emotionsApp';
 import {Link} from "react-router-dom";
-import creativity from "../../assest/creativity.png";
-import timer from "../../assest/timer.png";
-import checklist from "../../assest/checklist.png";
-import video from "../../assest/video.png";
+import NotesApp from '../../components/notes/notesApp';
+import React from "react";
+import checklist from "../../assets/checklist.png";
+import creativity from "../../assets/creativity.png";
+import style from "./style.module.scss";
+import timer from "../../assets/timer.png";
+import video from "../../assets/video.png";
 
 const Adhd =()=>{
     return(
@@ -18,6 +20,7 @@ const Adhd =()=>{
                     <ul className={style.ADHDGrid}>
                        <img src={timer} alt={"timer"}></img>
                        <div class="desc"></div>
+                       <li><Link to={'/alarm-clock'}>Task Timer</Link></li>
                         <li> Ckeck list </li>
 
                         <div class="desc1"></div>
@@ -34,7 +37,16 @@ const Adhd =()=>{
                         <img src={creativity} alt={"creativity"}></img>
                         <div class="desc3">Add a description of the image here</div>
                     </ul>
+                    
                 </section>
+                <div className={style.components}>
+                    <div className={style.emoComp}>
+                    <EmotionsApp/>
+                    </div>
+                    <div className={style.notesComp}>
+                    <NotesApp/>
+                    </div>
+                </div>
             </div>
         </div>
     );

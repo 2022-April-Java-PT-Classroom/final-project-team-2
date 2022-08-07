@@ -13,15 +13,17 @@ public class Quotes {
     @GeneratedValue
     public Long id;
     public String name;
+    public String imageUrl;
     public String summary;
 
     public Quotes(){
 
     }
 
-    public Quotes(Long id, String name, String summary){
+    public Quotes(Long id, String name, String imageUrl, String summary){
         this.id = id;
         this.name = name;
+        this.imageUrl = imageUrl;
         this.summary = summary;
     }
 
@@ -30,6 +32,9 @@ public class Quotes {
     }
     public String getName(){
         return name;
+    }
+    public String getImageUrl(){
+        return imageUrl;
     }
     public String getSummary(){
         return summary;

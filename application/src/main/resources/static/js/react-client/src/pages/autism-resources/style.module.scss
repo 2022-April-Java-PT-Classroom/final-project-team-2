@@ -1,0 +1,58 @@
+.autismresources{
+    background: linear-gradient(rgb(111, 244, 90),rgb(18, 183, 48));
+    width: 100%;
+    height: 100vh;
+    border: 1px;
+    margin: 0;
+    justify-content: right;
+  
+    h1  {
+        background-color: rgb(79, 79, 193);
+        color: yellow;
+        text-align: center;
+        font-size: 45px;
+        text-shadow: 1px 1px 1px black,
+        2px 2px 1px blue;
+        font-family: monospace;
+        }
+
+    h2 {
+       color: rgb(79, 79, 193);
+       text-align: left;
+       font-size: 30px;
+       margin-top:60px;
+       text-shadow: 1px 1px 1px black,
+       2px 2px 1px yellow;
+       font-family: monospace;
+       } 
+    
+    h3 {
+       color: yellow;
+       text-align: right;
+       font-size: 25px;
+       margin-top:60px;
+       text-shadow: 1px 1px 1px black,
+       2px 2px 1px blue;
+       font-family: monospace;
+          } 
+    
+    .bookSection{
+                width: 100%;
+                height: 50%;
+                border: 1px;
+                margin: 0;
+                }
+    .bookText{
+                  font-size: 60px;
+                  display: flex;
+                  padding-right: 2.5em;
+                  justify-content: center;
+                  }
+                
+    .websiteSection{
+                width: 100%;
+                height: 50%;
+                border: 1px;
+                margin: 0;          
+                }                     
+  }
