@@ -74,7 +74,11 @@ export const App = () => {
     return (
         <>
             <div id="container">
-                <CalendarHeader />
+                <CalendarHeader 
+                    dateDisplay = {dateDisplay}
+                    onNext = {() => setNav(nav + 1)}
+                    onBack = {() => setNav(nav - 1)}
+                />
 
 
                 <div id="weekdays">
