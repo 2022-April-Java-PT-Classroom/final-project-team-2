@@ -1,36 +1,23 @@
 package org.wecancodeit.serverside.Controllers;
 
-
-import org.json.JSONException;
-import org.json.JSONObject;
 import org.springframework.web.bind.annotation.*;
-import org.wecancodeit.serverside.Models.AdhdWebsite;
-import org.wecancodeit.serverside.Repositories.AdhdWebsiteRepository;
+import org.wecancodeit.serverside.Models.Adhdwebsite;
+import org.wecancodeit.serverside.Repositories.AdhdwebsiteRepository;
 
 import javax.annotation.Resource;
 import java.util.Collection;
 
-
-@RequestMapping
 @RestController
 @CrossOrigin
-public class AdhdWebsiteController {
+public class AdhdwebsiteController {
 
     @Resource
-    private AdhdWebsiteRepository adhdWebsiteRepo;
+    private AdhdwebsiteRepository adhdwebsiteRepo;
 
-    @GetMapping("/api/adhdwebsite")
-    public Collection<AdhdWebsite>getWebsite(){
-        return (Collection<AdhdWebsite>) adhdWebsiteRepo.findAll();
+    @GetMapping("/pages/adhdwebsite")
+    public Collection<Adhdwebsite> getAdhdwebsite(){
+        return (Collection<Adhdwebsite>) adhdwebsiteRepo.findAll();
     }
 
-    @PostMapping("/api/adhdwebsites")
-
-    public Collection<AdhdWebsite>addResource(@RequestBody String body) throws JSONException {
-        JSONObject newWebsite = new JSONObject(body);
-        String addWebsiteTitle = newWebsite.getString("title");
-
-        return (Collection<AdhdWebsite>) adhdWebsiteRepo.findAll();
-    }
 }
 

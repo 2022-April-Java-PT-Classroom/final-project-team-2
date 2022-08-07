@@ -1,8 +1,11 @@
 package org.wecancodeit.serverside.Repositories;
 
 import org.springframework.data.repository.CrudRepository;
-import org.wecancodeit.serverside.Models.AdhdVideo;
+import org.wecancodeit.serverside.Models.Adhdvideo;
 
-public interface AdhdVideoRepository extends CrudRepository<AdhdVideo, Long> {
-    AdhdVideo findByTitle(String title);
+import java.util.Optional;
+
+public interface AdhdvideoRepository extends CrudRepository<Adhdvideo, Long> {
+    Optional<Adhdvideo> findByTitle(String AdhdvideoTitle);
 }
+

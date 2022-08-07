@@ -1,11 +1,11 @@
-import React from "react";
 import {Link} from "react-router-dom";
+import cloud1 from "../../assets/cloud1.png";
+import cloud2 from "../../assets/cloud2.png";
+import logo from "../../assets/logo.png";
 import style from "./style.module.scss";
-import logo from "../../assest/logo.png";
-import cloud1 from "../../assest/cloud1.png";
-import cloud2 from "../../assest/cloud2.png";
 
 const Parent =()=>{
+    console.log(sessionStorage.getItem('emotion'));
     return(
      <div className={style.parent}>
        <section className={style.parentSection}>
@@ -26,6 +26,10 @@ const Parent =()=>{
         
         <section classname={style.moodSection}>
             <h1>Mood Tracker</h1>
+            <div>
+                <h2>Communication board</h2>
+            <div className={style.passEmoji}>{sessionStorage.getItem('emotion')}</div>
+            </div>
         </section>
     </div>);
 }

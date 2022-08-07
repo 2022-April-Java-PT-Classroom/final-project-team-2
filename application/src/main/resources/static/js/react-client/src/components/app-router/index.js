@@ -12,7 +12,6 @@ import Login from '../../pages/login/login';
 import Parent from '../../pages/parent';
 import Quotes from '../../pages/quotes';
 import React from "react";
-import Timer from '../../pages/alarm-clock';
 
 const AppRouter = () => {
     return (
@@ -28,7 +27,6 @@ const AppRouter = () => {
             <Route path={'/adhd-resources'} component={AdhdResources}/>
             <Route path={'/autism-resources'} component={AutismResources}/>
             <Route path={'/alarm-clock'} component={AlarmClock}/>
-            <Route path={'/login'} component={Login}/>
         </Switch>
         
     );

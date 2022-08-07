@@ -3,38 +3,26 @@ package org.wecancodeit.serverside.Models;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.Lob;
 
 @Entity
-public class AdhdOrganizeVideo {
+public class Adhdorganizevideo {
 
     @Id
     @GeneratedValue
-    private Long id;
-    @Lob
-    private String title;
-    @Lob
-    private String url;
+    public Long id;
+    public String title;
+    public String url;
 
-
-    public AdhdOrganizeVideo() {
-
+    public Adhdorganizevideo() {
     }
 
-    public Long getId() {
-        return id;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public AdhdOrganizeVideo(String title, String url) {
+    public Adhdorganizevideo(Long id, String title, String url) {
+        this.id = id;
         this.title = title;
         this.url = url;
     }
+
+    public Long getId() {return id;}
+    public String getTitle() {return title;}
+    public String getUrl() {return url;}
 }

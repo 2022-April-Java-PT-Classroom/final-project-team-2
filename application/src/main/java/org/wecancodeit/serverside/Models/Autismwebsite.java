@@ -5,7 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class Adhdvideo {
+public class Autismwebsite {
 
     @Id
     @GeneratedValue
@@ -13,10 +13,10 @@ public class Adhdvideo {
     public String title;
     public String url;
 
-    public Adhdvideo() {
+    public Autismwebsite() {
     }
 
-    public Adhdvideo(Long id, String title, String url) {
+    public Autismwebsite(Long id, String title, String url) {
         this.id = id;
         this.title = title;
         this.url = url;

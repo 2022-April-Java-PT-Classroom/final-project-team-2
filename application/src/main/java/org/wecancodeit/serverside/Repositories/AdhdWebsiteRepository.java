@@ -1,8 +1,10 @@
 package org.wecancodeit.serverside.Repositories;
 
 import org.springframework.data.repository.CrudRepository;
-import org.wecancodeit.serverside.Models.AdhdWebsite;
+import org.wecancodeit.serverside.Models.Adhdwebsite;
 
-public interface AdhdWebsiteRepository extends CrudRepository<AdhdWebsite, Long> {
-    AdhdWebsite findByTitle(String title);
+import java.util.Optional;
+
+public interface AdhdwebsiteRepository extends CrudRepository<Adhdwebsite, Long> {
+    Optional<Adhdwebsite> findByTitle(String AdhdwebsiteTitle);
 }

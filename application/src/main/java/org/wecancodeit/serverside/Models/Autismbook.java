@@ -5,24 +5,24 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class Adhdvideo {
+public class Autismbook {
 
     @Id
     @GeneratedValue
     public Long id;
     public String title;
-    public String url;
+    public String author;
 
-    public Adhdvideo() {
+    public Autismbook() {
     }
 
-    public Adhdvideo(Long id, String title, String url) {
+    public Autismbook(Long id, String title, String author) {
         this.id = id;
         this.title = title;
-        this.url = url;
+        this.author = author;
     }
 
     public Long getId() {return id;}
     public String getTitle() {return title;}
-    public String getUrl() {return url;}
+    public String getAuthor() {return author;}
 }

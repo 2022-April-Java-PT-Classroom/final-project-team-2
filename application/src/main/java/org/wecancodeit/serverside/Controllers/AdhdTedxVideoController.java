@@ -1,31 +1,22 @@
 package org.wecancodeit.serverside.Controllers;
 
-
-import org.json.JSONException;
-import org.json.JSONObject;
 import org.springframework.web.bind.annotation.*;
-import org.wecancodeit.serverside.Models.AdhdTedxVideo;
-import org.wecancodeit.serverside.Repositories.AdhdTedxVideoRepository;
+import org.wecancodeit.serverside.Models.Adhdtedxvideo;
+import org.wecancodeit.serverside.Repositories.AdhdtedxvideoRepository;
 
 import javax.annotation.Resource;
 import java.util.Collection;
 
-@RequestMapping
 @RestController
-@CrossOrigin("*")
-public class AdhdTedxVideoController {
+@CrossOrigin
+public class AdhdtedxvideoController {
 
     @Resource
-    private AdhdTedxVideoRepository adhdTedxVideoRepo;
+    private AdhdtedxvideoRepository adhdtedxvideoRepo;
 
-    @GetMapping("/api/tedxvideo")
-    public Collection<AdhdTedxVideo> getTedxModel() {return (Collection<AdhdTedxVideo>) adhdTedxVideoRepo.findAll();}
-
-    @GetMapping("/api/tedxvideos")
-    public Collection<AdhdTedxVideo>addResource(@RequestBody String body) throws JSONException {
-        JSONObject newTedxVideo = new JSONObject(body);
-        String addVideoTitle = newTedxVideo.getString("title");
-
-        return (Collection<AdhdTedxVideo>) adhdTedxVideoRepo.findAll();
+    @GetMapping("/pages/adhdtedxvideo")
+    public Collection<Adhdtedxvideo> getAdhdtedxvideo(){
+        return (Collection<Adhdtedxvideo>) adhdtedxvideoRepo.findAll();
     }
+
 }
