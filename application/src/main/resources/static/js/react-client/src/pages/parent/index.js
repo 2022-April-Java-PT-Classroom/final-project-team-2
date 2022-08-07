@@ -1,9 +1,16 @@
 import {Link} from "react-router-dom";
+<<<<<<< HEAD
 import React from "react";
 import cloud1 from "../../assest/cloud1.png";
 import cloud2 from "../../assest/cloud2.png";
 import logo from "../../assest/logo.png";
 import style from "./style.module.scss";
+=======
+import style from "./style.module.scss";
+import logo from "../../assets/logo.png";
+import cloud1 from "../../assets/cloud1.png";
+import cloud2 from "../../assets/cloud2.png";
+>>>>>>> main
 
 const Parent =()=>{
     return(

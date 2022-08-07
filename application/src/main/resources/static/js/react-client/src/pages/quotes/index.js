@@ -38,6 +38,7 @@ const QuotesAPI = () => {
                     {quotes.map(quotes => (
                         <div key={quotes.id}>
                             <h1 className="quote__author_name">{quotes.name}</h1>
+                            <img className="quote__author_pic" src={quotes.imageUrl}></img>
                             <p className="quote_summary">{quotes.summary}</p>
                             </div>
                     ))}
