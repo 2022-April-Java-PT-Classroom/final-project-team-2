@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { CalendarHeader } from "../CalendarHeader";
-import { Day } from "../Day";
-import { DeleteEventModal } from "../DeleteEventModal";
-import { NewEventModal } from "../NewEventModal";
+import { CalendarHeader } from "./CalendarHeader";
+import { Day } from "./Day";
+import { DeleteEventModal } from "./DeleteEventModal";
+import { NewEventModal } from "./NewEventModal";
 
 export const App = () => {
 
@@ -18,7 +18,7 @@ export const App = () => {
     const eventForDate = date => events.find(e => e.date === date);
 
     useEffect(() => {
-        localStorage.setItem('events'), JSON.stringify(events);
+        localStorage.setItem('events', JSON.stringify(events));
     }, [events]);
 
     useEffect(() => {

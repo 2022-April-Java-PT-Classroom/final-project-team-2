@@ -1,4 +1,9 @@
-body {
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  body {
     display: flex;
     margin-top: 50px;
     justify-content: center;
