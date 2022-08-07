@@ -9,7 +9,7 @@ function Card(){
     return (
         <div className={style.card}>
             <div className={style.upperContainer}>
-            <div className={style.passEmoji}>{sessionStorage.getItem('emotion')}</div>
+            <div className={style.passEmoji}><h1>{sessionStorage.getItem('emotion')}</h1></div>
             </div>
             <div className={style.lowerContainer}>
                 <h3>{date}</h3>
