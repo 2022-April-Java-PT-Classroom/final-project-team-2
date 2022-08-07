@@ -66,7 +66,6 @@ export const App = () => {
         }
 
         setDays(daysArr);
-
     }, [events, nav]);
 
 
