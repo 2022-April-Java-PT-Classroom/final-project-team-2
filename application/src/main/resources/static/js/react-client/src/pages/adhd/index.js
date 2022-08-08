@@ -26,27 +26,29 @@ const Adhd =()=>{
                         <div class="desc1"></div>
                         <img src={checklist} alt={"checklist"}></img>
            
-                        <div class="desc2"></div>
+                        <div class="desc1"></div>
                         <img src={video} alt={"video"}></img>
                         <div class="desc2"></div>
                         <li><Link to={'/adhd-videos'}>adhd video tools</Link></li>
 
-                        <div class="desc3"></div>
+                        <div class="desc1"></div>
                         <li> ADHD Resources</li>
                         <div class="desc3"></div>
                         <img src={creativity} alt={"creativity"}></img>
                         <div class="desc3">Add a description of the image here</div>
-                    </ul>
-                    
+                    </ul> 
                 </section>
-                <div className={style.components}>
+
+                <section>
+                    <div className={style.components}>
                     <div className={style.emoComp}>
                     <EmotionsApp/>
                     </div>
                     <div className={style.notesComp}>
                     <NotesApp/>
                     </div>
-                </div>
+                    </div>
+                </section>
             </div>
         </div>
     );
