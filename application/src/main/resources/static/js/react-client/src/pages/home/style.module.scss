@@ -12,23 +12,25 @@
   margin: 0;
   
 
-}
-.homeSection h1{
+
+ h1{
   margin: auto;
   text-align: center;
   justify-content: center;
-  padding: 20px;
-  font-size: 45px;
+  padding: 2px;
+  font-size: 65px;
   font-family: monospace;
+  font-weight: 900;
   
 }
-.homeSection p{
-  font-size: 20px;
+p{
+  font-size: 40px;
   text-align: center;
+  color: aliceblue;
 }
 .homeLogo {
   position: relative;
-  left: 2em;
+  left: 3em;
 display: flex;
 height: 300px;
 width: 400px;
@@ -61,12 +63,13 @@ margin: auto;
  display: flex;
  
 }
+}
 .homeADHD{
   background:linear-gradient(rgb(7, 221, 221),rgb(48, 140, 210));
   width: 100%;
   height: 80vh;
   border: 1px;
-  margin: 0;
+  margin: 0.5;
 
 }
 .homeADHD a{
@@ -97,7 +100,7 @@ margin: auto;
 }
 
 .homeAutism{
-  background: linear-gradient( greenyellow,rgb(22, 185, 22));
+  background: linear-gradient( rgb(85, 201, 240),rgb(10, 147, 244));
   width: 100%;
   height: 80vh;
   border: 1px;
@@ -135,7 +138,7 @@ margin: auto;
 }
 
 .homeParent{
-  background: linear-gradient(pink,rgb(225, 38, 160));
+  background: linear-gradient(rgb(123, 62, 245),rgb(114, 25, 248));
   width: 100%;
   height: 80vh;
   border: 1px;

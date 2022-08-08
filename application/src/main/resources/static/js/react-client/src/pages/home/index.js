@@ -13,7 +13,7 @@ const Home = () => {
             <div className={style.homegrid}>
                 <section className={style.homeSection}>
                 <h1>Think Differently</h1>
-                <p>This is a paragraph</p>
+                <p>Welcome</p>
                 <div className={style.homeLogo}>
                 <img src={logo} alt={"logo"}></img>
                 </div>
