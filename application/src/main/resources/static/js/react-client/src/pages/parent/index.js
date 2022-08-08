@@ -28,9 +28,9 @@ const Parent =()=>{
         <section classname={style.moodSection}>
             <h1>Mood Tracker</h1>
             <div>
-                <h2>Communication board</h2>
+              <CardApp />
             </div>
-            <CardApp />
+            
         </section>
     </div>);
 }
