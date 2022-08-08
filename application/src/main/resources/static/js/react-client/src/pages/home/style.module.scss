@@ -5,7 +5,7 @@
 }
 
 .homeSection{
-  background-color: rgb(75, 75, 202);
+  background: linear-gradient( rgb(85, 201, 240),rgb(10, 147, 244));
   width: 100%;
   height: 80vh;
   border: 1px;
@@ -65,31 +65,48 @@ margin: auto;
 }
 }
 .homeADHD{
-  background:linear-gradient(rgb(7, 221, 221),rgb(48, 140, 210));
+  background: linear-gradient( rgb(85, 201, 240),rgb(10, 147, 244));
   width: 100%;
   height: 80vh;
   border: 1px;
   margin: 0.5;
 
-}
-.homeADHD a{
-  display: flex;
-  justify-content: center;
-  margin-right: 5em;
-  padding-top: 2em;
-  font-size: 45px;
+
+ a {
   font-family: monospace;
+  font-size: 2rem;
+    margin: 1px;
+    padding: 30px 50px;
+    border-radius: 50px;
+    background-color:rgb(75, 75, 202); ;
+    color: white;
+    justify-content: center;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    top: 15rem;
+    left: 57rem;
+    transition: 0.3s ease;
+    position: relative;
+ }
+ a:hover {
+  background-color: #0a2056;
 }
-.HOmeADHDULP {
-  padding: 1px;
+
+ .HOmeADHDULP {
+  font-family: monospace;
   position: relative;
-  right: 5em;
+  left: 6em;
+  bottom: 1px;
+  font-size: 45px;
+  font-weight: 900;
+  position: relative;
+  left: 15px;
   text-align: center;
-  font-size: 25px;
   
 }
 
-.ADPageIMG{
+  .ADPageIMG{
   justify-content: center;
    margin: auto;
    position: relative;
@@ -97,58 +114,84 @@ margin: auto;
    width: 400px
 
   
+ }
 }
-
 .homeAutism{
   background: linear-gradient( rgb(85, 201, 240),rgb(10, 147, 244));
   width: 100%;
   height: 80vh;
   border: 1px;
   margin: 0;
-}
-.homeAutism a {
+
+ a {
+  font-family: monospace;
+  font-size: 2rem;
+    margin: 1px;
+    padding: 30px 50px;
+    border-radius: 50px;
+    background-color:rgb(75, 75, 202); 
+    color: white;
+    justify-content: center;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+    position: relative;
+    top: 15rem;
+    left: 55rem;
+
+  }
+  a:hover {
+    background-color: #0a2056;
+  }
+ .AUThomepara{
   font-family: monospace;
   position: relative;
-  left: 1em;
-  bottom: 2em;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  padding-top: 3em;
-  font-size: 45px
-  
-
-}
-.AUThomepara{
+  left: 6em;
+  bottom: 1px;
+  font-size: 45px;
+  font-weight: 900;
   position: relative;
-  left: 1em;
-  bottom: 3em;
- font-size: 25px;
-  position: relative;
-  right: 2em;
+  left: 15px;
   text-align: center;
-}
-.AUtimgHomP{
+ }
+ .AUtimgHomP{
   justify-content: center;
    margin: auto;
    position: relative;
    display: flex;
    width: 300px
 
+ }
 }
 
 .homeParent{
-  background: linear-gradient(rgb(123, 62, 245),rgb(114, 25, 248));
+  background: linear-gradient( rgb(85, 201, 240),rgb(10, 147, 244));
   width: 100%;
   height: 80vh;
   border: 1px;
   margin: 0;
   justify-content: right;
-}
-.homeParent a {
-  display: flex;
-  justify-content: center;
-  // margin-right: 10em;
-  padding-top: 5em;
-  font-size: 35px;
+
+ a {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+    margin: 10px auto;
+    padding: 30px 50px;
+    border-radius: 50px;
+   background-color:rgb(75, 75, 202); 
+    color: white;
+    justify-content: center;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+    position: relative;
+    top:2em;
+    left: 10em;
+ 
+  }
+  a:hover {
+    background-color: #0a2056;
+  }
 }
