@@ -17,7 +17,8 @@ const Adhd =()=>{
                     <div>
                         <h1>Adhd tool box</h1>
                     </div>
-                    <ul className={style.ADHDGrid}>
+                    <div className={style.ADHDGrid}>
+                        
                        <img src={timer} alt={"timer"}></img>
                        <div class="desc"></div>
                        <li><Link to={'/alarm-clock'}>Task Timer</Link></li>
@@ -26,17 +27,17 @@ const Adhd =()=>{
                         <div class="desc1"></div>
                         <img src={checklist} alt={"checklist"}></img>
            
-                        <div class="desc1"></div>
+                        <div class="desc"></div>
                         <img src={video} alt={"video"}></img>
-                        <div class="desc2"></div>
+                        {/* <div class="desc"></div> */}
                         <li><Link to={'/adhd-videos'}>adhd video tools</Link></li>
 
-                        <div class="desc1"></div>
+                        <div class="desc"></div>
                         <li> ADHD Resources</li>
-                        <div class="desc3"></div>
+                        {/* <div class="desc"></div> */}
                         <img src={creativity} alt={"creativity"}></img>
-                        <div class="desc3">Add a description of the image here</div>
-                    </ul> 
+                        <div class="desc">Add a description of the image here</div>
+                    </div> 
                 </section>
 
                 <section>
