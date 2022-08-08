@@ -46,11 +46,15 @@ const Home = () => {
 
                 <section className={style.homeParent}>
                 <Link to={'/parent'}>Parent toolbox</Link>
-                <ul>
-                    <li><p> Parents Welcome</p></li>
-                    <li></li>
+                
+                    <h1> Parents Welcome</h1>
+                    <p>TIPS FOR CAREGIVERS
+Resources, information, ideas, and advice
+There isn’t a handbook on how to raise a child with ADHD.
+ Explore information, support, toolbox.</p>
+                    
                    
-                </ul>
+                
                 </section>
                 
             </div>
