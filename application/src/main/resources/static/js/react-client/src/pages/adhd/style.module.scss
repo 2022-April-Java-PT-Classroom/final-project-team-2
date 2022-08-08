@@ -1,45 +1,33 @@
-.AdhdHome{
+
+.AdhdgridBox{
     background-color: rgb(80, 169, 220);
     width: 100%;
     height: 80vh;
-    border: 1px;
-    margin: 0.5;
-}
-.AdhdgridBox{
-    margin: auto;
-}
-.ADHDGrid {
+    margin: 0;
    
-    position: relative;
-    top: 12em;
-    left: 5em;
-    display: flex;
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 280px;
-}
 
-.ADHDGrid img{
+ .ADHDGrid {
+    display: flex;
+    width: 280px;
+  }
+
+  img{
     display: block;
     padding: 12px;
     width: 100%;
   height: auto;
   
-}
-.ADHDGrid desc{
+  }
+  desc{
     position: relative;
     top: 20em;
     margin: auto;
     padding: 2px;
     justify-content: space-around;
+    justify-content: center;
     padding: 15px;
     text-align: center;
-}
-.ADHDGrid desc1{
-   justify-content: center;
+  }
+  
 }
 
-.AdhdHome .components{
-    margin-top: 550px;
-}
