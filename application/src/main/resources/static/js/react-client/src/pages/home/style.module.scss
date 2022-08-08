@@ -17,6 +17,7 @@
 
 
  h1{
+  animation: fly 3s linear;
   position: relative;
   top: 4px;
   left: 15px;
@@ -29,7 +30,19 @@
   font-weight: 900;
   
 }
-p{
+@keyframes fly {
+  0%{
+    transform: translate(10,110vh);opacity: 0;
+  }
+  50%{
+    transform: translate(50%vw,10vh);opacity: 0;
+  }
+
+   100% {
+    transform: translate(50%vw,10vh);
+  }
+}
+ p{
   position: relative;
   left: 5px;
   font-size: 45px;
@@ -116,6 +129,7 @@ p{
 }
 
   .ADPageIMG{
+    animation: adhd 8s linear  ;
   justify-content: center;
    margin: auto;
    position: relative;
@@ -123,6 +137,14 @@ p{
    width: 400px
 
   
+ }
+ @keyframes adhd {
+  0%{
+    transform: translate(-110vw);
+  }
+  100%{
+    transform: translate(50%vw);
+  }
  }
 }
 .homeAutism{
@@ -165,12 +187,33 @@ p{
   text-align: center;
  }
  .AUtimgHomP{
+  animation: autsim 12s linear;
+  position: relative;
+  right: 2em;
   justify-content: center;
    margin: auto;
    position: relative;
    display: flex;
    width: 300px
 
+ }
+ @keyframes autsim {
+  0%{
+    transform: translate(10,110vh);opacity: 0;
+  }
+  50%{
+    transform: translate(-10vh);opacity: 0;
+  }
+
+   100% {
+    transform: translate(50%vw,10vh);
+  }
+  // 0%{
+  //   transform: translate(-110vw);
+  // }
+  // 100%{
+  //   transform: translate(50%vw);
+  // }
  }
 }
 
@@ -206,7 +249,7 @@ p{
   h1{
     color: #0a2056;
     position: relative;
-    left: 3em;
+    // left: 1em;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 900;
     font-size:45px ;
