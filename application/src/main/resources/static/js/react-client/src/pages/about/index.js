@@ -24,7 +24,7 @@ const About =()=>{
                 products and digital experiences at Lab275 for a variety of clients. I also recently creating a DownTime tracker for Amazon warehouses using Java for Back-End and React 
                 JS for the Front-End."
                 
-                gitHub="Website"
+                gitHub="http://www.lab275.com"
               
             />
             <BioCard

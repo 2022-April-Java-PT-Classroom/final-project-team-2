@@ -21,8 +21,8 @@ function BioCard(props){
             <div className={style.devDesc}>{bioDescription}</div>
             <div className={style.devSkills}><DiJava/><DiHtml5/><DiJavascript1/><DiReact/><DiCss3/><DiGit/></div>
             <div className={style.buttons}>
-            <button >{gitHub}</button>
-            
+            <a className={style.button} href={props.gitHub}>Website</a> 
+                        
             </div>
                 
         </div>
