@@ -1,6 +1,6 @@
 .bioCard{
     width: 350px;
-    height: 500px;
+    height: 550px;
     background: white;
     border-radius: 15px;
     box-shadow: 0px 0px 5px 0px rgba(98,29,209,255);
@@ -11,6 +11,10 @@
         background: linear-gradient(to right,rgba(98,29,209,255) , rgba(97,105,255,255));
         border-radius: 15px 15px 0 0;
         
+    }
+
+    .upperContainer img{
+        border-radius: 50%;
     }
 
     .imgContainer {
@@ -26,10 +30,16 @@
     .devName{
         background: transparent;
         font-size: 20px;
-        font-weight: 600;
-        margin: -1px;
+        font-weight: 500;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         padding: 5px;
         
+    }
+
+    .devTitle{
+        font-weight: 600;
+        color:linear-gradient(to right,rgba(98,29,209,255) , rgba(97,105,255,255));
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
 
     .lowerContainer{
@@ -45,8 +55,13 @@
         padding: 5px;
     }
 
+    .devDesc{
+        padding: 5px;
+        margin: 5px;
+    }
+
     .devSkills{
-        font-size: 1em;
+        font-size: 2em;
         color: #8e00a1;
         font-weight: 700;
     }

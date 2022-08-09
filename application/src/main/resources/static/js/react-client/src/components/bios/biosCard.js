@@ -1,25 +1,28 @@
+import {DiCss3, DiHtml5, DiJava, DiJavascript1, DiReact} from 'react-icons/di'
+
 import React from "react";
 import style from "../bios/style.module.scss"
 
 function BioCard(props){
-    const {bioName, imageDev, bioTitle, bioDescription, bioSkills, gitHub} = props
-    // let bioPic = `url(${props.image})`
+    const {bioName, imageDev, bioTitle, bioDescription, gitHub} = props
+  
+    let bioPic = `url(${props.imageDev})`
   return(
     <div className={style.bioCard}>
         <div className={style.upperContainer}>
             <div className={style.imgContainer}>
-            <img src={imageDev} alt="" height='100px' width="100px" />
-            {/* <div className={style.imageDev} style={{"background-Image": bioPic}}></div> */}
+            <img src={props.imageDev} alt="" height='100px' width="100px" />
+            
         </div>
         </div>
         <div className={style.lowerContainer}>
             <div className={style.devName}>{bioName}</div>
             <div className={style.devTitle}>{bioTitle}</div>
             <div className={style.devDesc}>{bioDescription}</div>
-            <div className={style.devSkills}>{bioSkills}</div>
+            <div className={style.devSkills}><DiJava/><DiHtml5/><DiJavascript1/><DiReact/><DiCss3/></div>
             <div className={style.buttons}>
             <button >{gitHub}</button>
-            {/* <button >{linkedIn}</button> */}
+            
             </div>
                 
         </div>
