@@ -1,4 +1,4 @@
-import {DiCss3, DiHtml5, DiJava, DiJavascript1, DiReact} from 'react-icons/di'
+import {DiCss3, DiGit, DiHtml5, DiJava, DiJavascript1, DiReact} from 'react-icons/di'
 
 import React from "react";
 import style from "../bios/style.module.scss"
@@ -19,7 +19,7 @@ function BioCard(props){
             <div className={style.devName}>{bioName}</div>
             <div className={style.devTitle}>{bioTitle}</div>
             <div className={style.devDesc}>{bioDescription}</div>
-            <div className={style.devSkills}><DiJava/><DiHtml5/><DiJavascript1/><DiReact/><DiCss3/></div>
+            <div className={style.devSkills}><DiJava/><DiHtml5/><DiJavascript1/><DiReact/><DiCss3/><DiGit/></div>
             <div className={style.buttons}>
             <button >{gitHub}</button>
             

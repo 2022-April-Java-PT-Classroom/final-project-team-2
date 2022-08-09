@@ -8,9 +8,10 @@ const About =()=>{
         <div>
             <section>
                 <div className={style.heroAbout}>
-                    <h1>About the team</h1>
+                    <div className={style.headTitle}>Get in touch</div>
+                    <div className={style.subTitle}>The Developers Team</div>
+                    
                 </div>
-                
             </section>
             <div className={style.developers}>
             <BioCard
@@ -18,8 +19,11 @@ const About =()=>{
                 bioName="Samuel Leiva"
                 imageDev ="https://media-exp1.licdn.com/dms/image/D5635AQHyIoo2Ijofzw/profile-framedphoto-shrink_400_400/0/1658445629590?e=1660615200&v=beta&t=3KOjwdnFJtdMecAeSRKHc9FEH8NEyO52z2jfUEfkQKo"
                 bioTitle="Full-Stack Software Developer"
-                bioDescription="et ultrices neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui sapien eget mi proin sed libero enim sed faucibus turpis in eu mi bibendum neque egestas congue quisque egestas diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat sed cras ornare arcu dui vivamus arcu felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum"
-                // bioSkills="Java, CSS, HTML, JavaScript, React, Node"
+                bioDescription="I enjoy creating things that live on the internet. I am a Full-Stack Software 
+                Developer specializing in building (and occasionally designing) exceptional digital experiences. My focus these days is building accessible, inclusive 
+                products and digital experiences at Lab275 for a variety of clients. I also recently creating a DownTime tracker for Amazon warehouses using Java for Back-End and React 
+                JS for the Front-End."
+                
                 gitHub="Website"
               
             />
@@ -68,13 +72,20 @@ const About =()=>{
                 bioName="Mark Sypniewski"
                 imageDev ='https://media-exp1.licdn.com/dms/image/C5603AQFOycGMTLT58g/profile-displayphoto-shrink_400_400/0/1651158972214?e=1665619200&v=beta&t=5rFzJohm25oLNxZ1ojYXSclnVH0At3PNxlLinJzhZCA'
                 bioTitle="Full-Stack Software Developer"
-                bioDescription="et ultrices neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui sapien eget mi proin sed libero enim sed faucibus turpis in eu mi bibendum neque egestas congue quisque egestas diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat sed cras ornare arcu dui vivamus arcu felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum"
+                bioDescription="Mark is a Full-stack Jr. Developer from Cleveland, Ohio. He has 17 years experience in 3D modeling and CNC programming as well as 10 years as a Design Engineer in the Aerospace field."
                 // bioSkills="Java, CSS, HTML, JavaScript, React, Node"
                 gitHub="Website"
               
             />
             
             </div>
+            <section>
+                <div className={style.heroAbout}>
+                    <div className={style.bottonTitle}>“Every great developer you know got there by solving problems they were unqualified to solve until they actually did it.”</div>
+                    <div className={style.subTitle}>– Patrick McKenzie.</div>
+                    
+                </div>
+            </section>
             
         </div>
     </div>);
