@@ -5,7 +5,8 @@ const Footer = () =>{
     return (
         <div className={style.footContainer}>
             <ul className={style.footerList}>
-            <li><a href="https://github.com/2022-April-Java-PT-Classroom/final-project-team-2">Github</a></li>
+            <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>  
+            <li><a href="https://github.com/2022-April-Java-PT-Classroom/final-project-team-2"><i class="uil uil-github"></i></a></li>
             
             </ul>
         </div>
