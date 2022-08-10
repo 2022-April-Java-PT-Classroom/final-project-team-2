@@ -52,7 +52,7 @@ const AdhdVideos = () => {
             {adhdvideoData.map(adhdvideo =>
                 <div className={style.adhdvideos}>
                 <h2>{adhdvideo.title}</h2>
-                <h3>{adhdvideo.url}</h3>
+                <iframe src={adhdvideo.url}></iframe>
                 </div>
                 )}
         </div>
@@ -61,7 +61,7 @@ const AdhdVideos = () => {
             {adhdtedxvideoData.map(adhdtedxvideo =>
                 <div className={style.adhdtedxvideos}>
                 <h2>{adhdtedxvideo.title}</h2>
-                <h3>{adhdtedxvideo.url}</h3>
+                <iframe src={adhdtedxvideo.url}></iframe>
                 </div>
                 )}
         </div>
@@ -70,7 +70,7 @@ const AdhdVideos = () => {
             {adhdorganizevideoData.map(adhdorganizevideo =>
                 <div className={style.adhdorganizevideos}>
                 <h2>{adhdorganizevideo.title}</h2>
-                <h3>{adhdorganizevideo.url}</h3>
+                <iframe src={adhdorganizevideo.url}></iframe>
                 </div>
                 )}
         </div>
