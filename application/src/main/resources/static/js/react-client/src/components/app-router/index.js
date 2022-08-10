@@ -10,6 +10,7 @@ import AutismResources from '../../pages/autism-resources';
 import Home from '../../pages/home';
 import Parent from '../../pages/parent';
 import Quotes from '../../pages/quotes';
+import Spinner from '../../pages/fidget-spinner';
 import React from "react";
 
 const AppRouter = () => {
@@ -26,6 +27,7 @@ const AppRouter = () => {
             <Route path={'/adhd-resources'} component={AdhdResources}/>
             <Route path={'/autism-resources'} component={AutismResources}/>
             <Route path={'/alarm-clock'} component={AlarmClock}/>
+            <Route path={'/spinner'} component={Spinner}/>
         </Switch>
         
     );
