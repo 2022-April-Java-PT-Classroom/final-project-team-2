@@ -8,7 +8,6 @@ import AlarmClock from '../../pages/alarm-clock';
 import Autism from '../../pages/autism';
 import AutismResources from '../../pages/autism-resources';
 import Home from '../../pages/home';
-import Login from '../../pages/login/login';
 import Parent from '../../pages/parent';
 import Quotes from '../../pages/quotes';
 import React from "react";

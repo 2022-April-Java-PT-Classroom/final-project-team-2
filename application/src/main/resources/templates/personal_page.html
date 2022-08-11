@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="../static/css/styles.css" th:href="@{/css/styles.css}">
 </head>
 <body>
-<h1>Welcome Back <span th:text="${userLogin}"></span></h1>
+<h1>Welcome Back @<span th:text="${userLogin}"></span></h1>
+
+</a>
 <h4>Click the image Below To Navigate to the Website</h4>
-<p>
-    <a href="http://localhost:3000/">Home</a>
-</p>
+<a>
+    <a href="http://localhost:3000/" ><img src="/css/images/Home.png" alt="home"></a>
+</a>
 </body>
 </html>
