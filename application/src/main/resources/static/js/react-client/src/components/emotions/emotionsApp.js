@@ -5,46 +5,77 @@ import style from '../emotions/style.module.scss'
 
 function EmotionsApp() {
   const [emotionsOpen, setEmotionsOpen] = useState(false);
+  const [emotionSelected, setEmotionSelected] = useState(null);
+
+
+  const emotionSelectionHandler = (emotionSelected) => {
+    setEmotionsOpen(true);
+    setEmotionSelected(emotionSelected);
+  }
 
   return (
     <div className={style.EmotionsApp}>
       <h1>Hello, How do you feel today?</h1>
       <div className={style.emojis}>
-      <button
-        className={style.openEmotionsBtn}
-        onClick={() => {
-          setEmotionsOpen(true);
-        }}
-      >
-        🙂
-      </button>
-      <button
-        className={style.openEmotionsBtn}
-        onClick={() => {
-          setEmotionsOpen(true);
-        }}
-      >
-        🤨
-      </button>
-      <button
-        className={style.openEmotionsBtn}
-        onClick={() => {
-          setEmotionsOpen(true);
-        }}
-      >
-        😥
-      </button>
-      <button
-        className={style.openEmotionsBtn}
-        onClick={() => {
-          setEmotionsOpen(true);
-        }}
-      >
-        🤣
-      </button>
+        <button
+          className={style.openEmotionsBtn}
+          onClick={() => {
+            emotionSelectionHandler('🙂');
+          }}
+        >
+          🙂
+        </button>
+        <button
+          className={style.openEmotionsBtn}
+          onClick={() => {
+            emotionSelectionHandler('🤨');
+          }}
+        >
+          🤨
+        </button>
+        <button
+          className={style.openEmotionsBtn}
+          onClick={() => {
+            emotionSelectionHandler('😥');
+          }}
+        >
+          😥
+        </button>
+        <button
+          className={style.openEmotionsBtn}
+          onClick={() => {
+            emotionSelectionHandler('🤣');
+          }}
+        >
+          🤣
+        </button>
+        <button
+          className={style.openEmotionsBtn}
+          onClick={() => {
+            emotionSelectionHandler('🍕');
+          }}
+        >
+          🍕
+        </button>
+        <button
+          className={style.openEmotionsBtn}
+          onClick={() => {
+            emotionSelectionHandler('🏈');
+          }}
+        >
+          🏈
+        </button>
+        <button
+          className={style.openEmotionsBtn}
+          onClick={() => {
+            emotionSelectionHandler('🤢');
+          }}
+        >
+          🤢
+        </button>
       </div>
 
-      {emotionsOpen && <Emotions setOpenEmotions={setEmotionsOpen} />}
+      {emotionsOpen && <Emotions setOpenEmotions={setEmotionsOpen} emotionSelected={emotionSelected} />}
     </div>
   );
 }

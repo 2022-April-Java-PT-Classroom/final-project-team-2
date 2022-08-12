@@ -1,45 +1,63 @@
-.AdhdHome{
-    background-color: rgb(80, 169, 220);
-    width: 100%;
-    height: 80vh;
-    border: 1px;
-    margin: 0.5;
-}
-.AdhdgridBox{
-    margin: auto;
-}
-.ADHDGrid {
-   
-    position: relative;
-    top: 12em;
-    left: 5em;
-    display: flex;
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 280px;
-}
 
-.ADHDGrid img{
+.AdhdHome{
+   
+   background: linear-gradient( rgb(85, 201, 240),rgb(10, 147, 244));
+    width: 100%vh;
+    height: 85vh;
+    margin: 0 auto;
+
+
+  .Adhdtitle{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+ .ADHDheroGrid {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .ADHDheroCards {
+    position: relative;
+    top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    background-color:rgb(156, 209, 244);
+    border-radius: 10%;
+    box-shadow:rgb(6, 40, 103) 8px 8px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+
+  img{
     display: block;
-    padding: 12px;
-    width: 100%;
-  height: auto;
+    padding: 25px;
+    width: 70%;
+    height: auto;
+  
+  }
+  // desc{
+  //   column-span: all;
+  //   position: relative;
+  //   top: 20em;
+  //   margin: auto;
+  //   padding: 2px;
+  //   justify-content: space-around;
+  //   justify-content: center;
+  //   padding: 15px;
+  //   text-align: center;
+  // }
   
 }
-.ADHDGrid desc{
-    position: relative;
-    top: 20em;
-    margin: auto;
-    padding: 2px;
-    justify-content: space-around;
-    padding: 15px;
-    text-align: center;
-}
-.ADHDGrid desc1{
-   justify-content: center;
-}
 
-.AdhdHome .components{
-    margin-top: 550px;
-}

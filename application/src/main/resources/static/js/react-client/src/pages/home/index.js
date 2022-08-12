@@ -10,26 +10,27 @@ import adbrain from "../../assets/adbrain.png";
 const Home = () => {
     return(
         <div>
-            <div className={style.homegrid}>
+            <div className={style.homegridContainer}>
                 <section className={style.homeSection}>
+
                 <h1>Think Differently</h1>
-                <p>This is a paragraph</p>
+                <p>Welcome</p>
                 <div className={style.homeLogo}>
                 <img src={logo} alt={"logo"}></img>
                 </div>
 
-                <div className={style.homeADDbtn}>
+                {/* <div className={style.homeADDbtn}>
                 <Link to={"/adhd"}><img src={cloud1} alt={"cloud1"}></img></Link>
                 </div>
                 <div className={style.homeAutBtn}>
                 <Link to={'/autism'}><img src={cloud2} alt={"cloud2"}></img></Link>
-                </div>
+                </div> */}
                 </section>
                 
                 <section className={style.homeADHD}>
                 <Link to={'/adhd'}>ADHD Tool Box</Link>
                 <ul>
-                    <p className={style.HOmeADHDULP}> welcome To the world of ADHD</p>
+                    <p className={style.HOmeADHDULP}> Welcome To the world of ADHD</p>
                   <img className={style.ADPageIMG}src={adbrain} alt={"adbrain"}></img>
                     
                 </ul>
@@ -46,11 +47,15 @@ const Home = () => {
 
                 <section className={style.homeParent}>
                 <Link to={'/parent'}>Parent toolbox</Link>
-                <ul>
-                    <li><p> Parents Welcome</p></li>
-                    <li></li>
+                
+                    <h1> Parents Welcome</h1>
+                    <p>TIPS FOR CAREGIVERS
+                    Resources, information, ideas, and advice
+                    There isn’t a handbook on how to raise a child with ADHD.
+                    Explore information, support, toolbox.</p>
+                    
                    
-                </ul>
+                
                 </section>
                 
             </div>

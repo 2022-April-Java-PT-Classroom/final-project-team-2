@@ -1,4 +1,6 @@
 import React, {useEffect, useState} from "react";
+import {NavLink} from "react-router-dom";
+import cloud2 from "../../assets/cloud2.png";
 import style from './style.module.scss';
 import Axios from "axios";
 
@@ -34,24 +36,47 @@ const AutismResources = () => {
 
         return(
             <div className={style.autismresources}>
-                <div className={style.bookSection}>
-                    <h1>Book Section</h1>
+                <div className={style.autismmain}>
+                 <div className={style.banner}>Autism Resources</div>
+                    <div className={style.cloud}>
+                     <img src={cloud2} alt={"cloud2"}></img>
+                    </div>
+             </div>
+             <h1>Books</h1>
+                <section className={style.bookSection}>
+                    
                     {autismbookData.map(autismbook =>
-                        <div className={style.bookText}>
+
+                        <div className={style.resourceText}>
+                        <p>    
                         <h2>{autismbook.title}</h2>
                         <h3>{autismbook.author}</h3>
+                        </p>
                         </div>
                         )}
-                </div>
-                <div className={style.websiteSection}>
-                    <h1>Website Section</h1>
+                </section>
+
+                <h1>Websites</h1>
+                <section className={style.websiteSection}>
+                    
                     {autismwebsiteData.map(autismwebsite =>
-                        <div className={style.bookText}>
-                        <h2>{autismwebsite.title}</h2>
-                        <h3>{autismwebsite.url}</h3>
+
+                        <div className={style.websiteLink}>
+                        <p>
+                        <a href={autismwebsite.url} target="_blank">{autismwebsite.title}</a>
+                        </p>
                         </div>
                         )}
-                </div>
+                </section>
+
+                <section className={style.parentLink}>    
+                    <div>
+                    <NavLink to={"/parent"}>Parent Home</NavLink>
+                    </div>
+               
+       </section>
+
+
             </div>
         )     
 }

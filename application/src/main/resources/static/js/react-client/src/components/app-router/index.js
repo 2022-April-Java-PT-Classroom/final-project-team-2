@@ -1,17 +1,16 @@
 import { Route, Switch } from 'react-router-dom';
-import Timer from '../../pages/alarm-clock';
+
 import About from '../../pages/about';
 import Adhd from '../../pages/adhd';
-import AdhdVideos from '../../pages/adhd-videos';
 import AdhdResources from '../../pages/adhd-resources';
+import AdhdVideos from '../../pages/adhd-videos';
+import AlarmClock from '../../pages/alarm-clock';
 import Autism from '../../pages/autism';
 import AutismResources from '../../pages/autism-resources';
 import Home from '../../pages/home';
 import Parent from '../../pages/parent';
 import Quotes from '../../pages/quotes';
 import React from "react";
-import AlarmClock from '../../pages/alarm-clock';
-
 
 const AppRouter = () => {
     return (

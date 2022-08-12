@@ -6,18 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4840a239-b8ad-46b1-868d-6204037ad27f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/AdhdbookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/AdhdbookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/AdhdorganizevideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/AdhdorganizevideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/AdhdtedxvideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/AdhdtedxvideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Adhdbook.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Adhdbook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Adhdorganizevideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Adhdorganizevideo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Adhdtedxvideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Adhdtedxvideo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Adhdvideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Adhdvideo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Adhdwebsite.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Adhdwebsite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Autismbook.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Autismbook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Autismwebsite.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Autismwebsite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Populator.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Populator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Repositories/AdhdbookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Repositories/AdhdbookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-resources/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-resources/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-resources/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-resources/style.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/autism-resources/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/autism-resources/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/autism-resources/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/autism-resources/style.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +52,18 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -70,13 +74,6 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
