@@ -88,7 +88,7 @@ public class Populator implements CommandLineRunner {
         Autismwebsite Website4 = new Autismwebsite(31L,"Autism Society", "autismsociety.org");
         autismwebsiteRepo.save(Website4);
         Autismwebsite Website5 = new Autismwebsite(32L,"My Autism Team", "myautismteam.com");
-        autismwebsiteRepo.save(Website4);
+        autismwebsiteRepo.save(Website5);
 
         // adhdvideo
         Adhdvideo Video1 = new Adhdvideo(100L,"What Exactly is Neurodiversity?", "https://www.youtube.com/embed/ALJ3CFRRZpo");
