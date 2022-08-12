@@ -125,21 +125,12 @@ h1{
 
 span{
     position: relative;
-
-    background-image: linear-gradient(to right, rgb(0, 255, 255), blue, rgb(40, 247, 247));
+   
+    background-image: linear-gradient(to right, rgb(0, 255, 234), blue, rgb(73, 231, 252));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 30px;
+    font-size: 25px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
 }
-p{
-  position:relative;
-  left: 15%;
-  height: 40%;
-  width: 40%;
-  margin-top: 30px;
-}
-a, h4{
-text-align: center;
-}
+

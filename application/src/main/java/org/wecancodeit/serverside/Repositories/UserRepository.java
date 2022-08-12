@@ -1,5 +1,7 @@
 package org.wecancodeit.serverside.Repositories;
 
+import org.springframework.data.jpa.repository.JpaRepository;
+
 import org.wecancodeit.serverside.Models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
