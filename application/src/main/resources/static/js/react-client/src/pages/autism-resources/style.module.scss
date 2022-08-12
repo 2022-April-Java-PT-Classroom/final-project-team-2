@@ -1,58 +1,89 @@
 .autismresources{
-    background: linear-gradient(rgb(111, 244, 90),rgb(18, 183, 48));
-    width: 100%;
-    height: 100vh;
-    border: 1px;
-    margin: 0;
-    justify-content: right;
-  
-    h1  {
-        background-color: rgb(79, 79, 193);
-        color: yellow;
-        text-align: center;
-        font-size: 45px;
-        text-shadow: 1px 1px 1px black,
-        2px 2px 1px blue;
-        font-family: monospace;
-        }
+   background: rgba(232,234,250,255);
+   color: rgb(98, 29, 209);
+      .autismmain{
+         width: 100%;
+         height: 300px;
+         background: linear-gradient(to right,rgba(98,29,209,255) , rgba(97,105,255,255));
+         display: flex;
+         justify-content: space-around;
+         }
 
-    h2 {
-       color: rgb(79, 79, 193);
-       text-align: left;
-       font-size: 30px;
-       margin-top:60px;
-       text-shadow: 1px 1px 1px black,
-       2px 2px 1px yellow;
-       font-family: monospace;
-       } 
-    
-    h3 {
-       color: yellow;
-       text-align: right;
-       font-size: 25px;
-       margin-top:60px;
-       text-shadow: 1px 1px 1px black,
-       2px 2px 1px blue;
-       font-family: monospace;
-          } 
-    
-    .bookSection{
-                width: 100%;
-                height: 50%;
-                border: 1px;
-                margin: 0;
-                }
-    .bookText{
-                  font-size: 60px;
-                  display: flex;
-                  padding-right: 2.5em;
-                  justify-content: center;
-                  }
-                
-    .websiteSection{
-                width: 100%;
-                height: 50%;
-                border: 1px;
-                margin: 0;          
-                }                     
-  }
+      .banner{
+         padding: 100px 0;
+         color: white;
+         font-size: 4rem;
+         }
+
+      .cloud{
+         margin-top: 50px;
+         height: 200px;
+         width: 200px;
+         border-radius: 50%;
+         }      
+      
+      .bookSection{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+         width: 100%;
+         }
+
+      .resourceText{
+         text-align: center;
+         height: 200px;
+         padding-top: 10px;
+         }
+                  
+      .websiteSection{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+         height: auto;        
+         }
+         
+      .websiteLink{
+         font-size: 2rem;
+         font: bold;
+         margin: 10 2px;
+            padding: 0;
+            
+            & a {
+             display: inline-flex ;
+             justify-content: space-between;
+             font-size: 1.4rem;
+             font-weight: 900;
+             color: rgb(75, 75, 202);
+             margin: auto 20 px;
+             min-width: 75px;
+             padding: 10px 5px;
+             text-decoration: none;
+            }
+            & a:hover{
+                color: rgb(37, 160, 160);
+                transition: 0.3s ease;
+            }
+      }
+      
+      .parentLink{
+            margin: 10 2px;
+            padding: 0;
+            
+            & a {
+             display: inline-flex ;
+             justify-content: space-between;
+             font-size: 1.4rem;
+             font-weight: 900;
+             color: rgb(75, 75, 202);
+             margin: auto 20 px;
+             min-width: 75px;
+             padding: 10px 5px;
+             text-decoration: none;
+            }
+            & a:hover{
+                color: rgb(37, 160, 160);
+                transition: 0.3s ease;
+            }
+        }
+      
+    }
