@@ -56,7 +56,7 @@ const AdhdResources = () => {
                         )}
                 </section>
 
-                <h1>Website Section</h1>
+                <h1>Websites</h1>
                 <section className={style.websiteSection}>
                     
                     {adhdwebsiteData.map(adhdwebsite =>

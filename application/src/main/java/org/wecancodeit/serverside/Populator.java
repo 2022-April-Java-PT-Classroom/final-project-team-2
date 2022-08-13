@@ -78,16 +78,16 @@ public class Populator implements CommandLineRunner {
         autismbookRepo.save(Book4);
 
         // adhdwebsite
-        Adhdwebsite Website1 = new Adhdwebsite(30L,"CHADD—Children and Adults with ADHD", "chadd.org");
+        Adhdwebsite Website1 = new Adhdwebsite(30L,"CHADD—Children and Adults with ADHD", "http://www.chadd.org");
         adhdwebsiteRepo.save(Website1);
-        Adhdwebsite Website2 = new Adhdwebsite(31L,"ADDA—Attention Deficit Disorder Association", "add.org");
+        Adhdwebsite Website2 = new Adhdwebsite(31L,"ADDA—Attention Deficit Disorder Association", "http://www.add.org");
         adhdwebsiteRepo.save(Website2);
         // autismwebsite
-        Autismwebsite Website3 = new Autismwebsite(30L,"Autism Speaks", "autismspeaks.org");
+        Autismwebsite Website3 = new Autismwebsite(30L,"Autism Speaks", "http://www.autismspeaks.org");
         autismwebsiteRepo.save(Website3);
-        Autismwebsite Website4 = new Autismwebsite(31L,"Autism Society", "autismsociety.org");
+        Autismwebsite Website4 = new Autismwebsite(31L,"Autism Society", "http://www.autismsociety.org");
         autismwebsiteRepo.save(Website4);
-        Autismwebsite Website5 = new Autismwebsite(32L,"My Autism Team", "myautismteam.com");
+        Autismwebsite Website5 = new Autismwebsite(32L,"My Autism Team", "http://www.myautismteam.com");
         autismwebsiteRepo.save(Website5);
 
         // adhdvideo
