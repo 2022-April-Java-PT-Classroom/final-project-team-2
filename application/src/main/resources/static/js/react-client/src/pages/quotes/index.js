@@ -10,11 +10,10 @@ import templegrandin from '../../assets/movies/templegrandin.jpg'
 // import ReactSwitch from "react-switch";
 
 // const randomNum = Math.floor((Math.random() * 10));
-
 const QuotesAPI = () => {
     const [quotes, setQuotes] = useState(null);
     const [uploading, setLoading] = useState(true);
-
+    
     useEffect(() => {
         const fetchQuotesData = async () => {
             const result = await Axios('http://localhost:8080/pages/quotes');
@@ -31,10 +30,10 @@ const QuotesAPI = () => {
         return () => clearTimeout(timer);
         //eslint-disable-next-line
     }, [quotes]);
-
+    
     return (
         uploading ? <h2>Uploading!</h2> :
-
+        
         <div className="quotes_shadowbox">
             <section className={style.quotesSection}>
                 <div className={style.quotesText}>
@@ -51,7 +50,7 @@ const QuotesAPI = () => {
             <section className={style.moviesSection}>
                 <div className={style.moviesText}>
                 <h3>Positive Neurodivergent Movies</h3>
-                <div className={style.movies}>
+                <div className="Mymovies slide">
                     <img src={Up} alt={"up_movie"}></img>
                     <img src={Dragon} alt={"dragon_movie"}></img>
                     <img src={iamsam} alt={"i_am_sam"}></img>
