@@ -3,7 +3,9 @@ import React, {useEffect, useState} from "react";
 import Axios from 'axios';
 import Dragon from '../../assets/movies/Dragon.jpg'
 import Up from '../../assets/movies/Up.jpg'
-import style from './style.module.scss';
+import iamsam from '../../assets/movies/iamsam.jpg'
+import style from './style.module.scss'
+import templegrandin from '../../assets/movies/templegrandin.jpg'
 
 // import ReactSwitch from "react-switch";
 
@@ -48,10 +50,12 @@ const QuotesAPI = () => {
             </section>
             <section className={style.moviesSection}>
                 <div className={style.moviesText}>
-                <h3>Positive Neurodivergent Movies!</h3>
+                <h3>Positive Neurodivergent Movies</h3>
                 <div className={style.movies}>
                     <img src={Up} alt={"up_movie"}></img>
                     <img src={Dragon} alt={"dragon_movie"}></img>
+                    <img src={iamsam} alt={"i_am_sam"}></img>
+                    <img src={templegrandin} alt={"temple_grandin"}></img>
                 </div>
                 </div>
             </section>
