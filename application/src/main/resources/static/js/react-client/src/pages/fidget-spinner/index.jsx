@@ -4,7 +4,7 @@ import style from "./style.module.scss";
 const Spinner = () => {
     return(
       <div id="wrapper">
-      <svg id="fidget-spinner" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 338 338">
+       <svg id="fidget-spinner" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 338 338">
   
   <circle id="circle" class="circle" cx="169" cy="169" r="169"/> 
   
