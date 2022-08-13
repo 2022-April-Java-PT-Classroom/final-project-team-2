@@ -1,4 +1,5 @@
 package org.wecancodeit.serverside.service;
+
 import org.springframework.stereotype.Service;
 import org.wecancodeit.serverside.Models.User;
 import org.wecancodeit.serverside.Repositories.UserRepository;
@@ -7,7 +8,7 @@ import org.wecancodeit.serverside.Repositories.UserRepository;
 public class UserService {
 
     public UserRepository userRepo;
-    User Usermodel = new User();
+
 
     public UserService(UserRepository userRepo) {
         this.userRepo = userRepo;

@@ -34,7 +34,7 @@ public class UserController {
     public String register(@ModelAttribute User user) {
         System.out.println("register request" + user);
         User registeredUser = userService.registerUser(user.getLogin(), user.getPassword(), user.getEmail());
-        return registeredUser == null ? "redirect:/login" : "redirect:/login";
+        return registeredUser == null ? "error_page" : "redirect:/login";
     }
 
     @PostMapping("/login")
@@ -49,4 +49,5 @@ public class UserController {
 
         }
     }
+
 }
