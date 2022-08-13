@@ -33,7 +33,7 @@ const About =()=>{
                 imageDev ='https://media-exp1.licdn.com/dms/image/C5603AQEts2rMqIO8nA/profile-displayphoto-shrink_400_400/0/1657918448299?e=1665619200&v=beta&t=JJsa43KyIP8w35l5eVUcIkPfTnJaLTPEDvGFgl458cE'
                 bioTitle="Full-Stack Software Developer"
                 bioDescription="Hi I'm Penny and I Love to Create Things that make a differeance ,I'm a Full-stack jr. developer with a passion to learn and grow , I live in the greater columbus area but im from all over im from a militarty Family and spouse , I have 5 yrs in marketing and Social Media Content creation, 8 yrs photography and videographer, 10yrs  management in marketing, sales promoting, 12yrs in the medical feild ER Trama Tech , ICU ,Pediatric & Phelbotomist
-            . with a degree in Art"
+                . with a degree in Art"
                 // bioSkills="Java, CSS, HTML, JavaScript, React, Node"
                 gitHub="Website"
               
