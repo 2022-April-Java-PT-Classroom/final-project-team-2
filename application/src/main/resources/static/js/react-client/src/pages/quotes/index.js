@@ -50,7 +50,7 @@ const QuotesAPI = () => {
             <section className={style.moviesSection}>
                 <div className={style.moviesText}>
                 <h3>Positive Neurodivergent Movies</h3>
-                <div className="Mymovies slide">
+                <div className="slide">
                     <img src={Up} alt={"up_movie"}></img>
                     <img src={Dragon} alt={"dragon_movie"}></img>
                     <img src={iamsam} alt={"i_am_sam"}></img>

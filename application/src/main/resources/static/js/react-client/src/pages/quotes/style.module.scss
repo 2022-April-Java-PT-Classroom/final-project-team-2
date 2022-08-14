@@ -31,10 +31,21 @@
     position: relative;
 }
 .quotesText div p{
+    display: block;
     margin: 3.5rem;
     font-size: 22px;
-
+    
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: anim-text;
 }
+@keyframes anim-text{
+    0%, 8.3% { left: -100%; opacity: 0; }
+    8.3%, 25% { left: 25%; opacity: 1; }
+    33.33%, 100% { left: 110%; opacity: 0; }
+}
+
 .slide{
     animation: slide 25s infinite;
     position: absolute;
