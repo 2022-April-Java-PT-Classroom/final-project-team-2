@@ -67,26 +67,28 @@ public class Populator implements CommandLineRunner {
 
 
         // adhdbook
-        Adhdbook Book1 = new Adhdbook(10L,"ADHD Book1 Title", "ADHD Book1 Author");
+        Adhdbook Book1 = new Adhdbook(10L,"What Your ADHD Child Wishes You Knew: Working Together to Empower Kids for Success in School and Life", "Dr. Sharon Saline, Dr. Laura Markham, et al.");
         adhdbookRepo.save(Book1);
-        Adhdbook Book2 = new Adhdbook(11L,"ADHD Book2 Title", "ADHD Book2 Author");
+        Adhdbook Book2 = new Adhdbook(11L,"The Myth of the ADHD Child, Revised Edition: 101 Ways to Improve Your Child's Behavior and Attention Span Without Drugs, Labels, or Coercion", "Thomas Armstrong");
         adhdbookRepo.save(Book2);
         // autismbook
-        Autismbook Book3 = new Autismbook(20L,"Autism Book3 Title", "Autism Book3 Author");
+        Autismbook Book3 = new Autismbook(20L,"Uniquely Human: A Different Way of Seeing Autism", "Barry M. Prizant");
         autismbookRepo.save(Book3);
-        Autismbook Book4 = new Autismbook(21L,"Autism Book4 Title", "Autism Book4 Author");
+        Autismbook Book4 = new Autismbook(21L,"Parenting Toolbox: 125 Activities Therapists Use to Reduce Meltdowns, Increase Positive Behaviors & Manage Emotions", "Dr. Lisa Phifer, Laura Sibbald, Jennifer Roden");
         autismbookRepo.save(Book4);
 
         // adhdwebsite
-        Adhdwebsite Website1 = new Adhdwebsite(30L,"ADHD Website1 Title", "ADHD Website1 url");
+        Adhdwebsite Website1 = new Adhdwebsite(30L,"CHADD—Children and Adults with ADHD", "http://www.chadd.org");
         adhdwebsiteRepo.save(Website1);
-        Adhdwebsite Website2 = new Adhdwebsite(31L,"ADHD Website2 Title", "ADHD Website2 url");
+        Adhdwebsite Website2 = new Adhdwebsite(31L,"ADDA—Attention Deficit Disorder Association", "http://www.add.org");
         adhdwebsiteRepo.save(Website2);
         // autismwebsite
-        Autismwebsite Website3 = new Autismwebsite(30L,"ADHD Website1 Title", "ADHD Website1 url");
+        Autismwebsite Website3 = new Autismwebsite(30L,"Autism Speaks", "http://www.autismspeaks.org");
         autismwebsiteRepo.save(Website3);
-        Autismwebsite Website4 = new Autismwebsite(31L,"ADHD Website2 Title", "ADHD Website2 url");
+        Autismwebsite Website4 = new Autismwebsite(31L,"Autism Society", "http://www.autismsociety.org");
         autismwebsiteRepo.save(Website4);
+        Autismwebsite Website5 = new Autismwebsite(32L,"My Autism Team", "http://www.myautismteam.com");
+        autismwebsiteRepo.save(Website5);
 
         // adhdvideo
         Adhdvideo Video1 = new Adhdvideo(100L,"What Exactly is Neurodiversity?", "https://www.youtube.com/embed/ALJ3CFRRZpo");
