@@ -4,6 +4,7 @@ import React from "react";
 import style from "./style.module.scss";
 import video from "../../assets/video.png";
 import Aubrain from "../../assets/Aubrain.png";
+import Spinner1 from "../../assets/Spinner1.png";
 
 
 const Autism =()=>{
@@ -17,7 +18,7 @@ const Autism =()=>{
             <div className={style.autismheroGrid}>
 
                 <div className={style.AutisumheroCards}>
-                <img src={Aubrain} alt={"Aubrain"}></img>
+                <img src={Spinner1} alt={"Spinner1"}></img>
                  <p> Fidget Spinner </p>
                 </div>
 
