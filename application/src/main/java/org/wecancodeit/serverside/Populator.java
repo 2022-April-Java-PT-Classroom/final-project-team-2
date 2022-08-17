@@ -130,16 +130,16 @@ public class Populator implements CommandLineRunner {
         Adhdvideo Video19 = new Adhdvideo(119L,"My 10 Favorite Things About having ADHD", "https://www.youtube.com/embed/wFCKa9CVzGU?start=4");
         adhdvideoRepo.save(Video19);
         // adhdtedxvideo
-        Adhdtedxvideo Video20 = new Adhdtedxvideo(120L,"Failing at Normal: An ADHD Success Story | Jessica McCabe", "https://www.youtube.com/embed/JiwZQNYlGQI");
+        Adhdtedxvideo Video20 = new Adhdtedxvideo(120L,"Failing at Normal: An ADHD Success Story", "https://www.youtube.com/embed/JiwZQNYlGQI");
         adhdtedxvideoRepo.save(Video20);
-        Adhdtedxvideo Video21 = new Adhdtedxvideo(121L,"ADHD sucks, but not really | Salif Mahamane", "https://www.youtube.com/embed/fWCocjh5aK0");
+        Adhdtedxvideo Video21 = new Adhdtedxvideo(121L,"ADHD sucks, but not really", "https://www.youtube.com/embed/fWCocjh5aK0");
         adhdtedxvideoRepo.save(Video21);
-        Adhdtedxvideo Video22 = new Adhdtedxvideo(122L,"I have ADHD, What is Your Superpower? | Negar (Nikki) Amini", "https://www.youtube.com/embed/mEI_39C5E2o?start=4");
+        Adhdtedxvideo Video22 = new Adhdtedxvideo(122L,"I have ADHD, What is Your Superpower?", "https://www.youtube.com/embed/mEI_39C5E2o?start=4");
         adhdtedxvideoRepo.save(Video22);
         // adhdorganizevideo
-        Adhdorganizevideo Video23 = new Adhdorganizevideo(123L,"ADHD Home Hacks - Real-Life Solutions for a Functional Home", "https://www.youtube.com/embed/5M5IKj2WYWQ?start=4");
+        Adhdorganizevideo Video23 = new Adhdorganizevideo(123L,"ADHD Home Hacks", "https://www.youtube.com/embed/5M5IKj2WYWQ?start=4");
         adhdorganizevideoRepo.save(Video23);
-        Adhdorganizevideo Video24 = new Adhdorganizevideo(124L,"The Four Organizing Styles - Breakdown and FAQs", "https://www.youtube.com/embed/hYtiQhCJ574?start=4");
+        Adhdorganizevideo Video24 = new Adhdorganizevideo(124L,"The Four Organizing Styles", "https://www.youtube.com/embed/hYtiQhCJ574?start=4");
         adhdorganizevideoRepo.save(Video24);
 
     }
