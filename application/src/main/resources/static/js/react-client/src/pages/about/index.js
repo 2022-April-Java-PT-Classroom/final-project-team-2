@@ -72,11 +72,11 @@ const About =()=>{
             <BioCard
                 
                 bioName="Mark Sypniewski"
-                imageDev ='https://media-exp1.licdn.com/dms/image/C5603AQFOycGMTLT58g/profile-displayphoto-shrink_400_400/0/1651158972214?e=1665619200&v=beta&t=5rFzJohm25oLNxZ1ojYXSclnVH0At3PNxlLinJzhZCA'
+                imageDev ='https://media-exp1.licdn.com/dms/image/D4E35AQFOu-f4cUILfg/profile-framedphoto-shrink_400_400/0/1660703561600?e=1661313600&v=beta&t=wahcQeerfBfwsHxfa_LnTEy8Xn2nPDua1TSkQF-CaKs'
                 bioTitle="Full-Stack Software Developer"
                 bioDescription="Mark is a Full-stack Jr. Developer from Cleveland, Ohio. He has 17 years experience in 3D modeling and CNC programming as well as 10 years as a Design Engineer in the Aerospace field."
                 // bioSkills="Java, CSS, HTML, JavaScript, React, Node"
-                gitHub="Website"
+                gitHub="https://github.com/mark-sypniewski"
               
             />
             

@@ -5,45 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4840a239-b8ad-46b1-868d-6204037ad27f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/application/src/main/resources/static/css/404.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/resources/static/css/images/404.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/resources/static/css/images/Home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/resources/static/css/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-
-      <change beforePath="$PROJECT_DIR$/application/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/application/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/AdhdbookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/AdhdbookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/AdhdtedxvideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/AdhdtedxvideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/AdhdvideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/AdhdvideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/AdhdwebsiteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/AdhdwebsiteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Age.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Models/Age.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Populator.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Populator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/ServerSideApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/ServerSideApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/components/footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/components/footer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/components/footer/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/components/footer/style.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-resources/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-resources/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-resources/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-resources/style.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/autism-resources/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/autism-resources/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/autism-resources/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/autism-resources/style.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/templates/error_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/templates/error_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/templates/login_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/templates/login_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/templates/personal_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/templates/personal_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/templates/register_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/templates/register_page.html" afterDir="false" />
-
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Populator.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/org/wecancodeit/serverside/Populator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-resources/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-resources/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-resources/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-resources/style.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/autism-resources/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/autism-resources/style.module.scss" afterDir="false" />
-
+      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/about/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/about/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-videos/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-videos/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-videos/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-videos/style.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,15 +75,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/school/final-project-team-2&quot;
-  }
-}</component>
-
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.wecancodeit.serverside.Repositories" />
