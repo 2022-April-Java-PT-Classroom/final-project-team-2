@@ -53,9 +53,9 @@ const About =()=>{
                 bioName="Jimmy Negron"
                 imageDev ='https://media-exp1.licdn.com/dms/image/D5635AQFoXUCM8D4vtw/profile-framedphoto-shrink_200_200/0/1660170763315?e=1661212800&amp;v=beta&amp;t=pZO4r04S2SM5GFrjl5meAxZ8DclQ1NGi-AmtftJbiMI'
                 bioTitle="Full-Stack Software Developer"
-                bioDescription="et ultrices neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui sapien eget mi proin sed libero enim sed faucibus turpis in eu mi bibendum neque egestas congue quisque egestas diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat sed cras ornare arcu dui vivamus arcu felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum"
+                bioDescription="My name is Jimmy, I am a software developer .I enjoy problem solving and working with computers, started my journey as a software developer watching videos and googling Problems and errors. Then I found we can code it and learned the correct skills I need to be a Full Stack Developer."
                 // bioSkills="Java, CSS, HTML, JavaScript, React, Node"
-                gitHub="Website"
+                gitHub="https://github.com/JNegron300"
             
               
             />
