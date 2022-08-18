@@ -4,17 +4,20 @@
   color-scheme: third  pink;
 }
 .homeContainer{
+  min-width: 30em;
   margin: 0px;
   padding: 0px;
   // background:yellow;
 }
 .homegridContainer{
+  min-width: 30em;
   width: 100%vh;
   min-width: 500px;
   margin:  0 auto;
 }
 
 .homeSection{
+  min-width: 29em;
   display: -moz-box; /* Firefox*/
   display: -webkit-box; /* Chrome */
   display: -ms-flexbox; /* IE 10 */
@@ -38,12 +41,12 @@
   position: relative;
   top: 18px;
   bottom: 25em;
-  left: 9em;
+  left: 10em;
   margin: 0.5 auto;
-  // text-align: center;
+  text-align: center;
   justify-content: center;
-  padding: 4px;
-  font-size: 7em;
+  padding: 5px;
+  font-size: 5em;
   font-family: monospace;
   font-weight: 900;
   
@@ -61,37 +64,38 @@
   }
  }
  p{
+  
   position: relative;
-  top: 11em;
-  left: 2.5em;
+  top: 9em;
+  left: 1.5em;
   font-size: 85px;
   text-align: center;
   color: aliceblue;
  }
  h2{
   border-radius: 12%;
-    font-size: 2rem;
+    font-size: 1.75rem;
     position: relative;
     top: 5em;
-    right: 5.5em;
+    right: 7.5em;
     display:flex;
     justify-content: center;
     text-align: center;
     padding-top:  60px;
     padding-bottom: 0;
+    color: aliceblue;
     
  }
  .homeLogo {
-  -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
-    -moz-box-ordinal-group: 1; /* Firefox*/
-    -ms-flex-order: 1; /* IE 10 */
-    -webkit-order: 1; /* Chrome */
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
   position: relative;
   top: 15px;
   right: 50em;
   display: flex;
-  height: 500px;
-  width: 500px;
+  height: 450px;
+  width: 450px;
   margin: auto;
 
 
@@ -99,10 +103,10 @@
 
 }
  .homeADHD {
-  -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
-    -moz-box-ordinal-group: 1; /* Firefox*/
-    -ms-flex-order: 1; /* IE 10 */
-    -webkit-order: 1; /* Chrome */
+  
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
   flex: 1;
   background: linear-gradient( rgb(85, 201, 240),rgb(10, 147, 244));
   width: 100%;
@@ -112,13 +116,13 @@
 
 
  a {
-  -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
-    -moz-box-ordinal-group: 1; /* Firefox*/
-    -ms-flex-order: 1; /* IE 10 */
-    -webkit-order: 1; /* Chrome */
+  max-width: fit-content;
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
   font-family: monospace;
   font-size: 3rem;
-    margin: 1px;
+    // margin: 1px;
     padding: 30px 50px;
     border-radius: 50px;
     background-color:rgb(75, 75, 202); ;
@@ -128,7 +132,7 @@
     text-decoration: none;
     text-transform: uppercase;
     top: 30rem;
-    left: 35em;
+    left: 25em;
     transition: 0.3s ease;
     position: relative;
  }
@@ -137,17 +141,17 @@
  }
 
  .HOmeADHDULP {
+  
   width: 100%;
   height: auto;
-  -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
-    -moz-box-ordinal-group: 1; /* Firefox*/
-    -ms-flex-order: 1; /* IE 10 */
-    -webkit-order: 1; /* Chrome */
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
   font-family: monospace;
   position: relative;
   left: 6em;
   bottom: 1px;
-  font-size: 45px;
+  font-size: 60px;
   font-weight: 900;
   position: relative;
   left: 15px;
@@ -156,17 +160,16 @@
 }
 
   .ADPageIMG{
-    -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
-    -moz-box-ordinal-group: 1; /* Firefox*/
-    -ms-flex-order: 1; /* IE 10 */
-    -webkit-order: 1; /* Chrome */
+    display: -moz-box; /* Firefox*/
+    display: -webkit-box; /* Chrome */
+    display: -ms-flexbox; /* IE 10 */
     flex: 1;
     animation: adhd 8s linear  ;
    justify-content: center;
    margin: auto;
    position: relative;
    display: flex;
-   width: 400px
+   width: 500px
  }
  .ADPageIMG img{
   width: 200px;
@@ -184,9 +187,9 @@
  }
 }
 .homeAutism{
-  -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
-  -moz-box-ordinal-group: 1; /* Firefox*/
-  -ms-flex-order: 1; 
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
   flex: 1;
   background: linear-gradient( rgb(85, 201, 240),rgb(10, 147, 244));
   width: 100%;
@@ -197,13 +200,12 @@
  a {
   width: 100%;
   height: auto;
-  -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
-    -moz-box-ordinal-group: 1; /* Firefox*/
-    -ms-flex-order: 1; /* IE 10 */
-   
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
   font-family: monospace;
-  font-size: 2rem;
-    margin: 1px;
+  font-size: 3rem;
+    // margin: 1px;
     padding: 30px 50px;
     border-radius: 50px;
     background-color:rgb(75, 75, 202); 
@@ -214,32 +216,32 @@
     text-transform: uppercase;
     transition: 0.3s ease;
     position: relative;
-    top: 20rem;
-    left: 60rem;
+    top: 30rem;
+    left: 75rem;
 
   }
   a:hover {
     background-color: #0a2056;
   }
  .AUThomepara{
-  -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
-  -moz-box-ordinal-group: 1; /* Firefox*/
-  -ms-flex-order: 1; 
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
   flex: 1;
   font-family: monospace;
   position: relative;
   left: 6em;
   bottom: 1px;
-  font-size: 45px;
+  font-size: 65px;
   font-weight: 900;
   position: relative;
   left: 15px;
   text-align: center;
  }
  .AUtimgHomP{
-  -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
-  -moz-box-ordinal-group: 1; /* Firefox*/
-  -ms-flex-order: 1; 
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
   flex: 1;
   animation: autsim 12s linear;
   position: relative;
@@ -248,7 +250,7 @@
    margin: auto;
    position: relative;
    display: flex;
-   width: 300px
+   width: 400px
 
  }
  .AUtimgHomP img{
@@ -278,9 +280,9 @@
 }
 
 .homeParent{
-  -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
-  -moz-box-ordinal-group: 1; /* Firefox*/
-  -ms-flex-order: 1; 
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
   flex: 1;
   background: linear-gradient( rgb(85, 201, 240),rgb(10, 147, 244));
   width: 100%;
@@ -290,9 +292,13 @@
   justify-content: right;
 
  a {
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
+  flex: 1;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 2rem;
-    margin: 10px auto;
+  font-size: 3rem;
+    // margin: 10px auto;
     padding: 30px 50px;
     border-radius: 50px;
    background-color:rgb(75, 75, 202); 
@@ -316,7 +322,7 @@
     // left: 1em;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 900;
-    font-size:45px ;
+    font-size:65px ;
     text-align: center;
     text-decoration: none;
   }
@@ -324,7 +330,8 @@
     border-radius: 12%;
     font-size: 2rem;
     position: relative;
-    left: 5em;
+    top: 5rem;
+    left: 8em;
     // background-color: white;
     display:flex;
     text-align: center;
@@ -334,74 +341,133 @@
     border: solid white;
   }
 }
-// @media all and (max-width: 1321px) {
-//   .homeSection { /* Hide advertisement panel*/
-//     display: none;
-//     visibility: hidden;
-// }
+@media all and (max-width: 500px) {
+  .homeSection {
+    width: 100%;
+    display: none;
+    visibility: hidden;
+  }
 
-// .homeADHD{ /* Hide advertisement panel*/
-//   display: none;
-//   visibility: hidden;
-// }
-// .homeAutism{ /* Hide advertisement panel*/
-// display: none;
-// visibility: hidden;
-// }
-// .homeParent{ /* Hide advertisement panel*/
-// display: none;
-// visibility: hidden;
-// }
+.homeADHD{ 
+  width: 100%;
+  display: none;
+  visibility: hidden;
+}
+.homeAutism{ 
+  width: 100%;
+display: none;
+visibility: hidden;
+}
+.homeParent{ 
+   width: 100%;
+display: none;
+visibility: hidden;
+}
 
-// .IMG{
-//     width: 100%; /* Earlier 70%*/
-// }
-// p{
-//   display: none;
-//   visibility: hidden;
-// }
-//  a{
-//   display: none;
-//   visibility: hidden;
-//  }
-//  h1{
-//   display: none;
-//   visibility: hidden;
-//  }
-// }
+.IMG{
+    width: 100%; 
+}
+p{ width: 100%;
+  display: none;
+  visibility: hidden;
+}
+ a{
+  width: 100%;
+  display: none;
+  visibility: hidden;
+ }
+ h1{
+  width: 100%;
+  display: none;
+  visibility: hidden;
+ }
 
-// @media all and (max-width: 700px) {
-//   .homeSection { /* Hide advertisement panel*/
-//     display: none;
-//     visibility: hidden;
-// }
+}
+@media all and (max-width: 700px) {
+  .homeSection { 
+    width: 100%;
+    display: none;
+    visibility: hidden;
 
-// .homeADHD{ /* Hide advertisement panel*/
-//   display: none;
-//   visibility: hidden;
-// }
-// .homeAutism{ /* Hide advertisement panel*/
-// display: none;
-// visibility: hidden;
-// }
-// .homeParent{ /* Hide advertisement panel*/
-// display: none;
-// visibility: hidden;
-// }
 
-// .IMG{
-//     width: 100%; /* Earlier 70%*/
-// }
-// p{
-//   display: none;
-//   visibility: hidden;
-// }
-//  a{
-//   display: none;
-//   visibility: hidden;
-//  }
-//  h1{
-//   display: none;
-//   visibility: hidden;
-//  }
-// }
+.homeADHD{ 
+  display: none;
+  visibility: hidden;
+}
+.homeAutism{ 
+  width: 100%;
+display: none;
+visibility: hidden;
+}
+.homeParent{ 
+  width: 100%;
+display: none;
+visibility: hidden;
+}
+
+.IMG{
+    width: 100%; 
+    
+}
+p{ 
+  width: 100%;
+  display: none;
+  visibility: hidden;
+}
+ a{
+   width: 100%;
+  display: none;
+  visibility: hidden;
+ }
+ h1{
+  width: 100%;
+  display: none;
+  visibility: hidden;
+
+ }
+}
+@media all and (max-width: 300px) {
+  .homeSection { 
+    width: 100%;
+    display: none;
+    visibility: hidden;
+
+
+.homeADHD{ 
+  display: none;
+  visibility: hidden;
+}
+.homeAutism{ 
+  width: 100%;
+display: none;
+visibility: hidden;
+}
+.homeParent{ 
+  width: 100%;
+display: none;
+visibility: hidden;
+}
+
+.IMG{
+    width: 100%; 
+    
+}
+p{ 
+  width: 100%;
+  display: none;
+  visibility: hidden;
+}
+ a{
+   width: 100%;
+  display: none;
+  visibility: hidden;
+ }
+ h1{
+  width: 100%;
+  display: none;
+  visibility: hidden;
+
+ }
+}
+}
+}
