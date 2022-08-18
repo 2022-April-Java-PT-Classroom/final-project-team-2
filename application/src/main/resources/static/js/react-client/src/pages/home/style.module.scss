@@ -3,13 +3,24 @@
   color-scheme: secondary white;
   color-scheme: third  pink;
 }
-// .homegridContainer{
-//   width: 100%;
-//   display: flex;
-//   background:yellow;
-// }
+.homeContainer{
+  min-width: 30em;
+  margin: 0px;
+  padding: 0px;
+  // background:yellow;
+}
+.homegridContainer{
+  min-width: 30em;
+  width: 100%vh;
+  min-width: 500px;
+  margin:  0 auto;
+}
 
 .homeSection{
+  min-width: 29em;
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
   background: linear-gradient( rgb(85, 201, 240),rgb(10, 147, 244));
   width: 100%;
   height: 100vh;
@@ -25,16 +36,17 @@
 
 
   h1{
+  display: flex;
   animation: fly 3s linear;
   position: relative;
   top: 18px;
   bottom: 25em;
-  left: 8em;
+  left: 10em;
   margin: 0.5 auto;
   text-align: center;
   justify-content: center;
-  padding: 4px;
-  font-size: 65px;
+  padding: 5px;
+  font-size: 5em;
   font-family: monospace;
   font-weight: 900;
   
@@ -52,52 +64,49 @@
   }
  }
  p{
+  
   position: relative;
-  top: 10em;
-  left: 2em;
-  font-size: 55px;
+  top: 9em;
+  left: 1.5em;
+  font-size: 85px;
   text-align: center;
   color: aliceblue;
  }
+ h2{
+  border-radius: 12%;
+    font-size: 1.75rem;
+    position: relative;
+    top: 5em;
+    right: 7.5em;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    padding-top:  60px;
+    padding-bottom: 0;
+    color: aliceblue;
+    
+ }
  .homeLogo {
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
   position: relative;
   top: 15px;
-  right: 22em;
+  right: 50em;
   display: flex;
-  height: 400px;
-  width: 400px;
-  margin:  auto;
+  height: 450px;
+  width: 450px;
+  margin: auto;
 
 
 }
 
-//    .homeADDbtn a {
-//   position: relative;
-//   // bottom: 25em;
-//   // // display:flex;
-//   // // margin-left: 10px;
-//   // margin-bottom: 20em;
-//   width: 300px;
-//   height: 300px;
-//   justify-content: center;
-//   }
-
-//  .homeAutBtn a{
-//   // position: relative;
-//   // right: 1em;
-//   // bottom: 63em;
-//   // display:flex;
-//   // margin-right: 10px;
-//   // margin-bottom: 80em;
-//   width: 300px;
-//   height: 300px;
-//   justify-content: center;
-//   float: right;
-//   display: flex;
- 
-//  }
 }
  .homeADHD {
+  
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
   flex: 1;
   background: linear-gradient( rgb(85, 201, 240),rgb(10, 147, 244));
   width: 100%;
@@ -107,9 +116,13 @@
 
 
  a {
+  max-width: fit-content;
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
   font-family: monospace;
-  font-size: 2rem;
-    margin: 1px;
+  font-size: 3rem;
+    // margin: 1px;
     padding: 30px 50px;
     border-radius: 50px;
     background-color:rgb(75, 75, 202); ;
@@ -118,21 +131,27 @@
     font-weight: 900;
     text-decoration: none;
     text-transform: uppercase;
-    top: 20rem;
-    left: 63rem;
+    top: 30rem;
+    left: 25em;
     transition: 0.3s ease;
     position: relative;
  }
- a:hover {
-  background-color: #0a2056;
-}
+  a:hover {
+   background-color: #0a2056;
+ }
 
  .HOmeADHDULP {
+  
+  width: 100%;
+  height: auto;
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
   font-family: monospace;
   position: relative;
   left: 6em;
   bottom: 1px;
-  font-size: 45px;
+  font-size: 60px;
   font-weight: 900;
   position: relative;
   left: 15px;
@@ -141,14 +160,22 @@
 }
 
   .ADPageIMG{
+    display: -moz-box; /* Firefox*/
+    display: -webkit-box; /* Chrome */
+    display: -ms-flexbox; /* IE 10 */
+    flex: 1;
     animation: adhd 8s linear  ;
-  justify-content: center;
+   justify-content: center;
    margin: auto;
    position: relative;
    display: flex;
-   width: 400px
-
-  
+   width: 500px
+ }
+ .ADPageIMG img{
+  width: 200px;
+        height: 150px;
+        margin-left: 20px;
+        
  }
  @keyframes adhd {
   0%{
@@ -160,6 +187,9 @@
  }
 }
 .homeAutism{
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
   flex: 1;
   background: linear-gradient( rgb(85, 201, 240),rgb(10, 147, 244));
   width: 100%;
@@ -168,9 +198,14 @@
   margin: 0;
 
  a {
+  width: 100%;
+  height: auto;
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
   font-family: monospace;
-  font-size: 2rem;
-    margin: 1px;
+  font-size: 3rem;
+    // margin: 1px;
     padding: 30px 50px;
     border-radius: 50px;
     background-color:rgb(75, 75, 202); 
@@ -181,25 +216,33 @@
     text-transform: uppercase;
     transition: 0.3s ease;
     position: relative;
-    top: 20rem;
-    left: 60rem;
+    top: 30rem;
+    left: 75rem;
 
   }
   a:hover {
     background-color: #0a2056;
   }
  .AUThomepara{
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
+  flex: 1;
   font-family: monospace;
   position: relative;
   left: 6em;
   bottom: 1px;
-  font-size: 45px;
+  font-size: 65px;
   font-weight: 900;
   position: relative;
   left: 15px;
   text-align: center;
  }
  .AUtimgHomP{
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
+  flex: 1;
   animation: autsim 12s linear;
   position: relative;
   right: 2em;
@@ -207,8 +250,14 @@
    margin: auto;
    position: relative;
    display: flex;
-   width: 300px
+   width: 400px
 
+ }
+ .AUtimgHomP img{
+  width: 200px;
+        height: 150px;
+        margin-left: 5px;
+        border: 2px solid #6d6d6d;
  }
  @keyframes autsim {
   0%{
@@ -231,6 +280,9 @@
 }
 
 .homeParent{
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
   flex: 1;
   background: linear-gradient( rgb(85, 201, 240),rgb(10, 147, 244));
   width: 100%;
@@ -240,9 +292,13 @@
   justify-content: right;
 
  a {
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
+  flex: 1;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 2rem;
-    margin: 10px auto;
+  font-size: 3rem;
+    // margin: 10px auto;
     padding: 30px 50px;
     border-radius: 50px;
    background-color:rgb(75, 75, 202); 
@@ -266,7 +322,7 @@
     // left: 1em;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 900;
-    font-size:45px ;
+    font-size:65px ;
     text-align: center;
     text-decoration: none;
   }
@@ -274,7 +330,8 @@
     border-radius: 12%;
     font-size: 2rem;
     position: relative;
-    left: 5em;
+    top: 5rem;
+    left: 8em;
     // background-color: white;
     display:flex;
     text-align: center;
@@ -283,4 +340,134 @@
     padding: 50px;
     border: solid white;
   }
+}
+@media all and (max-width: 500px) {
+  .homeSection {
+    width: 100%;
+    display: none;
+    visibility: hidden;
+  }
+
+.homeADHD{ 
+  width: 100%;
+  display: none;
+  visibility: hidden;
+}
+.homeAutism{ 
+  width: 100%;
+display: none;
+visibility: hidden;
+}
+.homeParent{ 
+   width: 100%;
+display: none;
+visibility: hidden;
+}
+
+.IMG{
+    width: 100%; 
+}
+p{ width: 100%;
+  display: none;
+  visibility: hidden;
+}
+ a{
+  width: 100%;
+  display: none;
+  visibility: hidden;
+ }
+ h1{
+  width: 100%;
+  display: none;
+  visibility: hidden;
+ }
+
+}
+@media all and (max-width: 700px) {
+  .homeSection { 
+    width: 100%;
+    display: none;
+    visibility: hidden;
+
+
+.homeADHD{ 
+  display: none;
+  visibility: hidden;
+}
+.homeAutism{ 
+  width: 100%;
+display: none;
+visibility: hidden;
+}
+.homeParent{ 
+  width: 100%;
+display: none;
+visibility: hidden;
+}
+
+.IMG{
+    width: 100%; 
+    
+}
+p{ 
+  width: 100%;
+  display: none;
+  visibility: hidden;
+}
+ a{
+   width: 100%;
+  display: none;
+  visibility: hidden;
+ }
+ h1{
+  width: 100%;
+  display: none;
+  visibility: hidden;
+
+ }
+}
+@media all and (max-width: 300px) {
+  .homeSection { 
+    width: 100%;
+    display: none;
+    visibility: hidden;
+
+
+.homeADHD{ 
+  display: none;
+  visibility: hidden;
+}
+.homeAutism{ 
+  width: 100%;
+display: none;
+visibility: hidden;
+}
+.homeParent{ 
+  width: 100%;
+display: none;
+visibility: hidden;
+}
+
+.IMG{
+    width: 100%; 
+    
+}
+p{ 
+  width: 100%;
+  display: none;
+  visibility: hidden;
+}
+ a{
+   width: 100%;
+  display: none;
+  visibility: hidden;
+ }
+ h1{
+  width: 100%;
+  display: none;
+  visibility: hidden;
+
+ }
+}
+}
 }
