@@ -9,7 +9,7 @@ import adbrain from "../../assets/adbrain.png";
 
 const Home = () => {
     return(
-        <div>
+        <div className={style.homeContainer}>
             <div className={style.homegridContainer}>
                 <section className={style.homeSection}>
 

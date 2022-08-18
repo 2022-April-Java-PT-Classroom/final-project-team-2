@@ -3,13 +3,21 @@
   color-scheme: secondary white;
   color-scheme: third  pink;
 }
-// .homegridContainer{
-//   width: 100%;
-//   display: flex;
-//   background:yellow;
-// }
+.homeContainer{
+  margin: 0px;
+  padding: 0px;
+  // background:yellow;
+}
+.homegridContainer{
+  width: 100%;
+  min-width: 500px;
+  margin: auto;
+}
 
 .homeSection{
+  display: -moz-box; /* Firefox*/
+  display: -webkit-box; /* Chrome */
+  display: -ms-flexbox; /* IE 10 */
   background: linear-gradient( rgb(85, 201, 240),rgb(10, 147, 244));
   width: 100%;
   height: 100vh;
@@ -60,6 +68,10 @@
   color: aliceblue;
  }
  .homeLogo {
+  -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
+    -moz-box-ordinal-group: 1; /* Firefox*/
+    -ms-flex-order: 1; /* IE 10 */
+    -webkit-order: 1; /* Chrome */
   position: relative;
   top: 15px;
   right: 22em;
@@ -98,6 +110,10 @@
 //  }
 }
  .homeADHD {
+  -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
+    -moz-box-ordinal-group: 1; /* Firefox*/
+    -ms-flex-order: 1; /* IE 10 */
+    -webkit-order: 1; /* Chrome */
   flex: 1;
   background: linear-gradient( rgb(85, 201, 240),rgb(10, 147, 244));
   width: 100%;
@@ -107,6 +123,10 @@
 
 
  a {
+  -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
+    -moz-box-ordinal-group: 1; /* Firefox*/
+    -ms-flex-order: 1; /* IE 10 */
+    -webkit-order: 1; /* Chrome */
   font-family: monospace;
   font-size: 2rem;
     margin: 1px;
@@ -128,6 +148,12 @@
 }
 
  .HOmeADHDULP {
+  width: 100%;
+  height: auto;
+  -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
+    -moz-box-ordinal-group: 1; /* Firefox*/
+    -ms-flex-order: 1; /* IE 10 */
+    -webkit-order: 1; /* Chrome */
   font-family: monospace;
   position: relative;
   left: 6em;
@@ -141,14 +167,23 @@
 }
 
   .ADPageIMG{
+    -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
+    -moz-box-ordinal-group: 1; /* Firefox*/
+    -ms-flex-order: 1; /* IE 10 */
+    -webkit-order: 1; /* Chrome */
+    flex: 1;
     animation: adhd 8s linear  ;
-  justify-content: center;
+   justify-content: center;
    margin: auto;
    position: relative;
    display: flex;
    width: 400px
-
-  
+ }
+ .ADPageIMG img{
+  width: 200px;
+        height: 150px;
+        margin-left: 20px;
+        
  }
  @keyframes adhd {
   0%{
@@ -160,6 +195,9 @@
  }
 }
 .homeAutism{
+  -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
+  -moz-box-ordinal-group: 1; /* Firefox*/
+  -ms-flex-order: 1; 
   flex: 1;
   background: linear-gradient( rgb(85, 201, 240),rgb(10, 147, 244));
   width: 100%;
@@ -168,6 +206,12 @@
   margin: 0;
 
  a {
+  width: 100%;
+  height: auto;
+  -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
+    -moz-box-ordinal-group: 1; /* Firefox*/
+    -ms-flex-order: 1; /* IE 10 */
+   
   font-family: monospace;
   font-size: 2rem;
     margin: 1px;
@@ -189,6 +233,9 @@
     background-color: #0a2056;
   }
  .AUThomepara{
+  -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
+  -moz-box-ordinal-group: 1; /* Firefox*/
+  -ms-flex-order: 1; 
   font-family: monospace;
   position: relative;
   left: 6em;
@@ -200,6 +247,10 @@
   text-align: center;
  }
  .AUtimgHomP{
+  -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
+  -moz-box-ordinal-group: 1; /* Firefox*/
+  -ms-flex-order: 1; 
+  flex: 1;
   animation: autsim 12s linear;
   position: relative;
   right: 2em;
@@ -209,6 +260,12 @@
    display: flex;
    width: 300px
 
+ }
+ .AUtimgHomP img{
+  width: 200px;
+        height: 150px;
+        margin-left: 5px;
+        border: 2px solid #6d6d6d;
  }
  @keyframes autsim {
   0%{
@@ -283,4 +340,75 @@
     padding: 50px;
     border: solid white;
   }
+}
+@media all and (max-width: 900px) {
+  .homeSection { /* Hide advertisement panel*/
+    display: none;
+    visibility: hidden;
+}
+
+.homeADHD{ /* Hide advertisement panel*/
+  display: none;
+  visibility: hidden;
+}
+.homeAutism{ /* Hide advertisement panel*/
+display: none;
+visibility: hidden;
+}
+.homeParent{ /* Hide advertisement panel*/
+display: none;
+visibility: hidden;
+}
+
+.IMG{
+    width: 100%; /* Earlier 70%*/
+}
+p{
+  display: none;
+  visibility: hidden;
+}
+ a{
+  display: none;
+  visibility: hidden;
+ }
+ h1{
+  display: none;
+  visibility: hidden;
+ }
+}
+
+@media all and (max-width: 700px) {
+  .homeSection { /* Hide advertisement panel*/
+    display: none;
+    visibility: hidden;
+}
+
+.homeADHD{ /* Hide advertisement panel*/
+  display: none;
+  visibility: hidden;
+}
+.homeAutism{ /* Hide advertisement panel*/
+display: none;
+visibility: hidden;
+}
+.homeParent{ /* Hide advertisement panel*/
+display: none;
+visibility: hidden;
+}
+
+.IMG{
+    width: 100%; /* Earlier 70%*/
+}
+p{
+  display: none;
+  visibility: hidden;
+}
+ a{
+  display: none;
+  visibility: hidden;
+ }
+ h1{
+  display: none;
+  visibility: hidden;
+ }
 }
