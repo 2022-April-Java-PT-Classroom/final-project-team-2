@@ -9,9 +9,9 @@
   // background:yellow;
 }
 .homegridContainer{
-  width: 100%;
+  width: 100%vh;
   min-width: 500px;
-  margin: auto;
+  margin:  0 auto;
 }
 
 .homeSection{
@@ -33,16 +33,17 @@
 
 
   h1{
+  display: flex;
   animation: fly 3s linear;
   position: relative;
   top: 18px;
   bottom: 25em;
-  left: 8em;
+  left: 9em;
   margin: 0.5 auto;
-  text-align: center;
+  // text-align: center;
   justify-content: center;
   padding: 4px;
-  font-size: 65px;
+  font-size: 7em;
   font-family: monospace;
   font-weight: 900;
   
@@ -61,11 +62,24 @@
  }
  p{
   position: relative;
-  top: 10em;
-  left: 2em;
-  font-size: 55px;
+  top: 11em;
+  left: 2.5em;
+  font-size: 85px;
   text-align: center;
   color: aliceblue;
+ }
+ h2{
+  border-radius: 12%;
+    font-size: 2rem;
+    position: relative;
+    top: 5em;
+    right: 5.5em;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    padding-top:  60px;
+    padding-bottom: 0;
+    
  }
  .homeLogo {
   -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
@@ -74,40 +88,15 @@
     -webkit-order: 1; /* Chrome */
   position: relative;
   top: 15px;
-  right: 22em;
+  right: 50em;
   display: flex;
-  height: 400px;
-  width: 400px;
-  margin:  auto;
+  height: 500px;
+  width: 500px;
+  margin: auto;
 
 
 }
 
-//    .homeADDbtn a {
-//   position: relative;
-//   // bottom: 25em;
-//   // // display:flex;
-//   // // margin-left: 10px;
-//   // margin-bottom: 20em;
-//   width: 300px;
-//   height: 300px;
-//   justify-content: center;
-//   }
-
-//  .homeAutBtn a{
-//   // position: relative;
-//   // right: 1em;
-//   // bottom: 63em;
-//   // display:flex;
-//   // margin-right: 10px;
-//   // margin-bottom: 80em;
-//   width: 300px;
-//   height: 300px;
-//   justify-content: center;
-//   float: right;
-//   display: flex;
- 
-//  }
 }
  .homeADHD {
   -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
@@ -128,7 +117,7 @@
     -ms-flex-order: 1; /* IE 10 */
     -webkit-order: 1; /* Chrome */
   font-family: monospace;
-  font-size: 2rem;
+  font-size: 3rem;
     margin: 1px;
     padding: 30px 50px;
     border-radius: 50px;
@@ -138,14 +127,14 @@
     font-weight: 900;
     text-decoration: none;
     text-transform: uppercase;
-    top: 20rem;
-    left: 63rem;
+    top: 30rem;
+    left: 35em;
     transition: 0.3s ease;
     position: relative;
  }
- a:hover {
-  background-color: #0a2056;
-}
+  a:hover {
+   background-color: #0a2056;
+ }
 
  .HOmeADHDULP {
   width: 100%;
@@ -236,6 +225,7 @@
   -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
   -moz-box-ordinal-group: 1; /* Firefox*/
   -ms-flex-order: 1; 
+  flex: 1;
   font-family: monospace;
   position: relative;
   left: 6em;
@@ -288,6 +278,9 @@
 }
 
 .homeParent{
+  -webkit-box-ordinal-group: 1; /* iOS 6-, Safari, Opera*/
+  -moz-box-ordinal-group: 1; /* Firefox*/
+  -ms-flex-order: 1; 
   flex: 1;
   background: linear-gradient( rgb(85, 201, 240),rgb(10, 147, 244));
   width: 100%;
@@ -341,74 +334,74 @@
     border: solid white;
   }
 }
-@media all and (max-width: 900px) {
-  .homeSection { /* Hide advertisement panel*/
-    display: none;
-    visibility: hidden;
-}
+// @media all and (max-width: 1321px) {
+//   .homeSection { /* Hide advertisement panel*/
+//     display: none;
+//     visibility: hidden;
+// }
 
-.homeADHD{ /* Hide advertisement panel*/
-  display: none;
-  visibility: hidden;
-}
-.homeAutism{ /* Hide advertisement panel*/
-display: none;
-visibility: hidden;
-}
-.homeParent{ /* Hide advertisement panel*/
-display: none;
-visibility: hidden;
-}
+// .homeADHD{ /* Hide advertisement panel*/
+//   display: none;
+//   visibility: hidden;
+// }
+// .homeAutism{ /* Hide advertisement panel*/
+// display: none;
+// visibility: hidden;
+// }
+// .homeParent{ /* Hide advertisement panel*/
+// display: none;
+// visibility: hidden;
+// }
 
-.IMG{
-    width: 100%; /* Earlier 70%*/
-}
-p{
-  display: none;
-  visibility: hidden;
-}
- a{
-  display: none;
-  visibility: hidden;
- }
- h1{
-  display: none;
-  visibility: hidden;
- }
-}
+// .IMG{
+//     width: 100%; /* Earlier 70%*/
+// }
+// p{
+//   display: none;
+//   visibility: hidden;
+// }
+//  a{
+//   display: none;
+//   visibility: hidden;
+//  }
+//  h1{
+//   display: none;
+//   visibility: hidden;
+//  }
+// }
 
-@media all and (max-width: 700px) {
-  .homeSection { /* Hide advertisement panel*/
-    display: none;
-    visibility: hidden;
-}
+// @media all and (max-width: 700px) {
+//   .homeSection { /* Hide advertisement panel*/
+//     display: none;
+//     visibility: hidden;
+// }
 
-.homeADHD{ /* Hide advertisement panel*/
-  display: none;
-  visibility: hidden;
-}
-.homeAutism{ /* Hide advertisement panel*/
-display: none;
-visibility: hidden;
-}
-.homeParent{ /* Hide advertisement panel*/
-display: none;
-visibility: hidden;
-}
+// .homeADHD{ /* Hide advertisement panel*/
+//   display: none;
+//   visibility: hidden;
+// }
+// .homeAutism{ /* Hide advertisement panel*/
+// display: none;
+// visibility: hidden;
+// }
+// .homeParent{ /* Hide advertisement panel*/
+// display: none;
+// visibility: hidden;
+// }
 
-.IMG{
-    width: 100%; /* Earlier 70%*/
-}
-p{
-  display: none;
-  visibility: hidden;
-}
- a{
-  display: none;
-  visibility: hidden;
- }
- h1{
-  display: none;
-  visibility: hidden;
- }
-}
+// .IMG{
+//     width: 100%; /* Earlier 70%*/
+// }
+// p{
+//   display: none;
+//   visibility: hidden;
+// }
+//  a{
+//   display: none;
+//   visibility: hidden;
+//  }
+//  h1{
+//   display: none;
+//   visibility: hidden;
+//  }
+// }

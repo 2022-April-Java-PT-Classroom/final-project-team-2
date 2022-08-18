@@ -15,6 +15,8 @@ const Home = () => {
 
                 <h1>Think Differently</h1>
                 <p>Welcome</p>
+                <h2> come and enjoy the positive side
+                    of you! </h2>
                 <div className={style.homeLogo}>
                 <img src={logo} alt={"logo"}></img>
                 </div>
