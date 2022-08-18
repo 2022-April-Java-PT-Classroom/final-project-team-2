@@ -1,5 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
+import cloud1 from "../../assets/cloud1.png";
+import video from "../../assets/video.png";
 import style from './style.module.scss';
 import Axios from "axios";
 
@@ -45,10 +47,16 @@ const AdhdVideos = () => {
     
   
      return(
-    
         <div className={style.adhdvideo}>
-        <div className={style.adhdSection}>
-            <h1>ADHD Section</h1>
+        <div className={style.videomain}>
+         <div className={style.banner}>ADHD Video Tools</div>
+            <div className={style.logo}>
+             <img src={video} alt={"video"}></img>
+            </div>
+     </div>
+
+     <h1>ADHD</h1>
+        <div className={style.adhdSection}>      
             {adhdvideoData.map(adhdvideo =>
                 <div className={style.adhdvideos}>
                 <h2>{adhdvideo.title}</h2>
@@ -56,8 +64,9 @@ const AdhdVideos = () => {
                 </div>
                 )}
         </div>
+
+     <h1>Ted Talks</h1>
         <div className={style.adhdtedxSection}>
-            <h1>Ted Talks Section</h1>
             {adhdtedxvideoData.map(adhdtedxvideo =>
                 <div className={style.adhdtedxvideos}>
                 <h2>{adhdtedxvideo.title}</h2>
@@ -65,8 +74,9 @@ const AdhdVideos = () => {
                 </div>
                 )}
         </div>
+
+     <h1>Organize HGTV</h1>
         <div className={style.adhdorganizeSection}>
-            <h1>Organize HGTV Section</h1>
             {adhdorganizevideoData.map(adhdorganizevideo =>
                 <div className={style.adhdorganizevideos}>
                 <h2>{adhdorganizevideo.title}</h2>
