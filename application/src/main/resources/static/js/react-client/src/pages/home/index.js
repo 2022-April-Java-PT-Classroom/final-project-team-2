@@ -9,12 +9,14 @@ import adbrain from "../../assets/adbrain.png";
 
 const Home = () => {
     return(
-        <div>
+        <div className={style.homeContainer}>
             <div className={style.homegridContainer}>
                 <section className={style.homeSection}>
 
                 <h1>Think Differently</h1>
                 <p>Welcome</p>
+                <h2> come and enjoy the positive side
+                    of you! </h2>
                 <div className={style.homeLogo}>
                 <img src={logo} alt={"logo"}></img>
                 </div>
