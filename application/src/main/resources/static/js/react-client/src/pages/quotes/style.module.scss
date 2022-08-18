@@ -34,9 +34,8 @@
     display: block;
     margin: 3.5rem;
     font-size: 22px;
-    
     animation-duration: 25s;
-    animation-timing-function: linear;
+    animation-timing-function: ease;
     animation-iteration-count: infinite;
     animation-name: anim-text;
 }
@@ -52,6 +51,7 @@
     opacity: 0;
     background-size: cover;
 }
+//Add a keyframes to my movies to create my slideshow. thats what was messing me up.
 
 @keyframes slide{
     from {opacity: .4}
