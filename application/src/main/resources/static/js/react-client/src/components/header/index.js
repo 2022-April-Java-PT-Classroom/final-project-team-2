@@ -1,4 +1,3 @@
-import {Link} from "react-router-dom";
 import { NavLink } from 'react-router-dom';
 import React from 'react';
 import login from "../../assets/login.png";
@@ -16,12 +15,11 @@ const Header = () => {
             <NavLink to={'/parent'}>Parent</NavLink>
             <NavLink to={'/about'}>About</NavLink>
             <NavLink to={'/pages/quotes'}>Inspire</NavLink>
+        <p><a href='http://localhost:8080/login'><img src={login} alt={"login"}/></a></p>
         </ul>
      </div>
-     <div className={style.img1}>
-        <p><a href='http://localhost:8080/login'><img src={login} alt={"login"}/></a></p>
-        </div>
     </div>
+    
     )
 }
 
