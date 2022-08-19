@@ -66,7 +66,7 @@ const About =()=>{
                 bioTitle="Full-Stack Software Developer"
                 bioDescription="My passion for tech started as kid and hasn't stopped evolving. After starting my own Web Design & IT business that focused on developing small businesses in my rural hometown. I took an opportunity to move to the Harrisburg area and start at Amazon. Amazon has provided me the space to grow my career in Information Technology and continually expand my knowledge. I am currently pursuing Full Stack Development through WCCI and cannot wait to see what awaits."
                 // bioSkills="Java, CSS, HTML, JavaScript, React, Node"
-                gitHub="Website"
+                gitHub="https://github.com/danefirestone"
               
             />
             <BioCard
