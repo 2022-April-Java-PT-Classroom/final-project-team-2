@@ -67,11 +67,20 @@
   .moodText{
     text-align: center;
     background: rgba(98,29,209,255) ;
-    height: 90px;
+    height: 150px;
     Color: white;
     padding-top: 10px;
     
   }
+  
+  .moodText h1{
+    font-size: 40px;
+  }
+
+  .moodText p{
+    font-size: 30px;
+  }
+
 
 }
 
