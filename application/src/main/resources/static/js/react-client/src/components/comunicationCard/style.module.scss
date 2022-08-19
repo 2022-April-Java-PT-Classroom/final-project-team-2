@@ -1,15 +1,17 @@
 .card{
-    width: 280px;
-    height: 400px;
+    width: 380px;
+    height: 500px;
     background: white;
     border-radius: 15px;
     box-shadow: 0px 0px 5px 0px rgba(98,29,209,255);
     margin: 20px;
     
+    
     .upperContainer{
         height: 85px;
         background: linear-gradient(to right,rgba(98,29,209,255) , rgba(97,105,255,255));
         border-radius: 15px 15px 0 0;
+        
         
     }
 
@@ -19,7 +21,8 @@
         height: 70px;
         border-radius: 50%;
         padding: 5px;
-        transform: translate(95px,35px);
+        transform: translate(150px,40px);
+        
         
     }
 
@@ -36,10 +39,15 @@
         background:white;
         text-align: center;
         padding:0 5px 0;
+        font-size: 25px;
     }
     .lowerContainer h3{
         color:#8e00a1;
         font-size: 1.5em;
+    }
+
+    .lowerContainer h4{
+        font-size: 30px;
     }
 
 

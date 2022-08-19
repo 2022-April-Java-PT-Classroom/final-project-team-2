@@ -6,6 +6,7 @@
     align-items: center;
     flex-direction: column;
     font-family: sans-serif;
+    font-size: 30px;
     background-image: linear-gradient(to right,rgba(98,29,209,255) , rgba(97,105,255,255))
   }
   .EmotionsApp .emojis{
@@ -50,18 +51,18 @@
     width: 500px;
     height: 350px;
     border-radius: 12px;
-    background-color: rgba(97,105,255,255);
+    background-color: rgba(232,234,250,255);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     flex-direction: column;
-    padding: 25px;
+    padding: 30px;
   }
   
   .emoContainer .title {
     display: inline-block;
     text-align: center;
-    margin-top: 10px;
-    font-size: 20PX;
+    // margin-top: 10px;
+    font-size: 30px;
   }
   
   .titleCloseBtn {
@@ -83,6 +84,7 @@
     align-items: center;
     font-size: 2rem;
     text-align: center;
+    color: purple;
     
 
   }
@@ -98,6 +100,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: red;
   }
   
   .emoContainer .emoFooter button {
@@ -118,7 +121,7 @@
   }
   
   #cancelBtn {
-    background-color: rgb(219,147,139);
+    background-color: orange;
   }
 
   #cancelBtn:hover{

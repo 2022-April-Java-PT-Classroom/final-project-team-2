@@ -1,26 +1,20 @@
-import React from "react"
-import style from "./style.module.scss";
-import {Link} from "react-router-dom";
-import logo from "../../assets/logo.png";
-import cloud1 from "../../assets/cloud1.png";
-import cloud2 from "../../assets/cloud2.png";
 import Aubrain from "../../assets/Aubrain.png";
+import {Link} from "react-router-dom";
+import React from "react"
 import adbrain from "../../assets/adbrain.png";
+import logo from "../../assets/logo.png";
+import style from "./Home.module.scss";
 
 const Home = () => {
     return(
         <div className={style.homeContainer}>
             <div className={style.homegridContainer}>
                 <section className={style.homeSection}>
-
                 <h1>Think Differently</h1>
-                <p>Welcome</p>
-                <h2> come and enjoy the positive side
-                    of you! </h2>
                 <div className={style.homeLogo}>
                 <img src={logo} alt={"logo"}></img>
                 </div>
-
+                <p>come and enjoy the positive side of you!</p>
                 {/* <div className={style.homeADDbtn}>
                 <Link to={"/adhd"}><img src={cloud1} alt={"cloud1"}></img></Link>
                 </div>

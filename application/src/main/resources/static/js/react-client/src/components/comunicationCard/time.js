@@ -7,7 +7,7 @@ class TimeApp extends React.Component {
   render(){
     return (
       <div >
-        <p>Sended: {this.state.curDT}</p>
+        <p>Sent: {this.state.curDT}</p>
       </div>
     );
   }
