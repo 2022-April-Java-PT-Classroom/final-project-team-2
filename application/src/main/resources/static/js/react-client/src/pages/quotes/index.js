@@ -32,25 +32,28 @@ const QuotesAPI = () => {
     }, [quotes]);
     
     return (
-        uploading ? <h2>Uploading!</h2> :
+        <div className={style.quotesDiv}>
+        {uploading ? <h2>Uploading!</h2> :
         
-        <div className="quotes_shadowbox">
+        <div className={style.quotes_shadowbox}>
             <section className={style.quotesSection}>
                 <div className={style.quotesText}>
                     <h3>Quote of the Day...</h3>
+                    <div className={style.quotesGrid} key={quotes.id}>
                     {quotes.map(quotes => (
-                        <div key={quotes.id}>
-                            <h1 className="quote__author_name">{quotes.name}</h1>
-                            <img className="quote__author_pic" src={quotes.imageUrl} alt=""></img>
-                            <p className="quote_summary">{quotes.summary}</p>
+                            <div>
+                            <h1 className={style.quote__author_name}>{quotes.name}</h1>
+                            <img className={style.quote__author_pic} src={quotes.imageUrl} alt=""></img>
+                            <p className={style.quote_summary}>{quotes.summary}</p>
                             </div>
                     ))}
+                    </div>
                 </div>
             </section>
             <section className={style.moviesSection}>
                 <div className={style.moviesText}>
                 <h3>Positive Neurodivergent Movies</h3>
-                <div className="slide">
+                <div className="Mymovies slide">
                     <img src={Up} alt={"up_movie"}></img>
                     <img src={Dragon} alt={"dragon_movie"}></img>
                     <img src={iamsam} alt={"i_am_sam"}></img>
@@ -58,6 +61,8 @@ const QuotesAPI = () => {
                 </div>
                 </div>
             </section>
+        </div>
+        }
         </div>
     )
 }

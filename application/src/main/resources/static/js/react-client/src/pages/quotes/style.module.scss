@@ -1,12 +1,22 @@
-.quotesText h3{
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-
+.quotesDiv {
+    width: 100% !important;
 }
 
-.quotesText div{
-    margin: 2rem 60em;
+.quotesText h3{
+    font-size: 60px;
+    text-align: center;
+}
+
+.quotesGrid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin: auto 30px;
+}
+
+
+.quotesGrid div{
+    // margin: 2rem 60em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -18,20 +28,17 @@
     background-color: rgb(148, 156, 230);
     box-shadow: 10px 10px;
 }
-.quotesText div h1{
+
+.quotesGrid div h1{
     font-size: 45px;
-    display: flex;
-    justify-content: center;
 }
-.quotesText div img{
+
+.quotesGrid div img{
     width: 400px;
     height: 350px;
-    display: flex;
-    justify-content: center;
-    position: relative;
 }
-.quotesText div p{
-    display: block;
+
+.quotesGrid div p{
     margin: 3.5rem;
     font-size: 22px;
     animation-duration: 25s;
@@ -39,18 +46,18 @@
     animation-iteration-count: infinite;
     animation-name: anim-text;
 }
-@keyframes anim-text{
-    0%, 8.3% { left: -100%; opacity: 0; }
-    8.3%, 25% { left: 25%; opacity: 1; }
-    33.33%, 100% { left: 110%; opacity: 0; }
-}
+// @keyframes anim-text{
+//     0%, 8.3% { left: -100%; opacity: 0; }
+//     8.3%, 25% { left: 25%; opacity: 1; }
+//     33.33%, 100% { left: 110%; opacity: 0; }
+// }
 
-.slide{
-    animation: slide 25s infinite;
-    position: absolute;
-    opacity: 0;
-    background-size: cover;
-}
+// .slide{
+//     animation: slide 25s infinite;
+//     position: absolute;
+//     opacity: 0;
+//     background-size: cover;
+// }
 //Add a keyframes to my movies to create my slideshow. thats what was messing me up.
 
 @keyframes slide{
@@ -70,4 +77,9 @@
     font-size: 60px;
     display: flex;
     justify-content: center;
+}
+@media (max-width: 800px) {
+    .quotesText div {
+        flex-direction: column;
+    }
 }
