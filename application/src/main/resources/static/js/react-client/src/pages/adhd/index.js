@@ -8,6 +8,7 @@ import resore from "../../assets/resore.png";
 import style from "./style.module.scss";
 import timer from "../../assets/timer.png";
 import video from "../../assets/video.png";
+import fidget from "../../assets/fidget.png";
 
 const Adhd =()=>{
     return(
@@ -26,8 +27,8 @@ const Adhd =()=>{
                         </div>
 
                         <div className={style.ADHDheroCards}>
-                        <img src={checklist} alt={"checklist"}></img>
-                        <h2> Check List </h2>
+                        <img src={fidget} alt={"fidget"}></img>
+                        <h2> <Link to={'/spinner'}>Fidget Spinners </Link></h2>
                         </div>
            
                         <div className={style.ADHDheroCards}>
@@ -40,7 +41,9 @@ const Adhd =()=>{
                         <img src={resore} alt={"resore"}></img>
                         <h2><Link to={'/adhd-resources'}>ADHD Resources</Link></h2>
                         <div class="desc"></div>
+                       
                         </div>
+                        
                     </div> 
                 </section>
             </div>

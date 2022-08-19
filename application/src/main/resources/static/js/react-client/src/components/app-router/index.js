@@ -1,5 +1,5 @@
 import { Route, Switch } from 'react-router-dom';
-
+import Spinner from '../../pages/spinner';
 import About from '../../pages/about';
 import Adhd from '../../pages/adhd';
 import AdhdResources from '../../pages/adhd-resources';
@@ -28,6 +28,7 @@ const AppRouter = () => {
             <Route path={'/adhd-resources'} component={AdhdResources}/>
             <Route path={'/autism-resources'} component={AutismResources}/>
             <Route path={'/alarm-clock'} component={AlarmClock}/>
+            <Route path={'/spinner'} component={Spinner}/>
         </Switch>
         
     );
