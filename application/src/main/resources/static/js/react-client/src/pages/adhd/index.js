@@ -15,30 +15,30 @@ const Adhd =()=>{
             <div className={style.AdhdHome}>
                 <section className={style.AdhdgridBox}>
                     <div className={style.Adhdtitle}>
-                        <h1>Adhd tool box</h1>
+                        <h1>ADHD Tool Box</h1>
                     </div>
                     <div className={style.ADHDheroGrid}>
                         <div  className={style.ADHDheroCards}>
-                       <img src={timer} alt={"timer"}></img>
+                       <img src={timer} alt={"timer"} ></img>
                        <div class="desc"></div>
-                       <Link to={'/alarm-clock'}>Task Timer</Link>
+                       <h2><Link to={'/alarm-clock'}>Task Timer</Link></h2>
                         
                         </div>
 
                         <div className={style.ADHDheroCards}>
                         <img src={checklist} alt={"checklist"}></img>
-                        <p> Check List </p>
+                        <h2> Check List </h2>
                         </div>
            
                         <div className={style.ADHDheroCards}>
                         <img src={video} alt={"video"}></img>
                         {/* <div class="desc"></div> */}
-                        <p><Link to={'/adhd-videos'}>adhd video tools</Link></p>
+                        <h2><Link to={'/adhd-videos'}>ADHD Video Tools</Link></h2>
                         </div>
 
                         <div className={style.ADHDheroCards}>
                         <img src={resore} alt={"resore"}></img>
-                        <p> ADHD Resources</p>
+                        <h2><Link to={'/adhd-resources'}>ADHD Resources</Link></h2>
                         <div class="desc"></div>
                         </div>
                     </div> 

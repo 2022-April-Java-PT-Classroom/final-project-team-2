@@ -17,14 +17,14 @@ const About =()=>{
             <BioCard
                 
                 bioName="Samuel Leiva"
-                imageDev ="https://media-exp1.licdn.com/dms/image/D5635AQHyIoo2Ijofzw/profile-framedphoto-shrink_400_400/0/1658445629590?e=1660615200&v=beta&t=3KOjwdnFJtdMecAeSRKHc9FEH8NEyO52z2jfUEfkQKo"
+                imageDev ='https://media-exp1.licdn.com/dms/image/D5635AQHyIoo2Ijofzw/profile-framedphoto-shrink_400_400/0/1658445629590?e=1661475600&v=beta&t=VLoAKL5xx11-bD3sHXifNMEzKFhwFXCEAmblbL51HF4'
                 bioTitle="Full-Stack Software Developer"
                 bioDescription="I enjoy creating things that live on the internet. I am a Full-Stack Software 
                 Developer specializing in building (and occasionally designing) exceptional digital experiences. My focus these days is building accessible, inclusive 
                 products and digital experiences at Lab275 for a variety of clients. I also recently creating a DownTime tracker for Amazon warehouses using Java for Back-End and React 
                 JS for the Front-End."
                 
-                gitHub="http://www.lab275.com"
+                gitHub="https://samleivadev.github.io/profile/"
               
             />
             <BioCard
@@ -66,7 +66,7 @@ const About =()=>{
                 bioTitle="Full-Stack Software Developer"
                 bioDescription="My passion for tech started as kid and hasn't stopped evolving. After starting my own Web Design & IT business that focused on developing small businesses in my rural hometown. I took an opportunity to move to the Harrisburg area and start at Amazon. Amazon has provided me the space to grow my career in Information Technology and continually expand my knowledge. I am currently pursuing Full Stack Development through WCCI and cannot wait to see what awaits."
                 // bioSkills="Java, CSS, HTML, JavaScript, React, Node"
-                gitHub="Website"
+                gitHub="https://github.com/danefirestone"
               
             />
             <BioCard

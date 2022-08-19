@@ -33,7 +33,7 @@
     border-radius: 15px;
     background: white;
     height: 300px;
-    width: 300px;
+    width: 500px;
     text-align: center;
     margin-top: 30px;
     color:rgba(98,29,209,255);
@@ -51,7 +51,7 @@
     border-radius: 15px;
     background: white;
     height: 300px;
-    width: 300px;
+    width: 500px;
     text-align: center;
     margin-top: 30px;
     color: rgba(98,29,209,255);
@@ -67,11 +67,20 @@
   .moodText{
     text-align: center;
     background: rgba(98,29,209,255) ;
-    height: 90px;
+    height: 150px;
     Color: white;
     padding-top: 10px;
     
   }
+  
+  .moodText h1{
+    font-size: 40px;
+  }
+
+  .moodText p{
+    font-size: 30px;
+  }
+
 
 }
 

@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from "react";
+
+import Axios from "axios";
 import {NavLink} from "react-router-dom";
 import cloud2 from "../../assets/cloud2.png";
 import style from './style.module.scss';
-import Axios from "axios";
-
 
 const AutismResources = () => {
 
@@ -63,7 +63,7 @@ const AutismResources = () => {
 
                         <div className={style.websiteLink}>
                         <p>
-                        <a href={autismwebsite.url} target="_blank">{autismwebsite.title}</a>
+                        <a href={autismwebsite.url} target="">{autismwebsite.title}</a>
                         </p>
                         </div>
                         )}

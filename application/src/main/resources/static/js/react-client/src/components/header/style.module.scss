@@ -14,7 +14,6 @@
 
 
 .nav{
-  
     justify-content: space-between;
     align-items: right;
     margin: 2px auto ;
@@ -25,7 +24,6 @@
     display: flex;
 
  }
-
 
 .navList {
     margin: 10 2px;
@@ -45,5 +43,13 @@
     & a:hover{
         color: rgb(37, 160, 160);
         transition: 0.3s ease;
+    }
+    & p{
+        position: relative;
+        right: 75em;
+       bottom: 5.5em;
+       max-height: 0px;
+       height: 90%;
+
     }
 }
