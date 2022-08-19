@@ -51,16 +51,15 @@
 .quotesGrid div img{
     width: 400px;
     height: 350px;
-
-    display: flex;
+    border:5px solid #8e00a1;
+    border-radius: 15px;
    
 } 
 .quotesText div p{
     margin: 3.5rem;
     font-size: 22px;
-
-    border-radius: 15px;
-    border:5px solid #8e00a1;
+  
+    
 }
 
 
