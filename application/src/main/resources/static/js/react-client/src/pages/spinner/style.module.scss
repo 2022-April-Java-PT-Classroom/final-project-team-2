@@ -1,0 +1,42 @@
+
+
+.containerSpinner{
+    margin: 0;
+    background: linear-gradient( rgb(85, 201, 240),rgb(10, 147, 244));
+    // background: rgb(239, 241, 241);
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+// .rotated-image {
+//   -webkit-transform: rotate(20deg);
+//           transform: rotate(20deg);
+// } 
+.spinnerimg {
+  position: relative;
+  top: 8em;
+  left: 55em;
+  animation: 3.3s spin infinite;
+  display: flex;
+  width: 600px;
+  height: 600px;
+}
+
+
+
+  @keyframes spin {
+    0%{
+      transform: translate(0vh ); rotate: 160deg;
+    }
+    25%{
+      transform: translate(0 ); rotate: -60deg;
+    }
+    50%{
+      transform: translate(0 ); rotate: -360deg;
+    }
+    100%{
+      transform: translate(0 ); rotate: 360deg;
+    }
+   
+    
+  }

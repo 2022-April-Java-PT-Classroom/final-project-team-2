@@ -35,21 +35,26 @@ const QuotesAPI = () => {
         <div className={style.quotesDiv}>
         {uploading ? <h2>Uploading!</h2> :
         
+
         <div className={style.quotes_shadowbox}>
+
             <section className={style.quotesSection}>
                 <div className={style.quotesText}>
                     <h3>Inspirational Quotes From Around The Globe</h3>
                     <div className={style.quotesGrid} key={quotes.id}>
                     {quotes.map(quotes => (
+
                             <div>
                             <h1 className={style.quote__author_name}>{quotes.name}</h1>
                             <img className={style.quote__author_pic} src={quotes.imageUrl} alt=""></img>
                             <p className={style.quote_summary}>{quotes.summary}</p>
+
                             </div>
                     ))}
                     </div>
                 </div>
             </section>
+            
             <section className={style.moviesSection}>
                 <div className={style.moviesText}>
                 <h3>Positive Neurodivergent Movies</h3>
