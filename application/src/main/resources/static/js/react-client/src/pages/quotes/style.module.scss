@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .quotesSection{
     background: linear-gradient( rgb(85, 201, 240),rgb(10, 147, 244));
     width: 100vw;
@@ -8,10 +9,29 @@
     display: flex;
     justify-content: center;
 
+=======
+.quotesDiv {
+    width: 100% !important;
+>>>>>>> main
 }
 
-.quotesText div{
-    margin: 2rem 60em;
+.quotesText h3{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(75, 75, 202);
+    border: 3px;
+}
+
+.quotesGrid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin: auto 100px;
+}
+
+
+.quotesGrid div{
+    // margin: 2rem 60em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -20,41 +40,68 @@
     width: 650px;
     height: 600px;
     padding: 15px;
+<<<<<<< HEAD
     background-color:rgb(209, 209, 236); 
     box-shadow: 10px 10px;
+=======
+    background:linear-gradient(to right,rgba(98,29,209,255) , rgba(97,105,255,255));
+    color: white;
+    box-shadow: 0px 0px 5px 0px rgba(98,29,209,255);
+    border-radius: 15px;
+>>>>>>> main
 }
-.quotesText div h1{
+
+.quotesGrid div h1{
     font-size: 45px;
-    display: flex;
-    justify-content: center;
 }
-.quotesText div img{
+
+.quotesGrid div img{
     width: 400px;
     height: 350px;
+<<<<<<< HEAD
     display: flex;
    
 } 
 .quotesText div p{
     margin: 3.5rem;
     font-size: 22px;
+=======
+    border-radius: 15px;
+    border:5px solid #8e00a1;
+}
+>>>>>>> main
 
+.quotesGrid div p{
+    margin: 2.5rem;
+    font-size: 22px;
+    animation-duration: 25s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-name: anim-text;
 }
-.slide{
-    animation: slide 25s infinite;
-    position: absolute;
-    opacity: 0;
-    background-size: cover;
-}
+// @keyframes anim-text{
+//     0%, 8.3% { left: -100%; opacity: 0; }
+//     8.3%, 25% { left: 25%; opacity: 1; }
+//     33.33%, 100% { left: 110%; opacity: 0; }
+// }
+
+// .slide{
+//     animation: slide 25s infinite;
+//     position: absolute;
+//     opacity: 0;
+//     background-size: cover;
+// }
+//Add a keyframes to my movies to create my slideshow. thats what was messing me up.
 
 @keyframes slide{
     from {opacity: .4}
     to {opacity: 1}
 }
 .moviesSection img{
-    width: 600px;
+    width: 590px;
     height: 450px;
     box-shadow: 10px 10px;
-    padding: 10px;
+    padding: 12px;
     border: 3px solid black;
     color: rgb(75, 75, 202);
     animation: movies 25s infinite;
@@ -63,4 +110,10 @@
     font-size: 60px;
     display: flex;
     justify-content: center;
+    color: rgb(75, 75, 202);
+}
+@media (max-width: 800px) {
+    .quotesText div {
+        flex-direction: column;
+    }
 }

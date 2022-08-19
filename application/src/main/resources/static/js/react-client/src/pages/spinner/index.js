@@ -18,7 +18,7 @@ const Spinner =()=>{
              </section>
             </div>
         </div>
-    ) 
+    )
     
 }
 export default Spinner;

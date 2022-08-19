@@ -43,7 +43,7 @@ const About =()=>{
                 bioName="Stephanie Ingraham"
                 imageDev ='https://media-exp1.licdn.com/dms/image/C5603AQGtSGbsaoluQw/profile-displayphoto-shrink_400_400/0/1651262793216?e=1665619200&v=beta&t=k002SuyY7DnneOk4WIAdAfF2Lc5nQxQHdPICcmzFcSg'
                 bioTitle="Full-Stack Software Developer"
-                bioDescription="et ultrices neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui sapien eget mi proin sed libero enim sed faucibus turpis in eu mi bibendum neque egestas congue quisque egestas diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat sed cras ornare arcu dui vivamus arcu felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum"
+                bioDescription="Hi! I am a software developer who loves building a positive synergetic environment and creating an appealing vision on the front page. Born in Alabama and leveling up here in Ohio, I decided to pursue a career change in software development to put my problem solving skills to the big screen through We Can {Code} IT."
                 // bioSkills="Java, CSS, HTML, JavaScript, React, Node"
                 gitHub="Website"
               
@@ -66,7 +66,7 @@ const About =()=>{
                 bioTitle="Full-Stack Software Developer"
                 bioDescription="My passion for tech started as kid and hasn't stopped evolving. After starting my own Web Design & IT business that focused on developing small businesses in my rural hometown. I took an opportunity to move to the Harrisburg area and start at Amazon. Amazon has provided me the space to grow my career in Information Technology and continually expand my knowledge. I am currently pursuing Full Stack Development through WCCI and cannot wait to see what awaits."
                 // bioSkills="Java, CSS, HTML, JavaScript, React, Node"
-                gitHub="Website"
+                gitHub="https://github.com/danefirestone"
               
             />
             <BioCard
