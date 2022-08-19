@@ -34,17 +34,27 @@ const QuotesAPI = () => {
     return (
         uploading ? <h2>Uploading!</h2> :
         
-        <div className="quotes_shadowbox">
+        <div className={style.bodyInspire}>
+            <div className={style.inspireHero}>
+          <div className={style.inspireTitle}>Get Inspire
+          
+          </div>
+          
+        
+      </div>
             <section className={style.quotesSection}>
                 <div className={style.quotesText}>
-                    <h3>Quote of the Day...</h3>
+                    
+                    <div className={style.inspireCard}>
                     {quotes.map(quotes => (
                         <div key={quotes.id}>
                             <h1 className="quote__author_name">{quotes.name}</h1>
                             <img className="quote__author_pic" src={quotes.imageUrl} alt=""></img>
                             <p className="quote_summary">{quotes.summary}</p>
-                            </div>
+                        </div>
+                        
                     ))}
+                    </div>
                 </div>
             </section>
             <section className={style.moviesSection}>
