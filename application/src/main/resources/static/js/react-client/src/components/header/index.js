@@ -1,5 +1,7 @@
+import {Link} from "react-router-dom";
 import { NavLink } from 'react-router-dom';
 import React from 'react';
+import login from "../../assets/login.png";
 import style from './style.module.scss';
 
 const Header = () => {
@@ -16,6 +18,9 @@ const Header = () => {
             <NavLink to={'/pages/quotes'}>Inspire</NavLink>
         </ul>
      </div>
+     <div className={style.img1}>
+        <p><a href='http://localhost:8080/login'><img src={login} alt={"login"}/></a></p>
+        </div>
     </div>
     )
 }
