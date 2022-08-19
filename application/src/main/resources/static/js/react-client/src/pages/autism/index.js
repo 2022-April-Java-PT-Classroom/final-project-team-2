@@ -1,10 +1,9 @@
+import Aubrain from "../../assets/Aubrain.png";
 import EmotionsApp from '../../components/emotions/emotionsApp';
 import NotesApp from '../../components/notes/notesApp';
 import React from "react";
 import style from "./style.module.scss";
 import video from "../../assets/video.png";
-import Aubrain from "../../assets/Aubrain.png";
-
 
 const Autism =()=>{
     return( 
@@ -12,28 +11,28 @@ const Autism =()=>{
         <div className={style.Autis1Home}>
             <section className={style.Autis1Gridbox}>
                 <div className={style.autismtitle}>
-                    <h1>Autism tool box</h1>
+                    <h1>Autism Tool Box</h1>
                 </div>
             <div className={style.autismheroGrid}>
 
                 <div className={style.AutisumheroCards}>
                 <img src={Aubrain} alt={"Aubrain"}></img>
-                 <p> Fidget Spinner </p>
+                 <h2> Fidget Spinner </h2>
                 </div>
 
                 <div className={style.AutisumheroCards}>
                 <img src={video} alt={"video"}></img>
-                <p> Autism Videos </p>
+                <h2> Autism Videos </h2>
                 </div>
 
                 <div className={style.AutisumheroCards}>
                 <img src={Aubrain} alt={"Aubrain"}></img>
-                <p> place holder</p>
+                <h2> Coloring Page</h2>
                 </div>
 
                 <div  className={style.AutisumheroCards}>
                 <img src={Aubrain} alt={"Aubrain"}></img>
-                    <p> place holder </p>
+                    <h2> Autism Resources </h2>
                 </div>
             </div>
             </section>

@@ -17,7 +17,6 @@
 }
 
 .homeSection{
-  min-width: 29em;
   display: -moz-box; /* Firefox*/
   display: -webkit-box; /* Chrome */
   display: -ms-flexbox; /* IE 10 */
@@ -26,9 +25,9 @@
   height: 100vh;
   margin-top: 20px;
   overflow: hidden;
-  box-sizing: border-box;
+  //box-sizing: border-box;
   display: flex;
-  // flex: 1;
+ // flex: 1;
   
   // @import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito:wght@400;700;900&display=swap');
 
@@ -39,16 +38,19 @@
   display: flex;
   animation: fly 3s linear;
   position: relative;
-  top: 18px;
-  bottom: 25em;
-  left: 10em;
+  top: 15px;
+  // bottom: 20em;
+  left: 5em;
   margin: 0.5 auto;
   text-align: center;
   justify-content: center;
-  padding: 5px;
-  font-size: 5em;
+  //padding: 15px;
+  width: 2000px;
+  height: 90px;
+  font-size: 700%;
   font-family: monospace;
   font-weight: 900;
+  
   
 }
  @keyframes fly {
@@ -66,38 +68,39 @@
  p{
   
   position: relative;
-  top: 9em;
-  left: 1.5em;
-  font-size: 85px;
+  top: 19em;
+  right:  18em;
+  font-size: 40px;
   text-align: center;
   color: aliceblue;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
  }
- h2{
-  border-radius: 12%;
-    font-size: 1.75rem;
-    position: relative;
-    top: 5em;
-    right: 7.5em;
-    display:flex;
-    justify-content: center;
-    text-align: center;
-    padding-top:  60px;
-    padding-bottom: 0;
-    color: aliceblue;
-    
- }
+//  h2{
+  
+//     font-size: 2rem;
+//     position: relative;
+//     top: 13em;
+//     left: 2.5em;
+//     padding-top: 60px;
+//     display:flex;
+//     justify-content: center;
+//     text-align: center;
+//     color: aliceblue;
+//     height: 170px;
+//     width: 550px;
+  
+//  }
  .homeLogo {
   display: -moz-box; /* Firefox*/
   display: -webkit-box; /* Chrome */
   display: -ms-flexbox; /* IE 10 */
   position: relative;
-  top: 15px;
-  right: 50em;
+  top: 16em;
+  right: 18em;
   display: flex;
   height: 450px;
   width: 450px;
-  margin: auto;
-
 
 }
 
