@@ -2,8 +2,6 @@ import Aubrain from "../../assets/Aubrain.png";
 import {Link} from "react-router-dom";
 import React from "react"
 import adbrain from "../../assets/adbrain.png";
-import cloud1 from "../../assets/cloud1.png";
-import cloud2 from "../../assets/cloud2.png";
 import logo from "../../assets/logo.png";
 import style from "./Home.module.scss";
 
