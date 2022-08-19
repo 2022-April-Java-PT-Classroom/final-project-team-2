@@ -4,6 +4,10 @@ import NotesApp from '../../components/notes/notesApp';
 import React from "react";
 import style from "./style.module.scss";
 import video from "../../assets/video.png";
+import Spinner1 from "../../assets/Spinner1.png";
+import { Link } from 'react-router-dom';
+
+
 
 const Autism =()=>{
     return( 
@@ -16,8 +20,8 @@ const Autism =()=>{
             <div className={style.autismheroGrid}>
 
                 <div className={style.AutisumheroCards}>
-                <img src={Aubrain} alt={"Aubrain"}></img>
-                 <h2> Fidget Spinner </h2>
+                <img src={Spinner1} alt={"Spinner1"}></img>
+                <Link to={'/fidget-spinner'}>Fidget Spinner</Link>
                 </div>
 
                 <div className={style.AutisumheroCards}>
