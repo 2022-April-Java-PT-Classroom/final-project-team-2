@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4840a239-b8ad-46b1-868d-6204037ad27f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-resources/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-resources/style.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-videos/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-videos/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-videos/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/adhd-videos/style.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/autism-resources/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/autism-resources/style.module.scss" afterDir="false" />
-
+      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/home/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/home/style.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/quotes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/quotes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/quotes/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/quotes/style.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +73,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-
-
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -86,7 +80,6 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/school/final-project-team-2&quot;
   }
 }</component>
-
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.wecancodeit.serverside.Repositories" />

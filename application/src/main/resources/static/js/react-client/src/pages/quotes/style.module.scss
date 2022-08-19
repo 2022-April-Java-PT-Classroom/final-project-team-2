@@ -1,3 +1,8 @@
+.quotesSection{
+    background: linear-gradient( rgb(85, 201, 240),rgb(10, 147, 244));
+    width: 100vw;
+    display: block;
+}
 .quotesText h3{
     font-size: 60px;
     display: flex;
@@ -11,11 +16,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
+    border-radius: 10%;
     width: 650px;
     height: 600px;
     padding: 15px;
-    background-color: rgb(148, 156, 230);
+    background-color:rgb(209, 209, 236); 
     box-shadow: 10px 10px;
 }
 .quotesText div h1{
@@ -27,9 +32,8 @@
     width: 400px;
     height: 350px;
     display: flex;
-    justify-content: center;
-    position: relative;
-}
+   
+} 
 .quotesText div p{
     margin: 3.5rem;
     font-size: 22px;
