@@ -38,7 +38,7 @@ const QuotesAPI = () => {
         <div className={style.quotes_shadowbox}>
             <section className={style.quotesSection}>
                 <div className={style.quotesText}>
-                    <h3>Quote of the Day...</h3>
+                    <h3>Inspirational Quotes From Around The Globe</h3>
                     <div className={style.quotesGrid} key={quotes.id}>
                     {quotes.map(quotes => (
                             <div>
