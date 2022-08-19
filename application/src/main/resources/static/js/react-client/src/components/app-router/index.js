@@ -23,11 +23,11 @@ const AppRouter = () => {
             <Route exact path={'/parent'} component={Parent} />
             <Route exact path={'/about'} component={About} />
             <Route exact path={'/pages/quotes'} component={Quotes} /> 
+            <Route exact path={'/spinner'} component={Spinner}/>
             <Route path={'/adhd-videos'} component={AdhdVideos}/>
             <Route path={'/adhd-resources'} component={AdhdResources}/>
             <Route path={'/autism-resources'} component={AutismResources}/>
             <Route path={'/alarm-clock'} component={AlarmClock}/>
-            <Route path={'/spinner'} component={Spinner}/>
         </Switch>
         
     );
