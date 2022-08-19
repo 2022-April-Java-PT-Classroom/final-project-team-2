@@ -36,7 +36,7 @@ const Autism =()=>{
 
                 <div  className={style.AutisumheroCards}>
                 <img src={Aubrain} alt={"Aubrain"}></img>
-                    <h2> Autism Resources </h2>
+                    <h2><Link to={'/autism-resources'}>Autism Resources</Link> </h2>
                 </div>
             </div>
             </section>
