@@ -17,7 +17,6 @@
 }
 
 .homeSection{
-  min-width: 29em;
   display: -moz-box; /* Firefox*/
   display: -webkit-box; /* Chrome */
   display: -ms-flexbox; /* IE 10 */
@@ -26,9 +25,9 @@
   height: 100vh;
   margin-top: 20px;
   overflow: hidden;
-  // box-sizing: border-box;
+  //box-sizing: border-box;
   display: flex;
-  // flex: 1;
+ // flex: 1;
   
   // @import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito:wght@400;700;900&display=swap');
 
@@ -41,11 +40,11 @@
   position: relative;
   top: 15px;
   // bottom: 20em;
-  left: 6.5em;
+  left: 5em;
   margin: 0.5 auto;
   text-align: center;
   justify-content: center;
-  padding: 15px;
+  //padding: 15px;
   width: 2000px;
   height: 90px;
   font-size: 700%;
@@ -69,39 +68,39 @@
  p{
   
   position: relative;
-  top: 9em;
-  right:  0.5em;
-  font-size: 85px;
+  top: 19em;
+  right:  18em;
+  font-size: 40px;
   text-align: center;
   color: aliceblue;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
  }
- h2{
+//  h2{
   
-    font-size: 1.69rem;
-    position: relative;
-    top: 10em;
-    right: 15em;
-    display:flex;
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 0;
-    color: aliceblue;
-    width: 51%;
-    margin: 0%;
-    
- }
+//     font-size: 2rem;
+//     position: relative;
+//     top: 13em;
+//     left: 2.5em;
+//     padding-top: 60px;
+//     display:flex;
+//     justify-content: center;
+//     text-align: center;
+//     color: aliceblue;
+//     height: 170px;
+//     width: 550px;
+  
+//  }
  .homeLogo {
   display: -moz-box; /* Firefox*/
   display: -webkit-box; /* Chrome */
   display: -ms-flexbox; /* IE 10 */
   position: relative;
-  top: 65px;
-  right: 55em;
+  top: 16em;
+  right: 18em;
   display: flex;
   height: 450px;
   width: 450px;
-  margin: auto;
-
 
 }
 
