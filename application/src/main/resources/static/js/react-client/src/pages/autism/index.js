@@ -2,21 +2,42 @@ import EmotionsApp from '../../components/emotions/emotionsApp';
 import NotesApp from '../../components/notes/notesApp';
 import React from "react";
 import style from "./style.module.scss";
+import video from "../../assets/video.png";
+import Aubrain from "../../assets/Aubrain.png";
+
 
 const Autism =()=>{
-    return(  <div>
-        <div>
-            <section>
-                <div>
+    return( 
+         <div>
+        <div className={style.Autis1Home}>
+            <section className={style.Autis1Gridbox}>
+                <div className={style.autismtitle}>
                     <h1>Autism tool box</h1>
                 </div>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+            <div className={style.autismheroGrid}>
+
+                <div className={style.AutisumheroCards}>
+                <img src={Aubrain} alt={"Aubrain"}></img>
+                 <p> Fidget Spinner </p>
+                </div>
+
+                <div className={style.AutisumheroCards}>
+                <img src={video} alt={"video"}></img>
+                <p> Autism Videos </p>
+                </div>
+
+                <div className={style.AutisumheroCards}>
+                <img src={Aubrain} alt={"Aubrain"}></img>
+                <p> place holder</p>
+                </div>
+
+                <div  className={style.AutisumheroCards}>
+                <img src={Aubrain} alt={"Aubrain"}></img>
+                    <p> place holder </p>
+                </div>
+            </div>
             </section>
+            <section className={style.auemo}>
             <div className={style.components}>
                     <div className={style.emoComp}>
                     <EmotionsApp/>
@@ -25,6 +46,7 @@ const Autism =()=>{
                     <NotesApp/>
                     </div>
                 </div>
+            </section>
         </div>
     </div>);
 

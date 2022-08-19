@@ -9,21 +9,24 @@ import adbrain from "../../assets/adbrain.png";
 
 const Home = () => {
     return(
-        <div>
-            <div className={style.homegrid}>
+        <div className={style.homeContainer}>
+            <div className={style.homegridContainer}>
                 <section className={style.homeSection}>
+
                 <h1>Think Differently</h1>
                 <p>Welcome</p>
+                <h2> come and enjoy the positive side
+                    of you! </h2>
                 <div className={style.homeLogo}>
                 <img src={logo} alt={"logo"}></img>
                 </div>
 
-                <div className={style.homeADDbtn}>
+                {/* <div className={style.homeADDbtn}>
                 <Link to={"/adhd"}><img src={cloud1} alt={"cloud1"}></img></Link>
                 </div>
                 <div className={style.homeAutBtn}>
                 <Link to={'/autism'}><img src={cloud2} alt={"cloud2"}></img></Link>
-                </div>
+                </div> */}
                 </section>
                 
                 <section className={style.homeADHD}>
@@ -49,9 +52,9 @@ const Home = () => {
                 
                     <h1> Parents Welcome</h1>
                     <p>TIPS FOR CAREGIVERS
-Resources, information, ideas, and advice
-There isn’t a handbook on how to raise a child with ADHD.
- Explore information, support, toolbox.</p>
+                    Resources, information, ideas, and advice
+                    There isn’t a handbook on how to raise a child with ADHD.
+                    Explore information, support, toolbox.</p>
                     
                    
                 

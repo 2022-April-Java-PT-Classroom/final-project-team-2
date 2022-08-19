@@ -1,4 +1,6 @@
 import React, {useEffect, useState} from "react";
+import {NavLink} from "react-router-dom";
+import cloud1 from "../../assets/cloud1.png";
 import style from './style.module.scss';
 import Axios from "axios";
 
@@ -33,25 +35,45 @@ const AdhdResources = () => {
   
 
         return(
-            <div className={style.adhdresources}>
-                <div className={style.bookSection}>
-                    <h1>Book Section</h1>
+          <div className={style.adhdresources}>
+            <div className={style.adhdmain}>
+                 <div className={style.banner}>ADHD Resources</div>
+                    <div className={style.cloud}>
+                     <img src={cloud1} alt={"cloud1"}></img>
+                    </div>
+             </div>
+             <h1>Books</h1>
+                <section className={style.bookSection}>
+                    
                     {adhdbookData.map(adhdbook =>
-                        <div className={style.bookText}>
+
+                        <div className={style.resourceText}>
+                        <p>    
                         <h2>{adhdbook.title}</h2>
                         <h3>{adhdbook.author}</h3>
+                        </p>
                         </div>
                         )}
-                </div>
-                <div className={style.websiteSection}>
-                    <h1>Website Section</h1>
+                </section>
+
+                <h1>Websites</h1>
+                <section className={style.websiteSection}>
+                    
                     {adhdwebsiteData.map(adhdwebsite =>
-                        <div className={style.bookText}>
-                        <h2>{adhdwebsite.title}</h2>
-                        <h3>{adhdwebsite.url}</h3>
-                        </div>
-                        )}
-                </div>
+
+<div className={style.websiteLink}>
+<p>
+<a href={adhdwebsite.url} target="_blank">{adhdwebsite.title}</a>
+</p>
+</div>
+)}
+</section>
+
+<section className={style.parentLink}>    
+<div>
+<NavLink to={"/parent"}>Parent Home</NavLink>
+</div>
+                </section>
             </div>
         )     
 }
