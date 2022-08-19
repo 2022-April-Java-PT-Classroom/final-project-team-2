@@ -27,8 +27,8 @@ const Adhd =()=>{
                         </div>
 
                         <div className={style.ADHDheroCards}>
-                        <img src={checklist} alt={"checklist"}></img>
-                        <h2> Check List </h2>
+                        <img src={fidget} alt={"fidget"}></img>
+                        <h2> Fidget Spinner </h2>
                         </div>
            
                         <div className={style.ADHDheroCards}>
@@ -43,7 +43,7 @@ const Adhd =()=>{
                         <div class="desc"></div>
                        
                         </div>
-                        <img className={style.fidget} src={fidget} alt={"fidget"}></img>
+                         {/* <img className={style.fidget} src={fidget} alt={"fidget"}></img> */} */}
                     </div> 
                 </section>
             </div>

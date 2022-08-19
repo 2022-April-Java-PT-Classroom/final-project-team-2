@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4840a239-b8ad-46b1-868d-6204037ad27f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/home/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/home/style.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/quotes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/quotes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/quotes/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/static/js/react-client/src/pages/quotes/style.module.scss" afterDir="false" />
-    </list>
+    <list default="true" id="4840a239-b8ad-46b1-868d-6204037ad27f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -48,19 +48,19 @@
     animation: 1.5s spin infinite ;
 
   }
-  // @keyframes spin {
-  //   0%{
-  //     transform: translate(0vh ); rotate: 160deg;
-  //   }
-  //   50%{
-  //     transform: translate(0 ); rotate: -360deg;
-  //   }
-  //   100%{
-  //     transform: translate(0 ); rotate: 360deg;
-  //   }
+  @keyframes spin {
+    0%{
+      transform: translate(0vh ); rotate: 160deg;
+    }
+    50%{
+      transform: translate(0 ); rotate: -360deg;
+    }
+    100%{
+      transform: translate(0 ); rotate: 360deg;
+    }
    
     
-  // }
+  }
 
   .ADHDheroCards:hover{
     background: rgb(75, 75, 202);
