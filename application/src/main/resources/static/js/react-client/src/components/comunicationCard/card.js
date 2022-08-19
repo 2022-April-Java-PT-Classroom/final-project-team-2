@@ -14,7 +14,7 @@ function Card(){
             <div className={style.passEmoji}><h1>{sessionStorage.getItem('emotion')}</h1></div>
             </div>
             <div className={style.lowerContainer}>
-                <h3>Emoji from: {name}</h3>
+                <h3>Share by: {name}</h3>
                 <TimeApp />
                 <h3></h3>
                 
