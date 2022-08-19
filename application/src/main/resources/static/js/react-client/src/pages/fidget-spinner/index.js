@@ -2,7 +2,7 @@ import React from "react"
 import {Link} from "react-router-dom";
 import "./styles.css";
 
-const Spinner = () => {
+const FidgetSpinner = () => {
   return (
 
     <div class="container">
@@ -40,4 +40,4 @@ const Spinner = () => {
 
 
 
-export default Spinner;
+export default FidgetSpinner;

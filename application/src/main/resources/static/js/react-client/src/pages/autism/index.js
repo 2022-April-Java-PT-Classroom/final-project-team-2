@@ -5,6 +5,9 @@ import style from "./style.module.scss";
 import video from "../../assets/video.png";
 import Aubrain from "../../assets/Aubrain.png";
 import Spinner1 from "../../assets/Spinner1.png";
+import { Link } from 'react-router-dom';
+
+
 
 
 const Autism =()=>{
@@ -19,7 +22,7 @@ const Autism =()=>{
 
                 <div className={style.AutisumheroCards}>
                 <img src={Spinner1} alt={"Spinner1"}></img>
-                 <p> Fidget Spinner </p>
+                <Link to={'/fidget-spinner'}>Fidget Spinner</Link>
                 </div>
 
                 <div className={style.AutisumheroCards}>
